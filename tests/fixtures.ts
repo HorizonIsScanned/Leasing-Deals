@@ -146,5 +146,6 @@ ${item({
 </channel></rss>`;
 
 export const MD_DEAL_ABGELAUFEN = `<html><body><nav>Privat Alarm setzen</nav><div class="thread"><span>Dieser Deal ist vor 2d abgelaufen</span><span class="vote">1132°</span><h1>VW Golf GTI</h1></div><script>var x = "45°";</script></body></html>`;
-export const MD_DEAL_JSON = `<html><body><script>window.__INITIAL_STATE__={"thread":{"threadId":"2862711","commentCount":60,"isExpired":true}};</script><div><span class="vote">1132°</span><div>Leider ist dieser Deal mittlerweile abgelaufen</div></div></body></html>`;
+export const MD_DEAL_JSON = `<html><head><link rel="canonical" href="https://www.mydealz.de/deals/x-2862711"></head><body><script>window.__REL__={"threadId":"2860000","isExpired":false};window.__INITIAL_STATE__={"thread":{"threadId":"2862711","commentCount":60,"isExpired":true}};</script><div><span class="vote">1132°</span></div></body></html>`;
+export const MD_DEAL_BANNER = `<html><body><div>Leider ist dieser Deal mittlerweile abgelaufen</div><span>70°</span></body></html>`;
 export const MD_DEAL_AKTIV = `<html><body><div class="thread"><span class="vote">412°</span><h1>Cupra Leon</h1><p>Gepostet vor 3 h</p></div></body></html>`;

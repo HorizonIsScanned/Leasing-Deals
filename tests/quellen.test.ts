@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import { angebotAus, bestesOffer, leseDetail, leseListe, modellFuer, objektNach } from '../src/lib/adapters/leasingmarkt';
 import { angebotAusRss, leseDealSeite, leseRss, leseTitel } from '../src/lib/adapters/mydealz';
 import { zahl } from '../src/lib/core/http';
-import { LM_LISTE, lmDetailSeite, lmListenSeite, MD_DEAL_ABGELAUFEN, MD_DEAL_AKTIV, MD_DEAL_JSON, MD_RSS } from './fixtures';
+import { LM_LISTE, lmDetailSeite, lmListenSeite, MD_DEAL_ABGELAUFEN, MD_DEAL_AKTIV, MD_DEAL_BANNER, MD_DEAL_JSON, MD_RSS } from './fixtures';
 
 test('zahl: deutsche Beträge', () => {
   assert.equal(zahl('1.590,00 €'), 1590);
@@ -129,4 +129,5 @@ test('mydealz: Deal-Seite abgelaufen / aktiv', () => {
   assert.deepEqual(leseDealSeite(MD_DEAL_ABGELAUFEN), { abgelaufen: true, temperatur: 1132 });
   assert.deepEqual(leseDealSeite(MD_DEAL_AKTIV), { abgelaufen: false, temperatur: 412 });
   assert.equal(leseDealSeite(MD_DEAL_JSON, '2862711').abgelaufen, true);
+  assert.equal(leseDealSeite(MD_DEAL_BANNER, '2862711').abgelaufen, true);
 });

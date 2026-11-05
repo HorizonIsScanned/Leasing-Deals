@@ -191,17 +191,26 @@ export interface DealSeite {
 }
 
 export function leseDealSeite(html: string, id?: string): DealSeite {
-  // Der Server liefert den Status als JSON („isExpired“) direkt hinter der Deal-ID; dazu ein Banner-Text.
-  const ab = id ? Math.max(0, html.indexOf(id)) : 0;
-  const nah = html.slice(ab, ab + 6000);
-  const json = nah.match(/\\?"isExpired\\?":(true|false)/);
+  // Der Server liefert den Status als JSON („isExpired“) beim Deal-Objekt; zusätzlich gibt es einen Banner-Text.
+  // Mehrere Deals auf der Seite (ähnliche Deals): den „isExpired“-Wert nehmen, der der Deal-ID am nächsten folgt
+  let json: boolean | null = null;
+  let best = Infinity;
+  for (const m of html.matchAll(/\\?"isExpired\\?":(true|false)/g)) {
+    const i = m.index ?? 0;
+    const k = id ? html.lastIndexOf(id, i) : 0;
+    const abstand = k < 0 ? Infinity : i - k;
+    if (abstand < best && abstand < 1500) {
+      best = abstand;
+      json = m[1] === 'true';
+    }
+  }
   const text = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ');
-  const banner = /(?:dieser|der) Deal ist (?:mittlerweile |vor [^.]{1,20} )?abgelaufen|Deal ist abgelaufen|abgelaufen am \d/i.test(text);
-  const abgelaufen = json ? json[1] === 'true' || banner : banner;
+  const banner = /(?:dieser|der) Deal (?:ist )?(?:mittlerweile |vor [^.]{1,20} )?abgelaufen|abgelaufen am \d/i.test(text);
+  const abgelaufen = json === true || banner;
   const temp = text.match(/(-?\d{1,5})\s?°/);
   return { abgelaufen, temperatur: temp ? Number(temp[1]) : null };
 }

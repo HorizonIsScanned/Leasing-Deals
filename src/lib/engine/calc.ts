@@ -46,6 +46,11 @@ export function bewerte(a: Angebot): Bewertung {
     stufe = 'gut';
     grund += ' (Überführung geschätzt)';
   }
+  // Nur für bestimmte Gruppen (Fahrschulen, Behörden …): höchstens „gut“, nicht melden
+  if (stufe === 'top' && a.bedingungen.includes('Nur für bestimmte Gruppen')) {
+    stufe = 'gut';
+    grund += ' (nur für bestimmte Gruppen)';
+  }
   return { effBrutto: eff.brutto, effNetto: eff.netto, gkf, geschaetzt: eff.geschaetzt, ziel, stufe, grund };
 }
 

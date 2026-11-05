@@ -134,7 +134,7 @@ export function bedingungenAusText(s: string): string[] {
   if (/bestellaktion|bestellfahrzeug/.test(t)) b.push('Bestellfahrzeug');
   if (/vorführ|tageszulassung|vorlauf/.test(t)) b.push('Vorführ-/Vorlauffahrzeug');
   if (/gebraucht|jahreswagen/.test(t)) b.push('Gebrauchtwagen');
-  if (/schwerbehindert|azubi|student|mitglied|adac|beamte|öffentlicher dienst|sozialer/.test(t)) b.push('Nur für bestimmte Gruppen');
+  if (/schwerbehindert|azubi|student|mitglied|adac|beamte|öffentlicher dienst|sozialer|fahrschul|pflegedienst|taxi|ärzte|apotheke/.test(t)) b.push('Nur für bestimmte Gruppen');
   return b;
 }
 
@@ -190,13 +190,18 @@ export interface DealSeite {
   temperatur: number | null;
 }
 
-export function leseDealSeite(html: string): DealSeite {
+export function leseDealSeite(html: string, id?: string): DealSeite {
+  // Der Server liefert den Status als JSON („isExpired“) direkt hinter der Deal-ID; dazu ein Banner-Text.
+  const ab = id ? Math.max(0, html.indexOf(id)) : 0;
+  const nah = html.slice(ab, ab + 6000);
+  const json = nah.match(/\\?"isExpired\\?":(true|false)/);
   const text = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ');
-  const abgelaufen = /Dieser Deal ist (?:vor [^.]{1,20} )?abgelaufen|Deal ist abgelaufen|abgelaufen am \d/i.test(text);
+  const banner = /(?:dieser|der) Deal ist (?:mittlerweile |vor [^.]{1,20} )?abgelaufen|Deal ist abgelaufen|abgelaufen am \d/i.test(text);
+  const abgelaufen = json ? json[1] === 'true' || banner : banner;
   const temp = text.match(/(-?\d{1,5})\s?°/);
   return { abgelaufen, temperatur: temp ? Number(temp[1]) : null };
 }
@@ -210,5 +215,5 @@ export async function leseFeed(http: Http): Promise<RssEintrag[]> {
 export async function pruefeDeal(http: Http, url: string): Promise<DealSeite | 'weg'> {
   const { status, body } = await http.text(url);
   if (status === 404 || status === 410) return 'weg';
-  return leseDealSeite(body);
+  return leseDealSeite(body, dealId(url));
 }

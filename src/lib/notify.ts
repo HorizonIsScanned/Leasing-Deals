@@ -93,7 +93,7 @@ async function chatId(token: string, log: (m: string) => void): Promise<{ id: st
 }
 
 export interface MeldeErgebnis {
-  telegram: 'ok' | 'aus' | 'fehler';
+  telegram: 'ok' | 'aus' | 'kein-chat' | 'fehler';
   mail: 'ok' | 'aus' | 'fehler';
   gemeldet: string[];
 }
@@ -118,7 +118,7 @@ export async function melde(deals: Deal[], log: (m: string) => void, opts: { max
           await tgApi(token, 'sendMessage', { chat_id: chat.id, text: `… und ${sortiert.length - max} weitere Top-Angebote${siteUrl ? `: ${siteUrl}` : ''}` });
         }
         erg.telegram = 'ok';
-      }
+      } else erg.telegram = 'kein-chat';
     } catch (e) {
       erg.telegram = 'fehler';
       log(`Telegram-Fehler: ${(e as Error).message}`);

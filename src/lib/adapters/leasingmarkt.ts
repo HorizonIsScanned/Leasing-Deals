@@ -154,6 +154,7 @@ function bedingungenAus(text: string): string[] {
   if (/bestellaktion|bestellfahrzeug|vorbestell/.test(t)) b.push('Bestellfahrzeug');
   if (/kasko|versicherung/.test(t)) b.push('inkl. Versicherung');
   if (/kleingewerbe/.test(t)) b.push('Kleingewerbe reicht');
+  if (/schwerbehindert|azubi|student|mitglied|adac|beamte|öffentlicher dienst|fahrschul|pflegedienst|taxi|ärzte|apotheke/.test(t)) b.push('Nur für bestimmte Gruppen');
   return b;
 }
 

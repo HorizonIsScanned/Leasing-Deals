@@ -65,6 +65,10 @@ test('„Beide“ nimmt die günstigere Sicht', () => {
   assert.equal(b.stufe, 'normal');
 });
 
+test('Nur für bestimmte Gruppen: nicht Top', () => {
+  assert.equal(bewerte({ ...basis, bedingungen: ['Nur für bestimmte Gruppen'] }).stufe, 'gut');
+});
+
 test('Melden: nur aktive Top-Deals, erneut erst bei 5 % Preissenkung', () => {
   const jetzt = '2026-11-05T10:00:00.000Z';
   const d = fuehreZusammen(undefined, basis, jetzt);

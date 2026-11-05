@@ -44,7 +44,7 @@ Prüfseite/403/429, wird sie für diesen Lauf ausgelassen und auf der Website al
    `/start` schreiben – der nächste Lauf erkennt die Chat-ID, hält sie im Actions-Cache und schickt
    „Leasing-Radar ist verbunden“ mit der ID; diese als Secret `TELEGRAM_CHAT_ID` eintragen.
 3. **Mail** (optional): `RESEND_API_KEY`, `MAIL_FROM`, `MAIL_TO`.
-4. Variable `SITE_URL` (z. B. `https://leasing-radar.vercel.app`) für den Link im Alarm.
+4. Variable `SITE_URL` (Adresse der Website) für den Link im Alarm.
 5. Actions → „Leasing-Scan“ → Run workflow (Häkchen „Probelauf“ für einen Test ohne Meldungen).
 
 ## Lokal

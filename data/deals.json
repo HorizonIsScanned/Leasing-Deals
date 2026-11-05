@@ -40,7 +40,7 @@
    "grund": "157 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -90,7 +90,7 @@
    "grund": "241 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -143,7 +143,7 @@
    "grund": "379 € brutto effektiv, Ziel privat 450 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -195,7 +195,7 @@
    "grund": "217 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -203,6 +203,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "216.78 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13118325",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Sportback TFSI S tr. VIRTUAL MATRIX B&O",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13118325",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 310,
+  "listenpreis": 59195,
+  "rateBrutto": 368,
+  "rateNetto": 309.24,
+  "laufzeit": 30,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.62,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 368,
+   "effNetto": 309.24,
+   "gkf": 0.62,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 368,
+    "basis": "brutto"
+   },
+   "stufe": "top",
+   "grund": "368 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "405.08 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "405.08 €",
+    "neu": "368.00 €"
    }
   ]
  },
@@ -247,7 +303,7 @@
    "grund": "265 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -297,7 +353,7 @@
    "grund": "230 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -350,7 +406,7 @@
    "grund": "225 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -358,56 +414,6 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "224.96 €"
-   }
-  ]
- },
- {
-  "id": "lm:12935438",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 116 AB 149,-€ netto Exklusives Angebot für Fahrschulen",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/12935438",
-  "kunden": "gewerbe",
-  "zustand": "neu",
-  "ps": 122,
-  "listenpreis": 34250,
-  "rateBrutto": 213.61,
-  "rateNetto": 179.5,
-  "laufzeit": 36,
-  "kmJahr": 10000,
-  "einmalBrutto": 990,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.62,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 241.11,
-   "effNetto": 202.61,
-   "gkf": 0.7,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 202.61,
-    "basis": "netto"
-   },
-   "stufe": "top",
-   "grund": "203 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "202.61 €"
    }
   ]
  },
@@ -450,7 +456,7 @@
    "grund": "249 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -502,7 +508,7 @@
    "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -510,6 +516,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "214.28 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13303893",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 116 Diesel Sport Line 85 - inkl. Haustürlieferung",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13303893",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 116,
+  "listenpreis": 38800,
+  "rateBrutto": 255,
+  "rateNetto": 214.29,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.66,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "ARVAL Deutschland GmbH, Bajuwarenring 5, 82041 Oberhaching",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 255,
+   "effNetto": 214.29,
+   "gkf": 0.66,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 214.29,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "237.05 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "237.05 €",
+    "neu": "214.29 €"
    }
   ]
  },
@@ -554,7 +616,7 @@
    "grund": "245 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -562,6 +624,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "244.99 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13253734",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Sportback TFSI S tr. VIRTUAL LED NAVI PDC",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13253734",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 310,
+  "listenpreis": 54630,
+  "rateBrutto": 412,
+  "rateNetto": 346.22,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.75,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 412,
+   "effNetto": 346.22,
+   "gkf": 0.75,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 412,
+    "basis": "brutto"
+   },
+   "stufe": "top",
+   "grund": "412 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "439.08 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "439.08 €",
+    "neu": "412.00 €"
    }
   ]
  },
@@ -604,7 +722,7 @@
    "grund": "259 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -616,152 +734,278 @@
   ]
  },
  {
-  "id": "lm:13118325",
+  "id": "lm:12935438",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 116 AB 149,-€ netto Exklusives Angebot für Fahrschulen",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/12935438",
+  "kunden": "gewerbe",
+  "zustand": "neu",
+  "ps": 122,
+  "listenpreis": 34250,
+  "rateBrutto": 213.61,
+  "rateNetto": 179.5,
+  "laufzeit": 36,
+  "kmJahr": 10000,
+  "einmalBrutto": 990,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.62,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [
+   "Nur für bestimmte Gruppen"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 241.11,
+   "effNetto": 202.61,
+   "gkf": 0.7,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 202.61,
+    "basis": "netto"
+   },
+   "stufe": "gut",
+   "grund": "203 € netto effektiv, Ziel gewerbe 220 € (nur für bestimmte Gruppen)"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "202.61 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12827282",
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
-  "titel": "Audi S3 Sportback TFSI S tr. VIRTUAL MATRIX B&O",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13118325",
+  "titel": "Audi S3 Sportback 2.0 TFSI quattro Akrapovic*360*Matri",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12827282",
   "kunden": "beide",
   "zustand": "gebraucht",
-  "ps": 310,
-  "listenpreis": 59195,
-  "rateBrutto": 378,
-  "rateNetto": 317.65,
+  "ps": 333,
+  "listenpreis": 71250,
+  "rateBrutto": 429,
+  "rateNetto": 360.5,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": null,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.6,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Audi Leasing, Zweigniederlassung der Volkswagen Leasing GmbH, Gifhorner Str. 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 429,
+   "effNetto": 360.5,
+   "gkf": 0.6,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 429,
+    "basis": "brutto"
+   },
+   "stufe": "gut",
+   "grund": "429 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "456.08 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "456.08 €",
+    "neu": "429.00 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13303914",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 Diesel Advantage 140 - inkl. Haustürlieferung",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13303914",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 190,
+  "listenpreis": 41600,
+  "rateBrutto": 268,
+  "rateNetto": 225.21,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.64,
   "verfuegbarkeit": "Sofort",
-  "haendler": null,
+  "haendler": "arva",
   "bedingungen": [],
   "temperatur": null,
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 405.08,
-   "effNetto": 340.41,
-   "gkf": 0.68,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 405.08,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "405 € brutto effektiv, Ziel privat 420 € (Überführung geschätzt)"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "405.08 €"
-   }
-  ]
- },
- {
-  "id": "lm:13253734",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 Sportback TFSI S tr. VIRTUAL LED NAVI PDC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13253734",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 310,
-  "listenpreis": 54630,
-  "rateBrutto": 412,
-  "rateNetto": 346.22,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.75,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 439.08,
-   "effNetto": 368.98,
-   "gkf": 0.8,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 439.08,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "439 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "439.08 €"
-   }
-  ]
- },
- {
-  "id": "lm:13303893",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 116 Diesel Sport Line 85 - inkl. Haustürlieferung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13303893",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 116,
-  "listenpreis": 38800,
-  "rateBrutto": 255,
-  "rateNetto": 214.29,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.66,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 282.08,
-   "effNetto": 237.05,
-   "gkf": 0.73,
-   "geschaetzt": true,
+   "effBrutto": 268,
+   "effNetto": 225.21,
+   "gkf": 0.64,
+   "geschaetzt": false,
    "ziel": {
     "gruppe": "gewerbe",
     "wert": 220,
-    "ist": 237.05,
+    "ist": 225.21,
     "basis": "netto"
    },
    "stufe": "gut",
-   "grund": "237 € netto effektiv, Ziel gewerbe 220 €"
+   "grund": "225 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
-    "neu": "237.05 €"
+    "neu": "247.97 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "247.97 €",
+    "neu": "225.21 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13036300",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 RFK NAVI LED PDC V+H DAB Parkass. Tempomat",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13036300",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 156,
+  "listenpreis": 40928,
+  "rateBrutto": 280.42,
+  "rateNetto": 235.65,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.69,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 280.42,
+   "effNetto": 235.65,
+   "gkf": 0.69,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 235.65,
+    "basis": "netto"
+   },
+   "stufe": "gut",
+   "grund": "236 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "258.41 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "258.41 €",
+    "neu": "235.65 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13211698",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Limousine TFSI S tr. RFK MATRIX NAVI HUD B&O",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13211698",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 310,
+  "listenpreis": 67390,
+  "rateBrutto": 453,
+  "rateNetto": 380.67,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.67,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 453,
+   "effNetto": 380.67,
+   "gkf": 0.67,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 453,
+    "basis": "brutto"
+   },
+   "stufe": "gut",
+   "grund": "453 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "481.08 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "481.08 €",
+    "neu": "453.00 €"
    }
   ]
  },
@@ -804,7 +1048,7 @@
    "grund": "281 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -854,7 +1098,7 @@
    "grund": "281 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -904,7 +1148,7 @@
    "grund": "281 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -954,7 +1198,7 @@
    "grund": "238 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -962,56 +1206,6 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "238.11 €"
-   }
-  ]
- },
- {
-  "id": "lm:12827282",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 Sportback 2.0 TFSI quattro Akrapovic*360*Matri",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12827282",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 333,
-  "listenpreis": 71250,
-  "rateBrutto": 429,
-  "rateNetto": 360.5,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.6,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 456.08,
-   "effNetto": 383.26,
-   "gkf": 0.64,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 456.08,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "456 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "456.08 €"
    }
   ]
  },
@@ -1054,7 +1248,7 @@
    "grund": "283 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1062,6 +1256,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "283.22 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13280559",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Sportback TFSI S tr. MATRIX NAVI VIRTUAL B&O",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13280559",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 310,
+  "listenpreis": 61360,
+  "rateBrutto": 464,
+  "rateNetto": 389.92,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.76,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 464,
+   "effNetto": 389.92,
+   "gkf": 0.76,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 464,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "464 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "491.08 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "491.08 €",
+    "neu": "464.00 €"
    }
   ]
  },
@@ -1104,7 +1354,7 @@
    "grund": "289 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1112,6 +1362,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "288.54 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13144627",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 2.0 16V TFSI*Matrix*ACC*Head-Up*Sonos*",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13144627",
+  "kunden": "privat",
+  "zustand": "gebraucht",
+  "ps": 333,
+  "listenpreis": 65728,
+  "rateBrutto": 470.05,
+  "rateNetto": 395,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.72,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Logistik Line GmbH",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 470.05,
+   "effNetto": 395,
+   "gkf": 0.72,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 470.05,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "470 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "497.13 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "497.13 €",
+    "neu": "470.05 €"
    }
   ]
  },
@@ -1154,7 +1460,7 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1204,7 +1510,7 @@
    "grund": "337 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1212,108 +1518,6 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "337.13 €"
-   }
-  ]
- },
- {
-  "id": "lm:13303914",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 Diesel Advantage 140 - inkl. Haustürlieferung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13303914",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 190,
-  "listenpreis": 41600,
-  "rateBrutto": 268,
-  "rateNetto": 225.21,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.64,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 295.08,
-   "effNetto": 247.97,
-   "gkf": 0.71,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 247.97,
-    "basis": "netto"
-   },
-   "stufe": "normal",
-   "grund": "248 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "247.97 €"
-   }
-  ]
- },
- {
-  "id": "lm:13279542",
-  "quelle": "leasingmarkt",
-  "modell": "audi-a3",
-  "titel": "Audi A3 Sportback TFSI (VS) - ✨VORSPRUNG ERLEBEN✨Bestellfahrzeug",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13279542",
-  "kunden": "gewerbe",
-  "zustand": "neu",
-  "ps": 116,
-  "listenpreis": 35379,
-  "rateBrutto": 220.15,
-  "rateNetto": 185,
-  "laufzeit": 36,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.62,
-  "verfuegbarkeit": "01/2027",
-  "haendler": null,
-  "bedingungen": [
-   "Bestellfahrzeug"
-  ],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 256.26,
-   "effNetto": 215.35,
-   "gkf": 0.72,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 190,
-    "ist": 215.35,
-    "basis": "netto"
-   },
-   "stufe": "normal",
-   "grund": "215 € netto effektiv, Ziel gewerbe 190 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "215.35 €"
    }
   ]
  },
@@ -1358,7 +1562,7 @@
    "grund": "284 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1408,7 +1612,7 @@
    "grund": "297 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1416,56 +1620,6 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "296.91 €"
-   }
-  ]
- },
- {
-  "id": "lm:13211698",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 Limousine TFSI S tr. RFK MATRIX NAVI HUD B&O",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13211698",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 310,
-  "listenpreis": 67390,
-  "rateBrutto": 454,
-  "rateNetto": 381.51,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.67,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 481.08,
-   "effNetto": 404.27,
-   "gkf": 0.71,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 481.08,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "481 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "481.08 €"
    }
   ]
  },
@@ -1508,7 +1662,7 @@
    "grund": "345 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1516,6 +1670,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "345.25 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13334708",
+  "quelle": "leasingmarkt",
+  "modell": "golf-gti",
+  "titel": "Volkswagen Golf GTI 2.0 inkl. *Black Style *19\"LM Felgen * Business&Komfort Paket - sofort verfügbar",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13334708",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 265,
+  "listenpreis": 52439,
+  "rateBrutto": 248,
+  "rateNetto": 208.4,
+  "laufzeit": 42,
+  "kmJahr": 10000,
+  "einmalBrutto": 2159,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.47,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 299.4,
+   "effNetto": 251.6,
+   "gkf": 0.57,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 260,
+    "ist": 299.4,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "299 € brutto effektiv, Ziel privat 260 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "355.42 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "355.42 €",
+    "neu": "299.40 €"
    }
   ]
  },
@@ -1533,32 +1743,32 @@
   "rateNetto": 200.84,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": null,
+  "einmalBrutto": 1290,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.86,
   "verfuegbarkeit": "Sofort",
-  "haendler": null,
+  "haendler": "AKF Leasing GmbH & Co. KG, Friedrichstr. 51, 42105 Wuppertal",
   "bedingungen": [],
   "temperatur": null,
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 266.08,
-   "effNetto": 223.6,
+   "effBrutto": 265.88,
+   "effNetto": 223.42,
    "gkf": 0.96,
-   "geschaetzt": true,
+   "geschaetzt": false,
    "ziel": {
     "gruppe": "privat",
     "wert": 230,
-    "ist": 266.08,
+    "ist": 265.88,
     "basis": "brutto"
    },
    "stufe": "normal",
    "grund": "266 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1608,7 +1818,7 @@
    "grund": "255 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1658,7 +1868,7 @@
    "grund": "303 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1710,7 +1920,7 @@
    "grund": "304 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1718,206 +1928,6 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "303.55 €"
-   }
-  ]
- },
- {
-  "id": "lm:13280559",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 Sportback TFSI S tr. MATRIX NAVI VIRTUAL B&O",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13280559",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 310,
-  "listenpreis": 61360,
-  "rateBrutto": 464,
-  "rateNetto": 389.92,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.76,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 491.08,
-   "effNetto": 412.68,
-   "gkf": 0.8,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 491.08,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "491 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "491.08 €"
-   }
-  ]
- },
- {
-  "id": "lm:13036300",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 RFK NAVI LED PDC V+H DAB Parkass. Tempomat",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13036300",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 156,
-  "listenpreis": 40928,
-  "rateBrutto": 280.42,
-  "rateNetto": 235.65,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.69,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 307.5,
-   "effNetto": 258.41,
-   "gkf": 0.75,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 258.41,
-    "basis": "netto"
-   },
-   "stufe": "normal",
-   "grund": "258 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "258.41 €"
-   }
-  ]
- },
- {
-  "id": "lm:13144627",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 2.0 16V TFSI*Matrix*ACC*Head-Up*Sonos*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13144627",
-  "kunden": "privat",
-  "zustand": "gebraucht",
-  "ps": 333,
-  "listenpreis": 65728,
-  "rateBrutto": 470.05,
-  "rateNetto": 395,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.72,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 497.13,
-   "effNetto": 417.76,
-   "gkf": 0.76,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 497.13,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "497 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "497.13 €"
-   }
-  ]
- },
- {
-  "id": "lm:12741190",
-  "quelle": "leasingmarkt",
-  "modell": "audi-a3",
-  "titel": "Audi A3 Sportback TDI S tronic advanced LED 360°",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12741190",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 150,
-  "listenpreis": 43800,
-  "rateBrutto": 238,
-  "rateNetto": 200,
-  "laufzeit": 36,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.54,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 274.11,
-   "effNetto": 230.35,
-   "gkf": 0.63,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 230,
-    "ist": 274.11,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "274 € brutto effektiv, Ziel privat 230 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "274.11 €"
    }
   ]
  },
@@ -1935,32 +1945,32 @@
   "rateNetto": 232.77,
   "laufzeit": 36,
   "kmJahr": 10000,
-  "einmalBrutto": null,
+  "einmalBrutto": 1090,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.75,
   "verfuegbarkeit": "Sofort",
-  "haendler": null,
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
   "bedingungen": [],
   "temperatur": null,
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 313.11,
-   "effNetto": 263.12,
-   "gkf": 0.85,
-   "geschaetzt": true,
+   "effBrutto": 307.28,
+   "effNetto": 258.21,
+   "gkf": 0.84,
+   "geschaetzt": false,
    "ziel": {
     "gruppe": "gewerbe",
     "wert": 220,
-    "ist": 263.12,
+    "ist": 258.21,
     "basis": "netto"
    },
    "stufe": "normal",
-   "grund": "263 € netto effektiv, Ziel gewerbe 220 €"
+   "grund": "258 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -1968,6 +1978,70 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "263.12 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "263.12 €",
+    "neu": "258.21 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13279542",
+  "quelle": "leasingmarkt",
+  "modell": "audi-a3",
+  "titel": "Audi A3 Sportback TFSI (VS) - ✨VORSPRUNG ERLEBEN✨Bestellfahrzeug",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13279542",
+  "kunden": "gewerbe",
+  "zustand": "neu",
+  "ps": 116,
+  "listenpreis": 35379,
+  "rateBrutto": 220.15,
+  "rateNetto": 185,
+  "laufzeit": 36,
+  "kmJahr": 10000,
+  "einmalBrutto": 1664,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.62,
+  "verfuegbarkeit": "01/2027",
+  "haendler": "Audi Bank/Leasing Zweigniederlassungen der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [
+   "Bestellfahrzeug"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 266.37,
+   "effNetto": 223.84,
+   "gkf": 0.75,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 190,
+    "ist": 223.84,
+    "basis": "netto"
+   },
+   "stufe": "normal",
+   "grund": "224 € netto effektiv, Ziel gewerbe 190 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "215.35 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "215.35 €",
+    "neu": "223.84 €"
    }
   ]
  },
@@ -2010,7 +2084,7 @@
    "grund": "264 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2062,7 +2136,7 @@
    "grund": "300 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2114,7 +2188,7 @@
    "grund": "505 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2164,7 +2238,7 @@
    "grund": "265 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2214,7 +2288,7 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2264,7 +2338,7 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2316,7 +2390,7 @@
    "grund": "267 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2366,7 +2440,7 @@
    "grund": "315 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2416,7 +2490,7 @@
    "grund": "509 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2466,7 +2540,7 @@
    "grund": "243 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2516,7 +2590,7 @@
    "grund": "243 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2524,6 +2598,62 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "243.08 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12741190",
+  "quelle": "leasingmarkt",
+  "modell": "audi-a3",
+  "titel": "Audi A3 Sportback TDI S tronic advanced LED 360°",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12741190",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 150,
+  "listenpreis": 43800,
+  "rateBrutto": 238,
+  "rateNetto": 200,
+  "laufzeit": 36,
+  "kmJahr": 10000,
+  "einmalBrutto": 1500,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.54,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Audi Bank/Leasing Zweigniederlassungen der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 279.67,
+   "effNetto": 235.01,
+   "gkf": 0.64,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 230,
+    "ist": 279.67,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "280 € brutto effektiv, Ziel privat 230 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "274.11 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "274.11 €",
+    "neu": "279.67 €"
    }
   ]
  },
@@ -2566,7 +2696,7 @@
    "grund": "511 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2616,7 +2746,7 @@
    "grund": "280 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2666,7 +2796,7 @@
    "grund": "317 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2716,7 +2846,7 @@
    "grund": "281 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2766,7 +2896,7 @@
    "grund": "245 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2818,7 +2948,7 @@
    "grund": "269 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2868,7 +2998,7 @@
    "grund": "318 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2918,7 +3048,7 @@
    "grund": "282 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -2968,7 +3098,7 @@
    "grund": "282 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3018,7 +3148,7 @@
    "grund": "270 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3068,7 +3198,7 @@
    "grund": "320 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3118,7 +3248,7 @@
    "grund": "320 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3168,7 +3298,7 @@
    "grund": "283 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3218,7 +3348,7 @@
    "grund": "271 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3268,7 +3398,7 @@
    "grund": "284 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3318,7 +3448,7 @@
    "grund": "274 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3368,7 +3498,7 @@
    "grund": "249 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3418,7 +3548,7 @@
    "grund": "275 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3468,7 +3598,7 @@
    "grund": "526 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3518,7 +3648,7 @@
    "grund": "326 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3568,7 +3698,7 @@
    "grund": "326 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3618,7 +3748,7 @@
    "grund": "277 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3668,7 +3798,7 @@
    "grund": "278 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3718,7 +3848,7 @@
    "grund": "332 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3768,7 +3898,7 @@
    "grund": "282 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3818,7 +3948,7 @@
    "grund": "256 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3868,7 +3998,7 @@
    "grund": "282 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3918,7 +4048,7 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -3968,7 +4098,7 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4018,7 +4148,7 @@
    "grund": "296 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4068,7 +4198,7 @@
    "grund": "283 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4118,7 +4248,7 @@
    "grund": "298 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4168,7 +4298,7 @@
    "grund": "287 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4218,7 +4348,7 @@
    "grund": "300 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4268,7 +4398,7 @@
    "grund": "550 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4318,7 +4448,7 @@
    "grund": "289 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4368,7 +4498,7 @@
    "grund": "289 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4418,7 +4548,7 @@
    "grund": "343 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4468,7 +4598,7 @@
    "grund": "291 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4518,7 +4648,7 @@
    "grund": "291 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4568,7 +4698,7 @@
    "grund": "292 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4618,7 +4748,7 @@
    "grund": "558 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4668,7 +4798,7 @@
    "grund": "306 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4718,7 +4848,7 @@
    "grund": "307 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4768,7 +4898,7 @@
    "grund": "254 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4818,7 +4948,7 @@
    "grund": "308 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4868,7 +4998,7 @@
    "grund": "566 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4918,7 +5048,7 @@
    "grund": "310 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -4968,7 +5098,7 @@
    "grund": "311 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5018,7 +5148,7 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5068,7 +5198,7 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5118,7 +5248,7 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5168,7 +5298,7 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5218,7 +5348,7 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5268,7 +5398,7 @@
    "grund": "571 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5318,7 +5448,7 @@
    "grund": "299 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5368,7 +5498,7 @@
    "grund": "273 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5418,7 +5548,7 @@
    "grund": "273 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5426,56 +5556,6 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "273.17 €"
-   }
-  ]
- },
- {
-  "id": "lm:13334708",
-  "quelle": "leasingmarkt",
-  "modell": "golf-gti",
-  "titel": "Volkswagen Golf GTI 2.0 inkl. *Black Style *19\"LM Felgen * Business&Komfort Paket - sofort verfügbar",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13334708",
-  "kunden": "privat",
-  "zustand": "neu",
-  "ps": 265,
-  "listenpreis": 52439,
-  "rateBrutto": 329,
-  "rateNetto": 276.47,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": 1268,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.63,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Volkswagen Leasing GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 355.42,
-   "effNetto": 298.67,
-   "gkf": 0.68,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 260,
-    "ist": 355.42,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "355 € brutto effektiv, Ziel privat 260 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "355.42 €"
    }
   ]
  },
@@ -5518,7 +5598,7 @@
    "grund": "315 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5568,7 +5648,7 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5618,7 +5698,7 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5668,7 +5748,7 @@
    "grund": "578 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5718,7 +5798,7 @@
    "grund": "303 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5770,7 +5850,7 @@
    "grund": "579 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5820,7 +5900,7 @@
    "grund": "318 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5870,7 +5950,7 @@
    "grund": "319 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5920,7 +6000,7 @@
    "grund": "584 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -5970,7 +6050,7 @@
    "grund": "320 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6020,7 +6100,7 @@
    "grund": "585 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6070,7 +6150,7 @@
    "grund": "362 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6120,7 +6200,7 @@
    "grund": "321 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6170,7 +6250,7 @@
    "grund": "321 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6220,7 +6300,7 @@
    "grund": "279 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6270,7 +6350,7 @@
    "grund": "586 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6320,7 +6400,7 @@
    "grund": "321 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6370,7 +6450,7 @@
    "grund": "265 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6420,7 +6500,7 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6470,7 +6550,7 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6520,7 +6600,7 @@
    "grund": "324 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6620,7 +6700,7 @@
    "grund": "423 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6670,7 +6750,7 @@
    "grund": "596 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6722,7 +6802,7 @@
    "grund": "596 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6772,7 +6852,7 @@
    "grund": "369 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6822,7 +6902,7 @@
    "grund": "284 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6872,7 +6952,7 @@
    "grund": "597 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6922,7 +7002,7 @@
    "grund": "327 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -6930,6 +7010,56 @@
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "327.11 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12879834",
+  "quelle": "leasingmarkt",
+  "modell": "audi-a3",
+  "titel": "Audi A3 Sportback advanced TDI S tr. LED ACC Cam FLA",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12879834",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 150,
+  "listenpreis": 48280,
+  "rateBrutto": 294,
+  "rateNetto": 247.06,
+  "laufzeit": 36,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.61,
+  "verfuegbarkeit": "Sofort",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 330.11,
+   "effNetto": 277.41,
+   "gkf": 0.68,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 230,
+    "ist": 330.11,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "330 € brutto effektiv, Ziel privat 230 €"
+  },
+  "erstGesehen": "2026-11-05T13:34:30.604Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "neu",
+    "neu": "330.11 €"
    }
   ]
  },
@@ -6972,7 +7102,7 @@
    "grund": "316 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7022,7 +7152,7 @@
    "grund": "289 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7072,7 +7202,7 @@
    "grund": "290 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7122,7 +7252,7 @@
    "grund": "291 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7172,7 +7302,7 @@
    "grund": "320 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7222,7 +7352,7 @@
    "grund": "321 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7272,7 +7402,7 @@
    "grund": "292 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7322,7 +7452,7 @@
    "grund": "293 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7372,7 +7502,7 @@
    "grund": "382 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7422,7 +7552,7 @@
    "grund": "333 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7472,7 +7602,7 @@
    "grund": "304 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7522,7 +7652,7 @@
    "grund": "640 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7572,7 +7702,7 @@
    "grund": "307 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7622,7 +7752,7 @@
    "grund": "307 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7672,7 +7802,7 @@
    "grund": "538 € netto effektiv, Ziel gewerbe 350 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7722,7 +7852,7 @@
    "grund": "308 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7772,7 +7902,7 @@
    "grund": "355 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7822,7 +7952,7 @@
    "grund": "247 € netto effektiv, Ziel gewerbe 160 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7872,7 +8002,7 @@
    "grund": "595 € netto effektiv, Ziel gewerbe 380 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7922,7 +8052,7 @@
    "grund": "318 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -7972,7 +8102,7 @@
    "grund": "675 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8022,7 +8152,7 @@
    "grund": "323 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8072,7 +8202,7 @@
    "grund": "326 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8122,7 +8252,7 @@
    "grund": "331 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8172,7 +8302,7 @@
    "grund": "338 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8222,7 +8352,7 @@
    "grund": "390 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8272,7 +8402,7 @@
    "grund": "342 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8322,7 +8452,7 @@
    "grund": "344 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8372,7 +8502,7 @@
    "grund": "392 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8422,7 +8552,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8472,7 +8602,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8522,7 +8652,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8572,7 +8702,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8622,7 +8752,7 @@
    "grund": "412 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8672,7 +8802,7 @@
    "grund": "753 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8722,7 +8852,7 @@
    "grund": "363 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8772,7 +8902,7 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8822,7 +8952,7 @@
    "grund": "424 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8872,7 +9002,7 @@
    "grund": "425 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8922,7 +9052,7 @@
    "grund": "437 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -8972,7 +9102,7 @@
    "grund": "440 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9022,7 +9152,7 @@
    "grund": "501 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9074,7 +9204,7 @@
    "grund": "424 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9124,7 +9254,7 @@
    "grund": "599 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9174,7 +9304,7 @@
    "grund": "400 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9224,7 +9354,7 @@
    "grund": "463 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9274,7 +9404,7 @@
    "grund": "525 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9324,7 +9454,7 @@
    "grund": "470 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9374,7 +9504,7 @@
    "grund": "478 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9424,7 +9554,7 @@
    "grund": "485 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9476,7 +9606,7 @@
    "grund": "475 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9526,7 +9656,7 @@
    "grund": "532 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9576,7 +9706,7 @@
    "grund": "1055 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [
@@ -9626,7 +9756,7 @@
    "grund": "884 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-05T13:34:30.604Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "verlauf": [

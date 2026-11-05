@@ -1,11 +1,11 @@
 {
-  "lauf": "2026-11-05T13:09:48.170Z",
-  "dauerSek": 139,
+  "lauf": "2026-11-05T13:34:30.604Z",
+  "dauerSek": 134,
   "quellen": {
     "leasingmarkt": {
       "ok": true,
       "gesperrt": false,
-      "abfragen": 42,
+      "abfragen": 40,
       "angebote": 188,
       "fehler": []
     },
@@ -19,6 +19,6 @@
   },
   "gemeldet": 0,
   "hinweise": [
-    "Kein Alarm-Kanal eingerichtet (TELEGRAM_BOT_TOKEN oder RESEND_API_KEY/MAIL_FROM/MAIL_TO)"
+    "Telegram: Token ok, aber keine /start-Nachricht an den Bot gefunden – dem Bot /start schreiben"
   ]
 }

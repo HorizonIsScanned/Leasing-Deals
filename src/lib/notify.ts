@@ -1,0 +1,173 @@
+// Alarm: Top-Angebote sofort per Telegram (kostenlos, Push aufs Handy) und/oder E-Mail (Resend).
+// Telegram: TELEGRAM_BOT_TOKEN genügt – die Chat-ID wird beim ersten Lauf aus der /start-Nachricht an den Bot
+// gelesen und im Actions-Cache (.cache/telegram.json, nicht im Repository – das ist öffentlich) gehalten.
+// Dauerhaft: TELEGRAM_CHAT_ID als Secret setzen (die Begrüßungsnachricht nennt die ID).
+// Mail: RESEND_API_KEY, MAIL_FROM, MAIL_TO.
+
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import path from 'node:path';
+import { modell } from '../data/watchlist';
+import type { Deal } from './core/types';
+
+const TG_DATEI = path.join(process.cwd(), '.cache', 'telegram.json');
+
+/** Soll dieser Deal gemeldet werden? Neu „Top“, oder seit der letzten Meldung mindestens 5 % günstiger */
+export function sollMelden(d: Deal): boolean {
+  if (d.status !== 'aktiv' || d.bewertung.stufe !== 'top' || !d.bewertung.ziel) return false;
+  if (!d.gemeldet || d.gemeldetWert == null) return true;
+  return d.bewertung.ziel.ist <= d.gemeldetWert * 0.95;
+}
+
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const eur = (n: number | null | undefined, d = 0) => (n == null ? '–' : `${n.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d })} €`);
+const kundenText = { privat: 'Privat', gewerbe: 'Gewerbe', beide: 'Privat & Gewerbe' } as const;
+
+export function zeile(d: Deal) {
+  const b = d.bewertung;
+  const z = b.ziel!;
+  const teile = [
+    `${kundenText[d.kunden]}`,
+    d.laufzeit ? `${d.laufzeit} Mon.` : null,
+    d.kmJahr ? `${(d.kmJahr / 1000).toFixed(0)}.000 km` : null,
+    d.verfuegbarkeit ? `verfügbar: ${d.verfuegbarkeit}` : null,
+  ].filter(Boolean);
+  return {
+    kopf: `${modell(d.modell).name}: ${eur(z.ist)} ${z.basis} effektiv`,
+    titel: d.titel,
+    details: `${teile.join(' · ')}\nRate ${eur(d.rateBrutto, 2)} brutto / ${eur(d.rateNetto, 2)} netto${d.einmalBrutto != null ? ` + ${eur(d.einmalBrutto)} einmalig` : ''}${b.gkf != null ? ` · GKF ${b.gkf.toFixed(2)}` : ''}${d.lf != null ? ` · LF ${d.lf.toFixed(2)}` : ''}`,
+    ziel: `Ziel ${z.gruppe}: ${eur(z.wert)} → ${Math.round((1 - z.ist / z.wert) * 100)} % darunter`,
+    bedingungen: d.bedingungen.length ? `⚠️ ${d.bedingungen.join(', ')}` : null,
+    quelle: d.quelle === 'mydealz' ? `mydealz${d.haendler ? ` (${d.haendler})` : ''}` : 'LeasingMarkt',
+  };
+}
+
+export function telegramText(d: Deal, siteUrl?: string) {
+  const z = zeile(d);
+  return [
+    `🔥 <b>${esc(z.kopf)}</b>`,
+    esc(z.titel),
+    esc(z.details),
+    `✅ ${esc(z.ziel)}`,
+    z.bedingungen ? esc(z.bedingungen) : null,
+    `<a href="${esc(d.url)}">Zum Angebot bei ${esc(z.quelle)}</a>${siteUrl ? ` · <a href="${esc(siteUrl)}">Radar</a>` : ''}`,
+  ]
+    .filter(Boolean)
+    .join('\n');
+}
+
+async function tgApi<T>(token: string, methode: string, body?: unknown): Promise<T> {
+  const res = await fetch(`https://api.telegram.org/bot${token}/${methode}`, {
+    method: body ? 'POST' : 'GET',
+    headers: body ? { 'content-type': 'application/json' } : undefined,
+    body: body ? JSON.stringify(body) : undefined,
+    signal: AbortSignal.timeout(15_000),
+  });
+  const j = (await res.json()) as { ok: boolean; result?: T; description?: string };
+  if (!j.ok) throw new Error(`Telegram ${methode}: ${j.description ?? res.status}`);
+  return j.result as T;
+}
+
+/** Chat-ID: Umgebungsvariable, gespeicherte Datei oder die letzte /start-Nachricht an den Bot */
+async function chatId(token: string, log: (m: string) => void): Promise<{ id: string; neu: boolean } | null> {
+  if (process.env.TELEGRAM_CHAT_ID) return { id: process.env.TELEGRAM_CHAT_ID, neu: false };
+  if (existsSync(TG_DATEI)) {
+    try {
+      const j = JSON.parse(readFileSync(TG_DATEI, 'utf8')) as { chatId?: string };
+      if (j.chatId) return { id: j.chatId, neu: false };
+    } catch {
+      /* neu ermitteln */
+    }
+  }
+  const updates = await tgApi<{ message?: { chat: { id: number; type: string } } }[]>(token, 'getUpdates');
+  const privat = updates
+    .map((u) => u.message?.chat)
+    .filter((c): c is { id: number; type: string } => !!c && c.type === 'private')
+    .pop();
+  if (!privat) {
+    log('Telegram: noch keine Chat-ID – bitte dem Bot einmal /start schreiben');
+    return null;
+  }
+  mkdirSync(path.dirname(TG_DATEI), { recursive: true });
+  writeFileSync(TG_DATEI, `${JSON.stringify({ chatId: String(privat.id), seit: new Date().toISOString() }, null, 2)}\n`);
+  return { id: String(privat.id), neu: true };
+}
+
+export interface MeldeErgebnis {
+  telegram: 'ok' | 'aus' | 'fehler';
+  mail: 'ok' | 'aus' | 'fehler';
+  gemeldet: string[];
+}
+
+export async function melde(deals: Deal[], log: (m: string) => void, opts: { maxEinzeln?: number } = {}): Promise<MeldeErgebnis> {
+  const siteUrl = process.env.SITE_URL || undefined;
+  const sortiert = [...deals].sort((a, b) => a.bewertung.ziel!.ist / a.bewertung.ziel!.wert - b.bewertung.ziel!.ist / b.bewertung.ziel!.wert);
+  const erg: MeldeErgebnis = { telegram: 'aus', mail: 'aus', gemeldet: [] };
+
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  if (token) {
+    try {
+      const chat = await chatId(token, log);
+      if (chat) {
+        if (chat.neu) await tgApi(token, 'sendMessage', { chat_id: chat.id, text: `✅ Leasing-Radar ist verbunden. Top-Angebote kommen ab jetzt hier an.\n\nDeine Chat-ID: ${chat.id}\nTrag sie bei GitHub als Secret TELEGRAM_CHAT_ID ein, dann bleibt die Verbindung dauerhaft bestehen.` });
+        const max = opts.maxEinzeln ?? 8;
+        for (const d of sortiert.slice(0, max)) {
+          await tgApi(token, 'sendMessage', { chat_id: chat.id, text: telegramText(d, siteUrl), parse_mode: 'HTML', disable_web_page_preview: true });
+          await new Promise((r) => setTimeout(r, 400));
+        }
+        if (sortiert.length > max) {
+          await tgApi(token, 'sendMessage', { chat_id: chat.id, text: `… und ${sortiert.length - max} weitere Top-Angebote${siteUrl ? `: ${siteUrl}` : ''}` });
+        }
+        erg.telegram = 'ok';
+      }
+    } catch (e) {
+      erg.telegram = 'fehler';
+      log(`Telegram-Fehler: ${(e as Error).message}`);
+    }
+  }
+
+  const key = process.env.RESEND_API_KEY;
+  const from = process.env.MAIL_FROM;
+  const to = process.env.MAIL_TO;
+  if (key && from && to && sortiert.length) {
+    try {
+      const html = mailHtml(sortiert, siteUrl);
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' },
+        body: JSON.stringify({
+          from,
+          to: to.split(',').map((s) => s.trim()),
+          subject: `🔥 ${sortiert.length === 1 ? zeile(sortiert[0]).kopf : `${sortiert.length} Top-Leasingangebote`}`,
+          html,
+          text: sortiert.map((d) => `${zeile(d).kopf}\n${d.titel}\n${d.url}`).join('\n\n'),
+        }),
+        signal: AbortSignal.timeout(15_000),
+      });
+      erg.mail = res.ok ? 'ok' : 'fehler';
+      if (!res.ok) log(`Mail-Fehler: HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    } catch (e) {
+      erg.mail = 'fehler';
+      log(`Mail-Fehler: ${(e as Error).message}`);
+    }
+  }
+
+  // Als gemeldet gilt, was über mindestens einen Kanal rausging (sonst im nächsten Lauf erneut versuchen)
+  if (erg.telegram === 'ok' || erg.mail === 'ok') erg.gemeldet = sortiert.map((d) => d.id);
+  return erg;
+}
+
+function mailHtml(deals: Deal[], siteUrl?: string) {
+  const karten = deals
+    .map((d) => {
+      const z = zeile(d);
+      return `<div style="border:1px solid #e5e5ea;border-radius:12px;padding:14px 16px;margin:0 0 12px">
+<div style="font-size:17px;font-weight:700;color:#0b6b3a">${esc(z.kopf)}</div>
+<div style="margin:4px 0 6px">${esc(z.titel)}</div>
+<div style="color:#555;font-size:13px;white-space:pre-line">${esc(z.details)}</div>
+<div style="font-size:13px;margin-top:6px">${esc(z.ziel)}</div>
+${z.bedingungen ? `<div style="font-size:13px;color:#b45309;margin-top:4px">${esc(z.bedingungen)}</div>` : ''}
+<div style="margin-top:8px"><a href="${esc(d.url)}">Zum Angebot bei ${esc(z.quelle)}</a></div></div>`;
+    })
+    .join('');
+  return `<div style="font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:560px">${karten}${siteUrl ? `<p><a href="${esc(siteUrl)}">Alle Angebote im Leasing-Radar</a></p>` : ''}<p style="color:#888;font-size:12px">Effektiv = Rate + Einmalkosten (Überführung, Zulassung, Anzahlung) auf die Laufzeit umgelegt. Konditionen beim Anbieter prüfen.</p></div>`;
+}

@@ -1,0 +1,29 @@
+name: Website deployen
+
+# Bei Code-Änderungen auf main die Website auf Vercel bauen. Vercel ist nicht mit dem Repository verknüpft,
+# damit an den Commits keine Statusmeldungen mit Konto-Namen erscheinen; Ausgaben werden unterdrückt.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/**']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then echo "VERCEL_TOKEN fehlt"; exit 0; fi
+          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN" > /dev/null 2>&1 && echo "Deployment gestartet" || (echo "Deployment fehlgeschlagen"; exit 1)

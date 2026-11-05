@@ -1,0 +1,86 @@
+name: Leasing-Scan
+
+# Stündlich von 7 bis 23 Uhr (deutsche Zeit, Sommer- und Winterzeit abgedeckt): mydealz und LeasingMarkt lesen,
+# Top-Angebote sofort per Telegram/Mail melden, data/*.json committen → Vercel baut die Seite neu.
+
+on:
+  schedule:
+    - cron: '41 5-22 * * *'
+  workflow_dispatch:
+    inputs:
+      trocken:
+        description: 'Probelauf: nichts melden, nichts schreiben'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leasing-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: npm-Pakete aus dem Cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package.json') }}
+      - run: npm install --no-audit --no-fund --prefer-offline
+      - name: Typen prüfen (nur bei manuellem Start)
+        if: github.event_name != 'schedule'
+        run: npm run typecheck
+      - run: npm test
+      # Telegram-Chat-ID zwischen den Läufen merken (nicht im öffentlichen Repository)
+      - name: Telegram-Chat aus dem Cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/telegram.json
+          key: telegram-${{ github.run_id }}
+          restore-keys: telegram-
+      - name: Scannen
+        run: npm run scan
+        env:
+          TROCKEN: ${{ inputs.trocken && '1' || '' }}
+          KEIN_ALARM: ${{ inputs.trocken && '1' || '' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Daten committen
+        id: commit
+        if: ${{ !inputs.trocken }}
+        run: |
+          git config user.name "leasing-radar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen"
+          else
+            git commit -m "Daten $(date -u +'%F %H:%M')"
+            git pull --rebase --autostash
+            git push
+            echo "neu=1" >> "$GITHUB_OUTPUT"
+          fi
+      # Website neu bauen. Vercel ist bewusst nicht mit dem Repository verknüpft (keine Statusmeldungen mit
+      # Konto-Namen an den Commits); Ausgaben werden unterdrückt, damit die öffentlichen Logs keine URL enthalten.
+      - name: Website aktualisieren
+        if: ${{ steps.commit.outputs.neu == '1' }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then echo "VERCEL_TOKEN fehlt"; exit 0; fi
+          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN" > /dev/null 2>&1 && echo "Deployment gestartet" || echo "Deployment fehlgeschlagen"

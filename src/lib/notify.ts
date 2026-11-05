@@ -67,6 +67,8 @@ async function tgApi<T>(token: string, methode: string, body?: unknown): Promise
   return j.result as T;
 }
 
+let letzteDiagnose = '';
+
 /** Chat-ID: Umgebungsvariable, gespeicherte Datei oder die letzte /start-Nachricht an den Bot */
 async function chatId(token: string, log: (m: string) => void): Promise<{ id: string; neu: boolean } | null> {
   if (process.env.TELEGRAM_CHAT_ID) return { id: process.env.TELEGRAM_CHAT_ID, neu: false };
@@ -78,7 +80,14 @@ async function chatId(token: string, log: (m: string) => void): Promise<{ id: st
       /* neu ermitteln */
     }
   }
+  // Ein gesetzter Webhook blockiert getUpdates – dann entfernen (der Radar braucht keinen)
+  const hook = await tgApi<{ url?: string }>(token, 'getWebhookInfo');
+  if (hook.url) {
+    log('Telegram: Webhook gesetzt – wird entfernt, damit /start gelesen werden kann');
+    await tgApi(token, 'deleteWebhook');
+  }
   const updates = await tgApi<{ message?: { chat: { id: number; type: string } } }[]>(token, 'getUpdates');
+  letzteDiagnose = `Bot-ID …${token.split(':')[0].slice(-4)}, ${updates.length} ungelesene Nachrichten${hook.url ? ', Webhook entfernt' : ''}`;
   const privat = updates
     .map((u) => u.message?.chat)
     .filter((c): c is { id: number; type: string } => !!c && c.type === 'private')
@@ -94,6 +103,7 @@ async function chatId(token: string, log: (m: string) => void): Promise<{ id: st
 
 export interface MeldeErgebnis {
   telegram: 'ok' | 'aus' | 'kein-chat' | 'fehler';
+  diagnose?: string;
   mail: 'ok' | 'aus' | 'fehler';
   gemeldet: string[];
 }
@@ -118,7 +128,10 @@ export async function melde(deals: Deal[], log: (m: string) => void, opts: { max
           await tgApi(token, 'sendMessage', { chat_id: chat.id, text: `… und ${sortiert.length - max} weitere Top-Angebote${siteUrl ? `: ${siteUrl}` : ''}` });
         }
         erg.telegram = 'ok';
-      } else erg.telegram = 'kein-chat';
+      } else {
+        erg.telegram = 'kein-chat';
+        erg.diagnose = letzteDiagnose;
+      }
     } catch (e) {
       erg.telegram = 'fehler';
       log(`Telegram-Fehler: ${(e as Error).message}`);

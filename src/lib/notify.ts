@@ -18,6 +18,8 @@ export function sollMelden(d: Deal): boolean {
   return d.bewertung.ziel.ist <= d.gemeldetWert * 0.95;
 }
 
+/** HTTP-Header dürfen nur ASCII enthalten: Umlaute/Emoji nach RFC 2047 kodieren */
+const enc = (s: string) => `=?UTF-8?B?${Buffer.from(s, 'utf8').toString('base64')}?=`;
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const eur = (n: number | null | undefined, d = 0) => (n == null ? '–' : `${n.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d })} €`);
 const kundenText = { privat: 'Privat', gewerbe: 'Gewerbe', beide: 'Privat & Gewerbe' } as const;
@@ -105,13 +107,14 @@ export interface MeldeErgebnis {
   telegram: 'ok' | 'aus' | 'kein-chat' | 'fehler';
   diagnose?: string;
   mail: 'ok' | 'aus' | 'fehler';
+  push: 'ok' | 'aus' | 'fehler';
   gemeldet: string[];
 }
 
 export async function melde(deals: Deal[], log: (m: string) => void, opts: { maxEinzeln?: number } = {}): Promise<MeldeErgebnis> {
   const siteUrl = process.env.SITE_URL || undefined;
   const sortiert = [...deals].sort((a, b) => a.bewertung.ziel!.ist / a.bewertung.ziel!.wert - b.bewertung.ziel!.ist / b.bewertung.ziel!.wert);
-  const erg: MeldeErgebnis = { telegram: 'aus', mail: 'aus', gemeldet: [] };
+  const erg: MeldeErgebnis = { telegram: 'aus', mail: 'aus', push: 'aus', gemeldet: [] };
 
   const token = process.env.TELEGRAM_BOT_TOKEN;
   if (token) {
@@ -135,6 +138,28 @@ export async function melde(deals: Deal[], log: (m: string) => void, opts: { max
     } catch (e) {
       erg.telegram = 'fehler';
       log(`Telegram-Fehler: ${(e as Error).message}`);
+    }
+  }
+
+  // ntfy.sh: kostenlose Push-Nachrichten aufs Handy (App „ntfy“, Thema abonnieren), kein Konto nötig.
+  // NTFY_TOPIC ist zugleich das Passwort – lang und zufällig wählen.
+  const topic = process.env.NTFY_TOPIC;
+  if (topic) {
+    try {
+      for (const d of sortiert.slice(0, opts.maxEinzeln ?? 8)) {
+        const z = zeile(d);
+        const res = await fetch(`https://ntfy.sh/${encodeURIComponent(topic)}`, {
+          method: 'POST',
+          headers: { Title: enc(`🔥 ${z.kopf}`), Click: d.url, Tags: 'car', Priority: '4' },
+          body: [z.titel, z.details, z.ziel, z.bedingungen].filter(Boolean).join('\n'),
+          signal: AbortSignal.timeout(15_000),
+        });
+        if (!res.ok) throw new Error(`ntfy HTTP ${res.status}`);
+      }
+      erg.push = 'ok';
+    } catch (e) {
+      erg.push = 'fehler';
+      log(`Push-Fehler: ${(e as Error).message}`);
     }
   }
 
@@ -165,7 +190,7 @@ export async function melde(deals: Deal[], log: (m: string) => void, opts: { max
   }
 
   // Als gemeldet gilt, was über mindestens einen Kanal rausging (sonst im nächsten Lauf erneut versuchen)
-  if (erg.telegram === 'ok' || erg.mail === 'ok') erg.gemeldet = sortiert.map((d) => d.id);
+  if (erg.telegram === 'ok' || erg.mail === 'ok' || erg.push === 'ok') erg.gemeldet = sortiert.map((d) => d.id);
   return erg;
 }
 

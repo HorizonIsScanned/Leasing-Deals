@@ -135,7 +135,7 @@ async function main() {
   let gemeldet = 0;
   if (neuTop.length && !process.env.KEIN_ALARM) {
     const erg = await melde(neuTop, log);
-    log(`Alarm: ${neuTop.length} Top-Angebote · Telegram ${erg.telegram} · Mail ${erg.mail}`);
+    log(`Alarm: ${neuTop.length} Top-Angebote · Telegram ${erg.telegram} · Push ${erg.push} · Mail ${erg.mail}`);
     if (erg.telegram === 'aus') hinweise.push('Telegram: Secret TELEGRAM_BOT_TOKEN fehlt im Lauf');
     if (erg.telegram === 'kein-chat') hinweise.push(`Telegram: Token ok, aber keine /start-Nachricht an den Bot gefunden (${erg.diagnose ?? ''}) – dem Bot /start schreiben`);
     if (erg.telegram === 'fehler') hinweise.push('Telegram: Fehler beim Senden (Token prüfen)');

@@ -1,12 +1,12 @@
 {
-  "lauf": "2026-11-06T13:14:38.424Z",
-  "dauerSek": 120,
+  "lauf": "2026-11-06T20:05:19.858Z",
+  "dauerSek": 97,
   "quellen": {
     "leasingmarkt": {
       "ok": true,
       "gesperrt": false,
-      "abfragen": 34,
-      "angebote": 181,
+      "abfragen": 29,
+      "angebote": 175,
       "fehler": []
     },
     "mydealz": {
@@ -17,8 +17,6 @@
       "fehler": []
     }
   },
-  "gemeldet": 3,
-  "hinweise": [
-    "Telegram: Token ok, aber keine /start-Nachricht an den Bot gefunden (Bot-ID …3903, 0 ungelesene Nachrichten) – dem Bot /start schreiben"
-  ]
+  "gemeldet": 0,
+  "hinweise": []
 }

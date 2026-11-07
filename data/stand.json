@@ -1,11 +1,11 @@
 {
-  "lauf": "2026-11-06T20:05:19.858Z",
-  "dauerSek": 97,
+  "lauf": "2026-11-07T00:19:57.869Z",
+  "dauerSek": 106,
   "quellen": {
     "leasingmarkt": {
       "ok": true,
       "gesperrt": false,
-      "abfragen": 29,
+      "abfragen": 31,
       "angebote": 175,
       "fehler": []
     },

@@ -1,7 +1,7 @@
 // Bewertung eines Angebots: Effektivrate (inkl. Einmalkosten auf die Laufzeit umgelegt), Gesamtkostenfaktor und
 // Vergleich mit dem Zielwert der passenden Kundengruppe (Privat brutto, Gewerbe netto).
 
-import { EINMAL_ANNAHME, GKF_TOP, GUT_SPIELRAUM, modell } from '../../data/watchlist';
+import { EINMAL_ANNAHME, GKF_TOP, GUT_SPIELRAUM, KUNDENGRUPPE, modell } from '../../data/watchlist';
 import type { Angebot, Bewertung } from '../core/types';
 
 const r2 = (n: number) => Math.round(n * 100) / 100;
@@ -24,15 +24,17 @@ export function effektiv(a: Angebot): { brutto: number | null; netto: number | n
 
 export function bewerte(a: Angebot): Bewertung {
   const eff = effektiv(a);
-  const gkf = eff.brutto != null && a.listenpreis ? r2((eff.brutto / a.listenpreis) * 100) : null;
+  // Bei Gebrauchten bezieht sich der Listenpreis auf den Neuwagen – der Faktor wäre geschönt, daher keiner
+  const gkf = eff.brutto != null && a.listenpreis && a.zustand !== 'gebraucht' ? r2((eff.brutto / a.listenpreis) * 100) : null;
   const m = modell(a.modell);
   if (eff.brutto == null || eff.netto == null) {
     return { effBrutto: null, effNetto: null, gkf: null, geschaetzt: eff.geschaetzt, ziel: null, stufe: 'normal', grund: 'Rate oder Laufzeit unbekannt' };
   }
-  // Welche Gruppe? Bei „beide“ die, in der das Angebot relativ zum Ziel besser abschneidet
+  // Bewertet wird immer aus Sicht der eigenen Kundengruppe (KUNDENGRUPPE): privat = brutto, gewerbe = netto
   const privat = { gruppe: 'privat' as const, wert: m.ziel.privat, ist: eff.brutto, basis: 'brutto' as const };
   const gewerbe = { gruppe: 'gewerbe' as const, wert: m.ziel.gewerbe, ist: eff.netto, basis: 'netto' as const };
-  const ziel = a.kunden === 'privat' ? privat : a.kunden === 'gewerbe' ? gewerbe : privat.ist / privat.wert <= gewerbe.ist / gewerbe.wert ? privat : gewerbe;
+  const ziel = KUNDENGRUPPE === 'privat' ? privat : gewerbe;
+  const fremd = KUNDENGRUPPE === 'privat' ? a.kunden === 'gewerbe' : a.kunden === 'privat';
   const quote = ziel.ist / ziel.wert;
   let stufe: Bewertung['stufe'] = 'normal';
   let grund = `${ziel.ist.toFixed(0)} € ${ziel.basis} effektiv, Ziel ${ziel.gruppe} ${ziel.wert} €`;
@@ -41,6 +43,16 @@ export function bewerte(a: Angebot): Bewertung {
     stufe = 'top';
     grund = `Gesamtkostenfaktor ${gkf.toFixed(2)} (≤ ${GKF_TOP}) – ${grund}`;
   } else if (quote <= GUT_SPIELRAUM) stufe = 'gut';
+  // Angebot nur für die andere Kundengruppe: nie melden
+  if (fremd && stufe !== 'normal') {
+    stufe = 'normal';
+    grund += ` (nur ${a.kunden === 'gewerbe' ? 'Gewerbe' : 'Privat'})`;
+  }
+  // Gegenprüfung mit der Angebotsseite fehlgeschlagen: höchstens „gut“
+  if (a.pruefung && !a.pruefung.ok && a.pruefung.rate === a.rateBrutto && stufe === 'top') {
+    stufe = 'gut';
+    grund += ` (Prüfung: ${a.pruefung.hinweis})`;
+  }
   // Geschätzte Einmalkosten: höchstens „gut“, bis die Angebotsseite gelesen ist
   if (eff.geschaetzt && stufe === 'top') {
     stufe = 'gut';

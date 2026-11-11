@@ -16,6 +16,26 @@ export interface Aenderung {
 }
 
 /** Ein Angebot, wie es die Quelle liefert – alle Beträge in Euro, Herkunft der Einmalkosten getrennt vermerkt */
+/** Kostenposten wie auf der Angebotsseite: Betrag brutto, „enthalten“ oder unbekannt („keine Angabe“) */
+export type Posten = number | 'enthalten' | null;
+
+export interface Kosten {
+  anzahlung: Posten;
+  ueberfuehrung: Posten;
+  zulassung: Posten;
+  /** Optionale Lieferung bis vor die Haustür (nicht eingerechnet, nur angezeigt) */
+  lieferungOptional: number | null;
+}
+
+/** Gegenprüfung: stimmen die eigenen Werte mit der Zusammenfassung überein, die die Angebotsseite selbst zeigt? */
+export interface Pruefung {
+  datum: string;
+  ok: boolean;
+  hinweis: string;
+  /** Rate, für die die Prüfung gilt – ändert sich die Rate, muss neu geprüft werden */
+  rate: number | null;
+}
+
 export interface Angebot {
   /** quellenübergreifend eindeutig, z. B. lm:13342515 oder md:2862711 */
   id: string;
@@ -46,6 +66,11 @@ export interface Angebot {
   temperatur: number | null;
   veroeffentlicht: string | null;
   status: Status;
+  /** Einmalkosten einzeln (nur LeasingMarkt-Angebotsseite) */
+  kosten?: Kosten | null;
+  /** Händler-/Fahrzeugstandort, z. B. „96215 Lichtenfels“ */
+  ort?: string | null;
+  pruefung?: Pruefung | null;
 }
 
 export interface Bewertung {

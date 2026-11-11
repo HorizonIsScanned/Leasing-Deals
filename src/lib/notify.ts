@@ -7,13 +7,19 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { modell } from '../data/watchlist';
-import type { Deal } from './core/types';
+import type { Deal, Posten } from './core/types';
 
 const TG_DATEI = path.join(process.cwd(), '.cache', 'telegram.json');
 
 /** Soll dieser Deal gemeldet werden? Neu „Top“, oder seit der letzten Meldung mindestens 5 % günstiger */
+/** Ist das Angebot frisch gegen die Angebotsseite geprüft (gleiche Rate)? mydealz: Prüfung beim Lesen des Deals */
+export function geprueft(d: Deal): boolean {
+  return !!d.pruefung?.ok && d.pruefung.rate === d.rateBrutto;
+}
+
 export function sollMelden(d: Deal): boolean {
   if (d.status !== 'aktiv' || d.bewertung.stufe !== 'top' || !d.bewertung.ziel) return false;
+  if (!geprueft(d)) return false;
   if (!d.gemeldet || d.gemeldetWert == null) return true;
   return d.bewertung.ziel.ist <= d.gemeldetWert * 0.95;
 }
@@ -24,20 +30,35 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const eur = (n: number | null | undefined, d = 0) => (n == null ? '–' : `${n.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d })} €`);
 const kundenText = { privat: 'Privat', gewerbe: 'Gewerbe', beide: 'Privat & Gewerbe' } as const;
 
+const postenText = (name: string, p: Posten | undefined) => (p === undefined ? null : p === 'enthalten' ? `${name} enthalten` : p == null ? `${name} keine Angabe` : `${name} ${eur(p)}`);
+const zustandHinweis = { gebraucht: '⚠️ Gebrauchtwagen – kein Neuwagen; Leasingfaktor bezieht sich auf den Neupreis', vorlauf: 'ℹ️ Vorführ-/Vorlauffahrzeug', neu: null, unbekannt: null } as const;
+
+/** Meldungstext: alle Zahlen so, wie sie auf der Angebotsseite stehen (brutto), dazu Rechenweg */
 export function zeile(d: Deal) {
   const b = d.bewertung;
   const z = b.ziel!;
-  const teile = [
-    `${kundenText[d.kunden]}`,
-    d.laufzeit ? `${d.laufzeit} Mon.` : null,
-    d.kmJahr ? `${(d.kmJahr / 1000).toFixed(0)}.000 km` : null,
-    d.verfuegbarkeit ? `verfügbar: ${d.verfuegbarkeit}` : null,
-  ].filter(Boolean);
+  const k = d.kosten;
+  const einmalTeile = k
+    ? [postenText('Anzahlung', k.anzahlung ?? 0), postenText('Überführung', k.ueberfuehrung), postenText('Zulassung', k.zulassung)].filter(Boolean)
+    : d.einmalBrutto != null
+      ? [`${eur(d.einmalBrutto)}`]
+      : d.effektivQuelle != null
+        ? ['laut Deal im Effektivpreis enthalten']
+        : ['unbekannt'];
+  const umgelegt = d.einmalBrutto != null && d.laufzeit ? ` (= +${eur(d.einmalBrutto / d.laufzeit)}/Monat)` : '';
+  const vertrag = [d.laufzeit ? `${d.laufzeit} Monate` : null, d.kmJahr ? `${d.kmJahr.toLocaleString('de-DE')} km/Jahr` : null, d.verfuegbarkeit ? `verfügbar: ${d.verfuegbarkeit}` : null].filter(Boolean).join(' · ');
+  const ort = [d.ort ? `📍 Händler: ${d.ort}` : null, k?.lieferungOptional ? `Lieferung optional +${eur(k.lieferungOptional)}` : null].filter(Boolean).join(' · ');
   return {
-    kopf: `${modell(d.modell).name}: ${eur(z.ist)} ${z.basis} effektiv`,
+    kopf: `${modell(d.modell).name}: ${eur(b.effBrutto)} effektiv/Monat`,
     titel: d.titel,
-    details: `${teile.join(' · ')}\nRate ${eur(d.rateBrutto, 2)} brutto / ${eur(d.rateNetto, 2)} netto${d.einmalBrutto != null ? ` + ${eur(d.einmalBrutto)} einmalig` : ''}${b.gkf != null ? ` · GKF ${b.gkf.toFixed(2)}` : ''}${d.lf != null ? ` · LF ${d.lf.toFixed(2)}` : ''}`,
+    details: [
+      `Rate ${eur(d.rateBrutto, 2)} inkl. MwSt. · ${vertrag}`,
+      `Einmalig: ${einmalTeile.join(' · ')}${umgelegt}`,
+      d.kunden === 'beide' ? `Privat & Gewerbe (netto effektiv ${eur(b.effNetto)})` : d.kunden === 'privat' ? 'Nur Privatkunden' : 'Nur Gewerbekunden',
+    ].join('\n'),
     ziel: `Ziel ${z.gruppe}: ${eur(z.wert)} → ${Math.round((1 - z.ist / z.wert) * 100)} % darunter`,
+    zustand: zustandHinweis[d.zustand],
+    ort: ort || null,
     bedingungen: d.bedingungen.length ? `⚠️ ${d.bedingungen.join(', ')}` : null,
     quelle: d.quelle === 'mydealz' ? `mydealz${d.haendler ? ` (${d.haendler})` : ''}` : 'LeasingMarkt',
   };
@@ -49,6 +70,8 @@ export function telegramText(d: Deal, siteUrl?: string) {
     `🔥 <b>${esc(z.kopf)}</b>`,
     esc(z.titel),
     esc(z.details),
+    z.zustand ? esc(z.zustand) : null,
+    z.ort ? esc(z.ort) : null,
     `✅ ${esc(z.ziel)}`,
     z.bedingungen ? esc(z.bedingungen) : null,
     `<a href="${esc(d.url)}">Zum Angebot bei ${esc(z.quelle)}</a>${siteUrl ? ` · <a href="${esc(siteUrl)}">Radar</a>` : ''}`,
@@ -113,14 +136,15 @@ export interface MeldeErgebnis {
 
 /** Frühere Meldung, die nach neuen Informationen nicht mehr „Top“ ist und noch nicht korrigiert wurde */
 export function sollKorrigieren(d: Deal): boolean {
-  return !!d.gemeldet && !d.korrigiert && d.status === 'aktiv' && d.bewertung.stufe !== 'top';
+  // Nicht korrigieren, wenn ein Angebot nur wegen der Kundengruppe herausfällt (keine falsche Rechnung)
+  return !!d.gemeldet && !d.korrigiert && d.status === 'aktiv' && d.bewertung.stufe !== 'top' && !/\(nur (Gewerbe|Privat)\)/.test(d.bewertung.grund);
 }
 
 export function korrekturText(deals: Deal[]) {
   const zeilen = deals.map((d) => {
     const z = d.bewertung.ziel;
     const neu = z ? `${Math.round(z.ist)} € ${z.basis}` : 'unbekannt';
-    const grund = d.bewertung.geschaetzt ? 'Überführung nicht angegeben, mit 1.300 € geschätzt' : 'Konditionen geändert';
+    const grund = d.pruefung && !d.pruefung.ok ? `Prüfung: ${d.pruefung.hinweis}` : d.bewertung.geschaetzt ? 'Überführung nicht angegeben, mit 1.300 € geschätzt' : 'Konditionen geändert';
     return `• ${modell(d.modell).name}: gemeldet ${Math.round(d.gemeldetWert ?? 0)} € → richtig ca. ${neu} effektiv (${grund})${z ? `, Ziel ${z.wert} €` : ''}\n  ${d.url}`;
   });
   return `Diese ${deals.length === 1 ? 'Meldung war' : `${deals.length} Meldungen waren`} zu günstig berechnet und ${deals.length === 1 ? 'ist' : 'sind'} kein Top-Angebot:\n\n${zeilen.join('\n')}`;
@@ -199,7 +223,7 @@ export async function melde(deals: Deal[], log: (m: string) => void, opts: { max
         const res = await fetch(`https://ntfy.sh/${encodeURIComponent(topic)}`, {
           method: 'POST',
           headers: { Title: enc(`🔥 ${z.kopf}`), Click: d.url, Tags: 'car', Priority: '4' },
-          body: [z.titel, z.details, z.ziel, z.bedingungen].filter(Boolean).join('\n'),
+          body: [z.titel, z.details, z.zustand, z.ort, z.ziel, z.bedingungen].filter(Boolean).join('\n'),
           signal: AbortSignal.timeout(15_000),
         });
         if (!res.ok) throw new Error(`ntfy HTTP ${res.status}`);
@@ -250,6 +274,8 @@ function mailHtml(deals: Deal[], siteUrl?: string) {
 <div style="font-size:17px;font-weight:700;color:#0b6b3a">${esc(z.kopf)}</div>
 <div style="margin:4px 0 6px">${esc(z.titel)}</div>
 <div style="color:#555;font-size:13px;white-space:pre-line">${esc(z.details)}</div>
+${z.zustand ? `<div style="font-size:13px;color:#b45309;margin-top:4px">${esc(z.zustand)}</div>` : ''}
+${z.ort ? `<div style="font-size:13px;margin-top:4px">${esc(z.ort)}</div>` : ''}
 <div style="font-size:13px;margin-top:6px">${esc(z.ziel)}</div>
 ${z.bedingungen ? `<div style="font-size:13px;color:#b45309;margin-top:4px">${esc(z.bedingungen)}</div>` : ''}
 <div style="margin-top:8px"><a href="${esc(d.url)}">Zum Angebot bei ${esc(z.quelle)}</a></div></div>`;

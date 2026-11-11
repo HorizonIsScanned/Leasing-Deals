@@ -182,6 +182,14 @@ export function angebotAusRss(e: RssEintrag, ergaenzung?: Partial<TitelDaten> | 
     temperatur: null,
     veroeffentlicht: e.datum,
     status: 'aktiv',
+    kosten: d.ueberfuehrung != null ? { anzahlung: null, ueberfuehrung: netto ? Math.round(d.ueberfuehrung * 1.19) : d.ueberfuehrung, zulassung: null, lieferungOptional: null } : null,
+    // mydealz hat keine strukturierte Angebotsseite: geprüft gilt, was vollständig im Deal steht
+    pruefung: {
+      datum: e.datum ?? new Date().toISOString(),
+      ok: eff != null && d.laufzeit != null && d.rate != null,
+      hinweis: eff != null && d.laufzeit != null && d.rate != null ? 'Rate, Laufzeit und Effektivpreis im Deal angegeben' : 'Deal nennt nicht alle Kosten (Rate, Laufzeit, Effektivpreis)',
+      rate: d.rate != null ? (netto ? Math.round(d.rate * 1.19 * 100) / 100 : d.rate) : null,
+    },
   };
 }
 

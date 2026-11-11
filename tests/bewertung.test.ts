@@ -30,6 +30,7 @@ const basis: Angebot = {
   temperatur: null,
   veroeffentlicht: null,
   status: 'aktiv',
+  pruefung: { datum: '2026-11-11T08:00:00Z', ok: true, hinweis: 'stimmt mit der Angebotsseite überein', rate: 199 },
 };
 
 test('Effektivrate = Rate + Einmalkosten / Laufzeit', () => {
@@ -57,18 +58,30 @@ test('Geschätzte Überführung: höchstens „gut“', () => {
   assert.equal(b.stufe, 'gut');
 });
 
-test('Gewerbe wird netto mit dem Gewerbe-Ziel verglichen', () => {
-  // mydealz: 157 € netto effektiv, Ziel Gewerbe Leon VZ 250 € → Top
+test('Privat: reine Gewerbe-Angebote werden nie Top', () => {
   const b = bewerte({ ...basis, quelle: 'mydealz', kunden: 'gewerbe', effektivQuelle: 157, effektivQuelleNetto: true });
-  assert.equal(b.ziel?.basis, 'netto');
-  assert.equal(b.ziel?.ist, 157);
-  assert.equal(b.stufe, 'top');
+  assert.equal(b.ziel?.basis, 'brutto');
+  assert.equal(b.stufe, 'normal');
+  assert.match(b.grund, /nur Gewerbe/);
 });
 
-test('„Beide“ nimmt die günstigere Sicht', () => {
-  const b = bewerte({ ...basis, kunden: 'beide', rateBrutto: 340, rateNetto: 285.71, einmalBrutto: 1190, listenpreis: 50000 });
-  assert.ok(b.ziel);
-  assert.equal(b.stufe, 'normal');
+test('„Beide“ wird aus Privat-Sicht (brutto) bewertet', () => {
+  const b = bewerte({ ...basis, modell: 'bmw-1er', kunden: 'beide', rateBrutto: 233.27, rateNetto: 196.03, laufzeit: 48, einmalBrutto: 289 });
+  assert.equal(b.ziel?.gruppe, 'privat');
+  assert.equal(b.ziel?.ist, 239.29);
+});
+
+test('Gebrauchtwagen: kein Gesamtkostenfaktor auf Neupreis-Basis', () => {
+  assert.equal(bewerte({ ...basis, zustand: 'gebraucht' }).gkf, null);
+});
+
+test('Fehlgeschlagene Gegenprüfung: höchstens „gut“ und keine Meldung', () => {
+  const d = fuehreZusammen(undefined, { ...basis, pruefung: { datum: 'x', ok: false, hinweis: 'Rate weicht ab', rate: 199 } }, '2026-11-11T08:00:00Z');
+  assert.equal(d.bewertung.stufe, 'gut');
+  assert.equal(sollMelden(d), false);
+  const ungeprueft = fuehreZusammen(undefined, { ...basis, pruefung: null }, '2026-11-11T08:00:00Z');
+  assert.equal(ungeprueft.bewertung.stufe, 'top');
+  assert.equal(sollMelden(ungeprueft), false, 'ohne Prüfung keine Meldung');
 });
 
 test('Nur für bestimmte Gruppen: nicht Top', () => {
@@ -81,7 +94,7 @@ test('Melden: nur aktive Top-Deals, erneut erst bei 5 % Preissenkung', () => {
   assert.equal(sollMelden(d), true);
   const gemeldet = { ...d, gemeldet: jetzt, gemeldetWert: d.bewertung.ziel!.ist };
   assert.equal(sollMelden(gemeldet), false);
-  const billiger = fuehreZusammen(gemeldet, { ...basis, rateBrutto: 180 }, jetzt);
+  const billiger = fuehreZusammen(gemeldet, { ...basis, rateBrutto: 180, pruefung: { ...basis.pruefung!, rate: 180 } }, jetzt);
   assert.equal(sollMelden(billiger), true);
   assert.equal(sollMelden({ ...d, status: 'abgelaufen' }), false);
   assert.equal(billiger.verlauf.at(-1)?.feld, 'preis');
@@ -89,7 +102,8 @@ test('Melden: nur aktive Top-Deals, erneut erst bei 5 % Preissenkung', () => {
 
 test('Telegram-Text enthält Wert, Ziel und Link', () => {
   const t = telegramText(fuehreZusammen(undefined, { ...basis, bedingungen: ['Werksabholung'] }, '2026-11-05T10:00:00Z'));
-  assert.match(t, /Cupra Leon VZ: 265 € brutto effektiv/);
+  assert.match(t, /Cupra Leon VZ: 265 € effektiv\/Monat/);
+  assert.match(t, /Rate 199,00 € inkl\. MwSt\./);
   assert.match(t, /Ziel privat: 300 €/);
   assert.match(t, /Werksabholung/);
   assert.match(t, /href="https:\/\/www\.leasingmarkt\.de/);
@@ -115,4 +129,17 @@ test('Korrektur: früher gemeldet, jetzt nicht mehr Top → einmal korrigieren',
   assert.equal(sollKorrigieren(neu), true);
   assert.match(korrekturText([neu]), /gemeldet 199 € → richtig ca\. 314 € brutto/);
   assert.equal(sollKorrigieren({ ...neu, korrigiert: jetzt }), false);
+});
+
+test('Meldungstext: Kosten einzeln wie auf der Seite, Gebraucht-Hinweis, Händlerort', () => {
+  const d = fuehreZusammen(undefined, {
+    ...basis, modell: 'bmw-1er', kunden: 'beide', zustand: 'gebraucht', rateBrutto: 233.27, rateNetto: 196.03, laufzeit: 48, einmalBrutto: 289,
+    kosten: { anzahlung: 0, ueberfuehrung: 'enthalten', zulassung: 289, lieferungOptional: 549 }, ort: '96215 Lichtenfels',
+    pruefung: { datum: 'x', ok: true, hinweis: 'ok', rate: 233.27 },
+  }, '2026-11-11T08:00:00Z');
+  const t = telegramText(d);
+  assert.match(t, /BMW 1er: 239 € effektiv\/Monat/);
+  assert.match(t, /Überführung enthalten · Zulassung 289 €/);
+  assert.match(t, /Gebrauchtwagen/);
+  assert.match(t, /Händler: 96215 Lichtenfels · Lieferung optional \+549 €/);
 });

@@ -43,6 +43,9 @@ function istVz(t: string, ps: number | null) {
 
 export const modell = (id: ModellId) => MODELLE.find((m) => m.id === id)!;
 
+/** Als was geleast wird: „privat“ (Zielwerte brutto, reine Gewerbe-Angebote werden nie gemeldet) oder „gewerbe“ */
+export const KUNDENGRUPPE: 'privat' | 'gewerbe' = 'privat';
+
 /** Gesamtkostenfaktor, ab dem ein Angebot unabhängig vom Zielwert „Top“ ist (sehr viel Auto fürs Geld) */
 export const GKF_TOP = 0.4;
 /** „Gut“: bis 10 % über dem Zielwert */

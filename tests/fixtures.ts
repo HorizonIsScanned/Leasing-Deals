@@ -149,3 +149,38 @@ export const MD_DEAL_ABGELAUFEN = `<html><body><nav>Privat Alarm setzen</nav><di
 export const MD_DEAL_JSON = `<html><head><link rel="canonical" href="https://www.mydealz.de/deals/x-2862711"></head><body><script>window.__REL__={"threadId":"2860000","isExpired":false};window.__INITIAL_STATE__={"thread":{"threadId":"2862711","commentCount":60,"isExpired":true}};</script><div><span class="vote">1132°</span></div></body></html>`;
 export const MD_DEAL_BANNER = `<html><body><div>Leider ist dieser Deal mittlerweile abgelaufen</div><span>70°</span></body></html>`;
 export const MD_DEAL_AKTIV = `<html><body><div class="thread"><span class="vote">412°</span><h1>Cupra Leon</h1><p>Gepostet vor 3 h</p></div></body></html>`;
+
+/**
+ * Angebotsseite im Aufbau vom 11.11.2026 (BMW 120 i, ID 13276381): Next.js-Daten plus sichtbarer Block
+ * „Details zum Leasing“ und „Fahrzeugstandort“ – Überführung inklusive, Zulassung 289 €, Lieferung optional 549 €.
+ */
+export function lmBmwSeite(o: { rateText?: string; ueberfuehrung?: string; zulassung?: string; gesamt?: string; mwst?: 'inkl.' | 'zzgl.'; transfer?: number | null } = {}) {
+  const payload =
+    `1b:{"vehicle":{"id":13276381,"downpayment":"","prices":{"grossListPriceInEUR":21860,"purchasePriceInEUR":45502.03},"specialConditions":[],` +
+    `"additionalServices":{"included":[{"key":"Überführung","value":null,"description":"Es fallen keine Kosten für die Überführung Ihres Fahrzeugs an.","valueOwn":null}],"optional":[{"key":"KFZ-Lieferung","value":"+549,00 € ","description":"Ihr Auto wird bis vor die Haustür geliefert.","valueOwn":null}]}},` +
+    `"leasing":{"offers":[{"id":39835299,"leaseTotalAmount":11196.96,"duration":48,"includedMileage":10000,"monthlyRate":233.27,"monthlyNetRate":196.03,"leasingFactor":0.51,"listingRating":8.7}],` +
+    `"transferCosts":${JSON.stringify(o.transfer === undefined ? 0 : o.transfer)},"registrationCosts":289,"isTradeInPossible":false,"bank":"BMW Bank GmbH, München","listingSource":"lm"}}\n`;
+  const mwst = o.mwst ?? 'inkl.';
+  const sichtbar = `<section><h2>Details zum Leasing</h2><h3>Monatliche Kosten <span>${mwst} MwSt.</span></h3><dl><dt>Rate</dt><dd>${o.rateText ?? '233,27 €'}</dd></dl>
+<h3>Preisübersicht</h3><dl><dt>Bruttolistenpreis</dt><dd>45.502,03 €</dd><dt>Brutto Kaufpreis</dt><dd>21.860,00 €</dd></dl>
+<h3>Einmalige Kosten <span>${mwst} MwSt.</span></h3><dl><dt>Anzahlung</dt><dd>0,00 €</dd><dt>Überführungskosten</dt><dd>${o.ueberfuehrung ?? 'enthalten'}</dd><dt>Zulassungskosten</dt><dd>${o.zulassung ?? '289,00 €'}</dd><dt>Gesamt, einmalig</dt><dd>${o.gesamt ?? '289,00 €'}</dd></dl>
+<h3>Allgemeine Daten</h3><dl><dt>Leasingfaktor</dt><dd>0.52</dd><dt>Laufzeit</dt><dd>48 Monate</dd><dt>Jährliche Fahrleistung</dt><dd>10.000 km/Jahr</dd><dt>Leasing-Gesamtbetrag</dt><dd>11.196,96 €</dd></dl></section>
+<section><h2>Fahrzeugstandort</h2><p>Grünewaldstr. 3a, 96215 Lichtenfels</p><p>BMW Autohaus Beispiel GmbH</p></section>`;
+  return nextSeite(payload, 2).replace('<div>Karten</div>', sichtbar);
+}
+
+export const LM_BMW_LISTING = {
+  id: 13276381,
+  targetGroup: 'Privat- & Gewerbekunden',
+  contractType: 'USED',
+  isOnline: true,
+  leasingOffer: { id: 39835299, duration: 48, includedMileage: 10000, monthlyRate: 233.27, monthlyNetRate: 196.03, leasingFactor: 0.51 },
+  offers: [{ id: 39835299, duration: 48, includedMileage: 10000, monthlyRate: 233.27, monthlyNetRate: 196.03, leasingFactor: 0.51 }],
+  grossListPriceInEUR: 45502.03,
+  engine: { power: { hp: 170 } },
+  url: '/leasing/pkw/bmw-120/13276381',
+  availability: 'Verfügbar: Sofort',
+  condition: { carType: 'Gebrauchtwagen', isNewCar: false },
+  brandModelName: 'BMW 120',
+  brandModelTitle: 'i Sport Line*Live Cockpit Prof*LED*Tempomat*',
+};

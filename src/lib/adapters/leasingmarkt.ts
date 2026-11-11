@@ -6,7 +6,8 @@
 
 import { EINMAL_ANNAHME, LM_SEITEN, MAX_LAUFZEIT, MIN_KM, MODELLE } from '../../data/watchlist';
 import type { Http } from '../core/http';
-import type { Angebot, Kunden, ModellId, Zustand } from '../core/types';
+import { zahl } from '../core/http';
+import type { Angebot, Kosten, Kunden, ModellId, Posten, Pruefung, Zustand } from '../core/types';
 
 export const LM_BASIS = 'https://www.leasingmarkt.de';
 
@@ -54,6 +55,67 @@ export interface LmDetail {
   downpayment: number | null;
   offers: LmOffer[];
   bank: string | null;
+  /** Was die Seite selbst als Zusammenfassung anzeigt (für die Gegenprüfung) */
+  seite?: Seitenwerte | null;
+  /** „Überführung“ steht bei den Inklusivleistungen (in der Rate enthalten) */
+  ueberfuehrungInklusive?: boolean;
+  lieferungOptional?: number | null;
+  ort?: string | null;
+}
+
+/** Werte aus dem Block „Details zum Leasing“ der Angebotsseite (Text, wie ihn der Nutzer sieht) */
+export interface Seitenwerte {
+  /** true, wenn die Seite die Beträge „zzgl. MwSt.“ zeigt (Gewerbe-Angebote) */
+  netto: boolean;
+  rate: number | null;
+  laufzeit: number | null;
+  km: number | null;
+  anzahlung: Posten;
+  ueberfuehrung: Posten;
+  zulassung: Posten;
+  einmalGesamt: number | null;
+}
+
+/** Sichtbarer Text einer Seite ohne Skripte, mit Leerzeichen zwischen den Elementen */
+export function seitenText(html: string): string {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ');
+}
+
+const ZAHL = String.raw`\d{1,3}(?:\.\d{3})*,\d{2}`;
+const BETRAG = String.raw`(${ZAHL})\s*€`;
+const posten = (roh: string | undefined): Posten => {
+  if (!roh) return null;
+  if (/enthalten|inklusive/i.test(roh)) return 'enthalten';
+  if (/keine Angabe/i.test(roh)) return null;
+  return zahl(roh);
+};
+
+export function leseSeitenwerte(html: string): Seitenwerte | null {
+  const t = seitenText(html);
+  const k = t.search(/Details zum Leasing/);
+  if (k < 0) return null;
+  const b = t.slice(k, k + 2500);
+  const feld = (label: string) => b.match(new RegExp(String.raw`${label}\s*(${ZAHL}\s*€|enthalten|inklusive|keine Angabe)`, 'i'))?.[1];
+  const rate = b.match(new RegExp(String.raw`Rate\s*${BETRAG}`))?.[1];
+  const ges = b.match(new RegExp(String.raw`Gesamt, einmalig\s*${BETRAG}`))?.[1];
+  const lz = b.match(/Laufzeit\s*(\d{1,2})\s*Monate/)?.[1];
+  const km = b.match(/Fahrleistung\s*([\d.]+)\s*km/)?.[1];
+  return {
+    netto: /Einmalige Kosten\s*zzgl\.?\s*MwSt/i.test(b) || /Monatliche Kosten\s*zzgl\.?\s*MwSt/i.test(b),
+    rate: zahl(rate),
+    laufzeit: lz ? Number(lz) : null,
+    km: zahl(km),
+    anzahlung: posten(feld('Anzahlung')),
+    ueberfuehrung: posten(feld('Überführungskosten')),
+    zulassung: posten(feld('Zulassungskosten')),
+    einmalGesamt: zahl(ges),
+  };
 }
 
 /** Inhalt aller Next.js-Datenblöcke einer Seite als ein Text */
@@ -132,6 +194,53 @@ export function leseDetail(html: string): LmDetail | null {
     downpayment: wert('downpayment', true),
     offers: Array.isArray(offers) ? offers : [],
     bank: bank ? bank[1] : null,
+    seite: leseSeitenwerte(html),
+    ...leseZusatz(d, html),
+  };
+}
+
+/** Inklusiv-/Zusatzleistungen (Überführung inklusive, optionale Lieferung) und Fahrzeugstandort */
+function leseZusatz(d: string, html: string) {
+  const z = objektNach(d, 'additionalServices') as { included?: { key?: string }[]; optional?: { key?: string; value?: string }[] } | null;
+  const inklusive = !!z?.included?.some((x) => /überführung/i.test(x.key ?? ''));
+  const lieferung = z?.optional?.find((x) => /lieferung/i.test(x.key ?? ''));
+  const t = seitenText(html);
+  const ortM = t.match(/Fahrzeugstandort\s+(.{0,80}?)\b(\d{5})\s+([A-ZÄÖÜ][\wäöüß.\-]+(?:\s(?:an der|am|im|a\.\s?d\.|bei)\s[\wäöüß.\-]+|\s\([^)]{1,30}\))?)/);
+  return {
+    ueberfuehrungInklusive: inklusive,
+    lieferungOptional: lieferung ? zahl(lieferung.value) : null,
+    ort: ortM ? `${ortM[2]} ${ortM[3]}` : null,
+  };
+}
+
+const MWST = 1.19;
+const gleich = (a: number | null | undefined, b: number | null | undefined, tol: number) => a != null && b != null && Math.abs(a - b) <= tol;
+
+/** Gegenprüfung des fertigen Angebots gegen die Zusammenfassung der Angebotsseite */
+export function pruefeGegenSeite(a: Angebot, d: LmDetail | null, jetzt: string): Pruefung {
+  const nein = (hinweis: string): Pruefung => ({ datum: jetzt, ok: false, hinweis, rate: a.rateBrutto });
+  const s = d?.seite;
+  if (!s) return nein('Zusammenfassung der Angebotsseite nicht lesbar');
+  const faktor = s.netto ? MWST : 1;
+  if (!gleich(s.rate != null ? s.rate * faktor : null, a.rateBrutto, 0.6)) return nein(`Rate auf der Seite ${s.rate} € statt ${a.rateBrutto} €`);
+  if (s.laufzeit !== a.laufzeit) return nein(`Laufzeit auf der Seite ${s.laufzeit} statt ${a.laufzeit} Monate`);
+  if (!gleich(s.km, a.kmJahr, 1)) return nein(`Fahrleistung auf der Seite ${s.km} statt ${a.kmJahr} km`);
+  if (s.ueberfuehrung == null) return nein('Überführung auf der Seite „keine Angabe“');
+  if (a.einmalBrutto == null) return nein('Einmalkosten unbekannt');
+  if (s.einmalGesamt != null && !gleich(s.einmalGesamt * faktor, a.einmalBrutto, 1.5)) return nein(`Einmalkosten auf der Seite ${s.einmalGesamt} € statt ${a.einmalBrutto} €`);
+  return { datum: jetzt, ok: true, hinweis: 'stimmt mit der Angebotsseite überein', rate: a.rateBrutto };
+}
+
+function kostenAus(d: LmDetail): Kosten {
+  const s = d.seite;
+  const brutto = (p: Posten | undefined): Posten => (typeof p === 'number' && s?.netto ? Math.round(p * MWST * 100) / 100 : (p ?? null));
+  // Maßgeblich ist, was die Seite sichtbar anzeigt; nur wenn der Block fehlt, zählen die Rohdaten
+  const ue: Posten = s ? (s.ueberfuehrung === 'enthalten' ? 'enthalten' : brutto(s.ueberfuehrung)) : d.ueberfuehrungInklusive ? 'enthalten' : d.transferCosts;
+  return {
+    anzahlung: brutto(s?.anzahlung) ?? d.downpayment ?? 0,
+    ueberfuehrung: ue,
+    zulassung: brutto(s?.zulassung) ?? (d.registrationCosts ?? null),
+    lieferungOptional: d.lieferungOptional ?? null,
   };
 }
 
@@ -172,7 +281,12 @@ export function bestesOffer(offers: LmOffer[], einmal: number): LmOffer | null {
 export function angebotAus(l: LmListing, modellId: ModellId, detail: LmDetail | null): Angebot {
   // Überführung „keine Angabe“ (null) heißt nicht 0 €: meist steht im Text „zzgl. Bereitstellungspauschale“.
   // Dann bleiben die Einmalkosten unbekannt und werden vorsichtig geschätzt (nie „Top“).
-  const einmal = detail && detail.transferCosts != null ? detail.transferCosts + (detail.registrationCosts ?? 0) + (detail.downpayment ?? 0) : null;
+  const kosten = detail ? kostenAus(detail) : null;
+  const ueBekannt = !!kosten && kosten.ueberfuehrung != null;
+  const betrag = (p: Posten | undefined) => (typeof p === 'number' ? p : 0);
+  const einmal = detail && (detail.seite ? ueBekannt : detail.transferCosts != null)
+    ? betrag(kosten?.ueberfuehrung ?? detail.transferCosts) + betrag(kosten?.zulassung ?? detail.registrationCosts) + betrag(kosten?.anzahlung ?? detail.downpayment)
+    : null;
   const offers = detail?.offers.length ? detail.offers : l.offers?.length ? l.offers : [l.leasingOffer];
   const o = bestesOffer(offers, einmal ?? EINMAL_ANNAHME) ?? l.leasingOffer;
   const titel = titelVon(l);
@@ -198,6 +312,8 @@ export function angebotAus(l: LmListing, modellId: ModellId, detail: LmDetail | 
     lf: o.leasingFactor,
     verfuegbarkeit: l.availability?.replace(/^Verfügbar:\s*/i, '') ?? null,
     haendler: detail?.bank ?? null,
+    kosten,
+    ort: detail?.ort ?? null,
     bedingungen: bedingungenAus(`${titel} ${l.headline ?? ''} ${JSON.stringify(l.specialConditions ?? [])}`),
     temperatur: null,
     veroeffentlicht: l.dealPublishedAt ?? null,

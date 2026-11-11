@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { angebotAus, bestesOffer, leseDetail, leseListe, modellFuer, objektNach } from '../src/lib/adapters/leasingmarkt';
+import { angebotAus, bestesOffer, leseDetail, leseListe, leseSeitenwerte, modellFuer, objektNach, pruefeGegenSeite } from '../src/lib/adapters/leasingmarkt';
 import { angebotAusRss, leseDealSeite, leseRss, leseTitel } from '../src/lib/adapters/mydealz';
 import { zahl } from '../src/lib/core/http';
-import { LM_LISTE, lmDetailSeite, lmListenSeite, MD_DEAL_ABGELAUFEN, MD_DEAL_AKTIV, MD_DEAL_BANNER, MD_DEAL_JSON, MD_RSS } from './fixtures';
+import { LM_BMW_LISTING, LM_LISTE, lmBmwSeite, lmDetailSeite, lmListenSeite, MD_DEAL_ABGELAUFEN, MD_DEAL_AKTIV, MD_DEAL_BANNER, MD_DEAL_JSON, MD_RSS } from './fixtures';
 
 test('zahl: deutsche Beträge', () => {
   assert.equal(zahl('1.590,00 €'), 1590);
@@ -138,4 +138,39 @@ test('mydealz: Deal-Seite abgelaufen / aktiv', () => {
   assert.deepEqual(leseDealSeite(MD_DEAL_AKTIV), { abgelaufen: false, temperatur: 412 });
   assert.equal(leseDealSeite(MD_DEAL_JSON, '2862711').abgelaufen, true);
   assert.equal(leseDealSeite(MD_DEAL_BANNER, '2862711').abgelaufen, true);
+});
+
+test('LeasingMarkt: Zusammenfassung der Angebotsseite (BMW 120, Fall vom 11.11.2026)', () => {
+  const w = leseSeitenwerte(lmBmwSeite());
+  assert.deepEqual(w, { netto: false, rate: 233.27, laufzeit: 48, km: 10000, anzahlung: 0, ueberfuehrung: 'enthalten', zulassung: 289, einmalGesamt: 289 });
+});
+
+test('LeasingMarkt: Kosten einzeln, Lieferoption und Händlerort', () => {
+  const d = leseDetail(lmBmwSeite());
+  assert.equal(d?.ueberfuehrungInklusive, true);
+  assert.equal(d?.lieferungOptional, 549);
+  assert.equal(d?.ort, '96215 Lichtenfels');
+  const a = angebotAus(LM_BMW_LISTING, 'bmw-1er', d);
+  assert.equal(a.einmalBrutto, 289);
+  assert.deepEqual(a.kosten, { anzahlung: 0, ueberfuehrung: 'enthalten', zulassung: 289, lieferungOptional: 549 });
+  assert.equal(a.zustand, 'gebraucht');
+  assert.equal(a.url, 'https://www.leasingmarkt.de/leasing/pkw/bmw-120/13276381?adVariant=39835299');
+  assert.equal(pruefeGegenSeite(a, d, 'x').ok, true);
+});
+
+test('LeasingMarkt: Gegenprüfung schlägt bei Abweichungen an', () => {
+  const pruef = (html: string) => {
+    const d = leseDetail(html);
+    return pruefeGegenSeite(angebotAus(LM_BMW_LISTING, 'bmw-1er', d), d, 'x');
+  };
+  assert.match(pruef(lmBmwSeite({ rateText: '249,90 €' })).hinweis, /Rate auf der Seite 249\.9/);
+  assert.match(pruef(lmBmwSeite({ gesamt: '838,00 €' })).hinweis, /Einmalkosten auf der Seite 838/);
+  // Seite zeigt „keine Angabe“: unbekannt – auch wenn die Rohdaten etwas anderes nahelegen
+  const html = lmBmwSeite({ ueberfuehrung: 'keine Angabe', transfer: null, gesamt: '289,00 €' });
+  const d = leseDetail(html);
+  const a = angebotAus(LM_BMW_LISTING, 'bmw-1er', d);
+  assert.equal(a.einmalBrutto, null);
+  assert.equal(pruefeGegenSeite(a, d, 'x').ok, false);
+  // Gewerbe-Seite zeigt netto: 196,03 € × 1,19 = 233,28 € → passt
+  assert.equal(pruef(lmBmwSeite({ mwst: 'zzgl.', rateText: '196,03 €', zulassung: '242,86 €', gesamt: '242,86 €' })).ok, true);
 });

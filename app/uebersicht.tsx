@@ -212,7 +212,21 @@ function Karte({ d, name }: { d: Deal; name: string }) {
         </div>
         <div>
           <dt>Einmalig</dt>
-          <dd>{d.einmalBrutto != null ? eur(d.einmalBrutto) : d.effektivQuelle != null ? 'in Effektivrate enthalten' : 'unbekannt'}</dd>
+          <dd>
+            {d.kosten
+              ? [
+                  ['Überführung', d.kosten.ueberfuehrung],
+                  ['Zulassung', d.kosten.zulassung],
+                  ['Anzahlung', d.kosten.anzahlung],
+                ]
+                  .map(([n, p]) => `${n} ${p === 'enthalten' ? 'enthalten' : p == null ? '–' : eur(p as number)}`)
+                  .join(' · ')
+              : d.einmalBrutto != null
+                ? eur(d.einmalBrutto)
+                : d.effektivQuelle != null
+                  ? 'in Effektivrate enthalten'
+                  : 'unbekannt'}
+          </dd>
         </div>
         <div>
           <dt>Vertrag</dt>
@@ -224,6 +238,7 @@ function Karte({ d, name }: { d: Deal; name: string }) {
           <dt>Faktoren</dt>
           <dd>
             GKF {b.gkf?.toFixed(2) ?? '–'} · LF {d.lf?.toFixed(2) ?? '–'}
+            {d.zustand === 'gebraucht' ? ' (Neupreis)' : ''}
           </dd>
         </div>
       </dl>
@@ -235,8 +250,12 @@ function Karte({ d, name }: { d: Deal; name: string }) {
         {d.listenpreis && <span>BLP {eur(d.listenpreis)}</span>}
         {d.temperatur != null && <span>{d.temperatur}°</span>}
         {d.haendler && d.quelle === 'mydealz' && <span>{d.haendler}</span>}
+        {d.ort && <span>📍 {d.ort}</span>}
+        {d.kosten?.lieferungOptional ? <span>Lieferung optional +{eur(d.kosten.lieferungOptional)}</span> : null}
       </div>
+      {d.zustand === 'gebraucht' && <p className="bedingung">⚠️ Gebrauchtwagen – Leasingfaktor bezieht sich auf den Neupreis</p>}
       {d.bedingungen.length > 0 && <p className="bedingung">⚠️ {d.bedingungen.join(' · ')}</p>}
+      {d.pruefung && <p className={d.pruefung.ok ? 'fuss' : 'bedingung'}>{d.pruefung.ok ? '✓ ' : '⚠️ '}{d.pruefung.hinweis}</p>}
       <p className="fuss">
         Gefunden {datum(d.erstGesehen)}
         {d.gemeldet ? ` · gemeldet ${datum(d.gemeldet)}` : ''}

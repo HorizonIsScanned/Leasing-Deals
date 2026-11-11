@@ -8,14 +8,15 @@
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { angebotAus, leseAngebotsseite, leseModellseiten, type LmDetail } from '../src/lib/adapters/leasingmarkt';
+import { angebotAus, leseAngebotsseite, leseModellseiten, pruefeGegenSeite, type LmDetail, type LmListing } from '../src/lib/adapters/leasingmarkt';
 import { angebotAusRss, leseFeed, pruefeDeal, type RssEintrag } from '../src/lib/adapters/mydealz';
 import { GesperrtError, Http } from '../src/lib/core/http';
 import type { Deal, Quelle, QuellenStand, Stand } from '../src/lib/core/types';
 import { lohntDetail } from '../src/lib/engine/calc';
 import { aufraeumen, fuehreZusammen, setzeStatus } from '../src/lib/engine/changes';
 import { kiErgaenze } from '../src/lib/engine/ki';
-import { melde, meldeKorrektur, sollKorrigieren, sollMelden } from '../src/lib/notify';
+import { geprueft, melde, meldeKorrektur, sollKorrigieren, sollMelden } from '../src/lib/notify';
+import type { Angebot, ModellId } from '../src/lib/core/types';
 
 const DATA = path.join(process.cwd(), 'data');
 const env = (k: string, d: number) => (process.env[k] ? Number(process.env[k]) : d);
@@ -57,9 +58,11 @@ async function main() {
       q.abfragen += lauf.abfragen;
       q.fehler.push(...lauf.fehler);
       let details = 0;
+      const listings = new Map<string, { listing: LmListing; modell: ModellId }>();
       for (const { listing, modell } of lauf.eintraege) {
         const id = `lm:${listing.id}`;
         gesehen.add(id);
+        listings.set(id, { listing, modell });
         const alt = deals.get(id);
         const bekannt: LmDetail | null = alt?.einmalBrutto != null ? { transferCosts: alt.einmalBrutto, registrationCosts: 0, downpayment: 0, offers: [], bank: alt.haendler } : null;
         let angebot = angebotAus(listing, modell, bekannt);
@@ -71,15 +74,23 @@ async function main() {
           details++;
           q.abfragen++;
           gelesen = true;
-          const d = await leseAngebotsseite(http, angebot.url);
-          if (d === 'weg') angebot = { ...angebot, status: 'weg' };
-          else if (d) angebot = angebotAus(listing, modell, d);
-          else q.fehler.push(`${angebot.url}: Einmalkosten nicht gefunden`);
+          angebot = await mitAngebotsseite(http, listing, modell, angebot, jetzt, q.fehler);
         }
         const neu = fuehreZusammen(alt, angebot, jetzt);
         if (gelesen) neu.detailGelesen = jetzt;
         deals.set(id, neu);
       }
+      // Vor jeder Meldung: Top-Angebote ohne frische Gegenprüfung (gleiche Rate) jetzt gegen die Angebotsseite prüfen
+      const ungeprueft = [...deals.values()].filter((d) => d.quelle === 'leasingmarkt' && d.status === 'aktiv' && d.bewertung.stufe === 'top' && !geprueft(d) && listings.has(d.id)).slice(0, 15);
+      for (const d of ungeprueft) {
+        const { listing, modell } = listings.get(d.id)!;
+        q.abfragen++;
+        const angebot = await mitAngebotsseite(http, listing, modell, angebotAus(listing, modell, null), jetzt, q.fehler);
+        const neu = fuehreZusammen(d, angebot, jetzt);
+        neu.detailGelesen = jetzt;
+        deals.set(d.id, neu);
+      }
+      if (ungeprueft.length) log(`Gegenprüfung: ${ungeprueft.length} Top-Angebote gegen die Angebotsseite geprüft`);
       // Bisherige Top-Angebote, die diesmal nicht in den Listen auftauchen: noch online?
       const offen = [...deals.values()].filter((d) => d.quelle === 'leasingmarkt' && d.status === 'aktiv' && d.bewertung.stufe === 'top' && !gesehen.has(d.id)).slice(0, 8);
       for (const d of offen) {
@@ -178,6 +189,30 @@ async function main() {
   writeFileSync(datei, `${JSON.stringify(liste, null, 1)}\n`);
   writeFileSync(path.join(DATA, 'stand.json'), `${JSON.stringify(stand, null, 2)}\n`);
   log(`Fertig: ${liste.length} Angebote, ${liste.filter((d) => d.bewertung.stufe === 'top' && d.status === 'aktiv').length} Top, ${gemeldet} gemeldet (${stand.dauerSek} s)`);
+}
+
+/**
+ * Angebotsseite lesen: Einmalkosten einzeln, Händlerort, Lieferoption – und Gegenprüfung gegen die Zusammenfassung der
+ * Seite. Wählt die Rechnung mit den echten Kosten eine andere Laufzeit/km-Variante, wird deren Seite erneut gelesen,
+ * damit Link, Prüfung und Meldung dieselbe Variante zeigen.
+ */
+async function mitAngebotsseite(http: Http, listing: LmListing, modell: ModellId, start: Angebot, jetzt: string, fehler: string[]): Promise<Angebot> {
+  let url = start.url;
+  for (let versuch = 0; versuch < 2; versuch++) {
+    const d = await leseAngebotsseite(http, url);
+    if (d === 'weg') return { ...start, status: 'weg' };
+    if (!d) {
+      fehler.push(`${url}: Angebotsseite nicht lesbar`);
+      return { ...start, pruefung: { datum: jetzt, ok: false, hinweis: 'Angebotsseite nicht lesbar', rate: start.rateBrutto } };
+    }
+    const a = angebotAus(listing, modell, d);
+    if (a.url !== url && versuch === 0) {
+      url = a.url;
+      continue;
+    }
+    return { ...a, pruefung: pruefeGegenSeite(a, d, jetzt) };
+  }
+  return start;
 }
 
 /** Sortierung: aktive Top-Angebote zuerst, dann nach Abstand zum Zielwert */

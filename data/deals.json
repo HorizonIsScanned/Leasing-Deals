@@ -40,9 +40,11 @@
    "grund": "157 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 157,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -95,7 +97,7 @@
    "grund": "207 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 206.67,
   "verlauf": [
@@ -110,204 +112,6 @@
     "neu": "206.67 €"
    }
   ]
- },
- {
-  "id": "lm:13200030",
-  "quelle": "leasingmarkt",
-  "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon 2.0 TSI DSG VZ Climatronic Navi LED PDC SHZ",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13200030",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 300,
-  "listenpreis": 45539,
-  "rateBrutto": 241,
-  "rateNetto": 202.52,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.53,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Volkswagen Bank GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 268.08,
-   "effNetto": 225.28,
-   "gkf": 0.59,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 300,
-    "ist": 268.08,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "268 € brutto effektiv, Ziel privat 300 € (Überführung geschätzt)"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 241,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "241.00 €"
-   },
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "gemeldet",
-    "neu": "241.00 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "241.00 €",
-    "neu": "268.08 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:12849724",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 M Sport Desing 18 RFK LED Navi CarPlay Lenkradheizung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12849724",
-  "kunden": "beide",
-  "zustand": "neu",
-  "ps": 170,
-  "listenpreis": 43260,
-  "rateBrutto": 214.95,
-  "rateNetto": 180.63,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.5,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 269.12,
-   "effNetto": 226.15,
-   "gkf": 0.62,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 226.15,
-    "basis": "netto"
-   },
-   "stufe": "gut",
-   "grund": "226 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-10T21:00:02.348Z",
-  "gemeldetWert": 180.63,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "291.44 €"
-   },
-   {
-    "datum": "2026-11-10T21:00:02.348Z",
-    "feld": "preis",
-    "alt": "291.44 €",
-    "neu": "180.63 €"
-   },
-   {
-    "datum": "2026-11-10T21:00:02.348Z",
-    "feld": "gemeldet",
-    "neu": "180.63 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "180.63 €",
-    "neu": "226.15 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:12826860",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 AHK RFK NAVI LED PDC V+H DAB Lenkradheizung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12826860",
-  "kunden": "beide",
-  "zustand": "neu",
-  "ps": 170,
-  "listenpreis": 41330,
-  "rateBrutto": 217.46,
-  "rateNetto": 182.74,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.53,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 271.63,
-   "effNetto": 228.26,
-   "gkf": 0.66,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 228.26,
-    "basis": "netto"
-   },
-   "stufe": "gut",
-   "grund": "228 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-10T21:00:02.348Z",
-  "gemeldetWert": 182.74,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "289.00 €"
-   },
-   {
-    "datum": "2026-11-10T21:00:02.348Z",
-    "feld": "preis",
-    "alt": "289.00 €",
-    "neu": "182.74 €"
-   },
-   {
-    "datum": "2026-11-10T21:00:02.348Z",
-    "feld": "gemeldet",
-    "neu": "182.74 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "182.74 €",
-    "neu": "228.26 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "md:2856062",
@@ -372,7 +176,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon Sportstourer VZ Black Edition 2.0 TSI 245 kW (333 PS) 7-Gang-DSG Loyalitätsangebot!",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13340267",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13340267?adVariant=39177813",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 333,
@@ -408,9 +212,11 @@
    "grund": "217 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 216.78,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -421,6 +227,474 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "216.78 €"
+   }
+  ]
+ },
+ {
+  "id": "md:2865799",
+  "quelle": "mydealz",
+  "modell": "bmw-1er",
+  "titel": "[Privatleasing] BMW 120 | 170 PS | 24 M | 15.000km p.a.; 229,83 € | LF 0.59 & GF 0.69",
+  "url": "https://www.mydealz.de/deals/privatleasing-bmw-120-170-ps-24-m-15000km-pa-22983-eur-lf-059-2865799",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 170,
+  "listenpreis": 39150,
+  "rateBrutto": 229.83,
+  "rateNetto": 193.13,
+  "laufzeit": 24,
+  "kmJahr": 15000,
+  "einmalBrutto": 974,
+  "effektivQuelle": 229.83,
+  "effektivQuelleNetto": false,
+  "lf": 0.59,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Null-Leasing.com",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": "2026-11-06T10:00:42.000Z",
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 229.83,
+   "effNetto": 193.13,
+   "gkf": 0.59,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 260,
+    "ist": 229.83,
+    "basis": "brutto"
+   },
+   "stufe": "top",
+   "grund": "230 € brutto effektiv, Ziel privat 260 €"
+  },
+  "erstGesehen": "2026-11-06T13:14:38.424Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-06T13:14:38.424Z",
+  "gemeldetWert": 229.83,
+  "detailGelesen": null,
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-06T13:14:38.424Z",
+    "feld": "neu",
+    "neu": "229.83 €"
+   },
+   {
+    "datum": "2026-11-06T13:14:38.424Z",
+    "feld": "gemeldet",
+    "neu": "229.83 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13342515",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon Sportstourer 2.0 TSI 245kW VZ DSG",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13342515",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 333,
+  "listenpreis": 62145,
+  "rateBrutto": 199,
+  "rateNetto": 167.23,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": 1590,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.32,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [
+   "Loyalität (eigenes Fahrzeug der Marke nötig)"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 265.25,
+   "effNetto": 222.9,
+   "gkf": 0.43,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 300,
+    "ist": 265.25,
+    "basis": "brutto"
+   },
+   "stufe": "top",
+   "grund": "265 € brutto effektiv, Ziel privat 300 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 265.25,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "265.25 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "265.25 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13334546",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon 🚨LOYALITÄT🚨INKL. KASKOVERSICHERUNG🚨Cupra Leon Sportstourer VZ 2.0 TSI DSG 4Drive",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13334546?adVariant=38991270",
+  "kunden": "gewerbe",
+  "zustand": "vorlauf",
+  "ps": 333,
+  "listenpreis": 55070,
+  "rateBrutto": 197.54,
+  "rateNetto": 166,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": 1684,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.36,
+  "verfuegbarkeit": "12/2026",
+  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [
+   "Loyalität (eigenes Fahrzeug der Marke nötig)",
+   "inkl. Versicherung"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 267.71,
+   "effNetto": 224.96,
+   "gkf": 0.49,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 250,
+    "ist": 224.96,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "225 € netto effektiv, Ziel gewerbe 250 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 224.96,
+  "detailGelesen": null,
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "224.96 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "224.96 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13261737",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 🚀NW Aktion🚀 ⚡️BestellAKTION⚡️❗️Begrenzte Anzahl❗️ Zul. bis 30.03.2027",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13261737",
+  "kunden": "beide",
+  "zustand": "neu",
+  "ps": 170,
+  "listenpreis": 39150,
+  "rateBrutto": 214.42,
+  "rateNetto": 180.18,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": 974,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.55,
+  "verfuegbarkeit": "01/2027",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [
+   "Bestellfahrzeug"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": "2026-11-05T09:34:20.000000Z",
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 255,
+   "effNetto": 214.28,
+   "gkf": 0.65,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 214.28,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 214.28,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "214.28 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "214.28 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13303893",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 116 Diesel Sport Line 85 - inkl. Haustürlieferung",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13303893?adVariant=37946345",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 116,
+  "listenpreis": 38800,
+  "rateBrutto": 255,
+  "rateNetto": 214.29,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 0,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.66,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "ARVAL Deutschland GmbH, Bajuwarenring 5, 82041 Oberhaching",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 255,
+   "effNetto": 214.29,
+   "gkf": 0.66,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 214.29,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 214.29,
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "237.05 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "237.05 €",
+    "neu": "214.29 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "214.29 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13284172",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon VZ Extreme 4 Drive Sportstourer | Gewerbe | Vorbestellte Fahrzeuge",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13284172?adVariant=37335253",
+  "kunden": "gewerbe",
+  "zustand": "vorlauf",
+  "ps": 333,
+  "listenpreis": 66890,
+  "rateBrutto": 224.91,
+  "rateNetto": 189,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": 1599,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.34,
+  "verfuegbarkeit": "01/2027",
+  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [
+   "Bestellfahrzeug"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": "2026-10-15T14:37:38.000000Z",
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 291.53,
+   "effNetto": 244.99,
+   "gkf": 0.44,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 250,
+    "ist": 244.99,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "245 € netto effektiv, Ziel gewerbe 250 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 244.99,
+  "detailGelesen": null,
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "244.99 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "244.99 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13200030",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon 2.0 TSI DSG VZ Climatronic Navi LED PDC SHZ",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13200030",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 300,
+  "listenpreis": 45539,
+  "rateBrutto": 241,
+  "rateNetto": 202.52,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.53,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Bank GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 268.08,
+   "effNetto": 225.28,
+   "gkf": 0.59,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 300,
+    "ist": 268.08,
+    "basis": "brutto"
+   },
+   "stufe": "gut",
+   "grund": "268 € brutto effektiv, Ziel privat 300 € (Überführung geschätzt)"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 241,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "241.00 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "241.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "241.00 €",
+    "neu": "268.08 € (Überführung unbekannt, geschätzt)"
+   }
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z"
+ },
+ {
+  "id": "lm:12935438",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 116 AB 149,-€ netto Exklusives Angebot für Fahrschulen",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/12935438",
+  "kunden": "gewerbe",
+  "zustand": "neu",
+  "ps": 122,
+  "listenpreis": 34250,
+  "rateBrutto": 213.61,
+  "rateNetto": 179.5,
+  "laufzeit": 36,
+  "kmJahr": 10000,
+  "einmalBrutto": 990,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.62,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [
+   "Nur für bestimmte Gruppen"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 241.11,
+   "effNetto": 202.61,
+   "gkf": 0.7,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 202.61,
+    "basis": "netto"
+   },
+   "stufe": "gut",
+   "grund": "203 € netto effektiv, Ziel gewerbe 220 € (nur für bestimmte Gruppen)"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-06T13:14:38.424Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "202.61 €"
    }
   ]
  },
@@ -490,119 +764,8 @@
     "neu": "411.33 € (Überführung unbekannt, geschätzt)"
    }
   ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "md:2865799",
-  "quelle": "mydealz",
-  "modell": "bmw-1er",
-  "titel": "[Privatleasing] BMW 120 | 170 PS | 24 M | 15.000km p.a.; 229,83 € | LF 0.59 & GF 0.69",
-  "url": "https://www.mydealz.de/deals/privatleasing-bmw-120-170-ps-24-m-15000km-pa-22983-eur-lf-059-2865799",
-  "kunden": "privat",
-  "zustand": "neu",
-  "ps": 170,
-  "listenpreis": 39150,
-  "rateBrutto": 229.83,
-  "rateNetto": 193.13,
-  "laufzeit": 24,
-  "kmJahr": 15000,
-  "einmalBrutto": 974,
-  "effektivQuelle": 229.83,
-  "effektivQuelleNetto": false,
-  "lf": 0.59,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Null-Leasing.com",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": "2026-11-06T10:00:42.000Z",
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 229.83,
-   "effNetto": 193.13,
-   "gkf": 0.59,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 260,
-    "ist": 229.83,
-    "basis": "brutto"
-   },
-   "stufe": "top",
-   "grund": "230 € brutto effektiv, Ziel privat 260 €"
-  },
-  "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-06T13:14:38.424Z",
-  "gemeldetWert": 229.83,
-  "verlauf": [
-   {
-    "datum": "2026-11-06T13:14:38.424Z",
-    "feld": "neu",
-    "neu": "229.83 €"
-   },
-   {
-    "datum": "2026-11-06T13:14:38.424Z",
-    "feld": "gemeldet",
-    "neu": "229.83 €"
-   }
-  ]
- },
- {
-  "id": "lm:13342515",
-  "quelle": "leasingmarkt",
-  "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon Sportstourer 2.0 TSI 245kW VZ DSG",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13342515",
-  "kunden": "privat",
-  "zustand": "neu",
-  "ps": 333,
-  "listenpreis": 62145,
-  "rateBrutto": 199,
-  "rateNetto": 167.23,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": 1590,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.32,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [
-   "Loyalität (eigenes Fahrzeug der Marke nötig)"
-  ],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 265.25,
-   "effNetto": 222.9,
-   "gkf": 0.43,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 300,
-    "ist": 265.25,
-    "basis": "brutto"
-   },
-   "stufe": "top",
-   "grund": "265 € brutto effektiv, Ziel privat 300 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 265.25,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "265.25 €"
-   },
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "gemeldet",
-    "neu": "265.25 €"
-   }
-  ]
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z"
  },
  {
   "id": "lm:13077707",
@@ -664,425 +827,412 @@
     "neu": "257.08 € (Überführung unbekannt, geschätzt)"
    }
   ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z"
  },
  {
-  "id": "lm:13334546",
+  "id": "lm:13357260",
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon 🚨LOYALITÄT🚨INKL. KASKOVERSICHERUNG🚨Cupra Leon Sportstourer VZ 2.0 TSI DSG 4Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13334546",
-  "kunden": "gewerbe",
-  "zustand": "vorlauf",
+  "titel": "Cupra Leon Leon Sportstourer VZ Tribe Edition 245 kW (333 PS) 7-Gang-DSG *sofort verfügbar*",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13357260?adVariant=39740370",
+  "kunden": "beide",
+  "zustand": "gebraucht",
   "ps": 333,
-  "listenpreis": 55070,
-  "rateBrutto": 197.54,
-  "rateNetto": 166,
+  "listenpreis": 64235,
+  "rateBrutto": 299,
+  "rateNetto": 251.26,
   "laufzeit": 24,
   "kmJahr": 10000,
-  "einmalBrutto": 1684,
+  "einmalBrutto": 160,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
-  "lf": 0.36,
-  "verfuegbarkeit": "12/2026",
+  "lf": 0.47,
+  "verfuegbarkeit": "Sofort",
   "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [
-   "Loyalität (eigenes Fahrzeug der Marke nötig)",
-   "inkl. Versicherung"
-  ],
+  "bedingungen": [],
   "temperatur": null,
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 267.71,
-   "effNetto": 224.96,
-   "gkf": 0.49,
+   "effBrutto": 305.67,
+   "effNetto": 256.86,
+   "gkf": 0.48,
    "geschaetzt": false,
    "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 250,
-    "ist": 224.96,
-    "basis": "netto"
+    "gruppe": "privat",
+    "wert": 300,
+    "ist": 305.67,
+    "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "225 € netto effektiv, Ziel gewerbe 250 €"
+   "stufe": "gut",
+   "grund": "306 € brutto effektiv, Ziel privat 300 €"
   },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 224.96,
+  "erstGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
-    "datum": "2026-11-05T13:09:48.170Z",
+    "datum": "2026-11-10T13:46:39.480Z",
     "feld": "neu",
-    "neu": "224.96 €"
-   },
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "gemeldet",
-    "neu": "224.96 €"
+    "neu": "305.67 €"
    }
   ]
  },
  {
-  "id": "lm:13337942",
+  "id": "lm:12827282",
   "quelle": "leasingmarkt",
-  "modell": "audi-a3",
-  "titel": "Audi A3 Sportback 30 TDI S-LINE*NAVI-PLUS*AHK*PDC*SHZ*VIRTUAL",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13337942",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Sportback 2.0 TFSI quattro Akrapovic*360*Matri",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12827282?adVariant=34548219",
   "kunden": "beide",
   "zustand": "gebraucht",
-  "ps": 116,
-  "listenpreis": 46747,
-  "rateBrutto": 210,
-  "rateNetto": 176.47,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.45,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Audi Bank/Leasing Zweigniederlassungen der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 264.17,
-   "effNetto": 221.99,
-   "gkf": 0.57,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 230,
-    "ist": 264.17,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "264 € brutto effektiv, Ziel privat 230 €"
-  },
-  "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-06T13:14:38.424Z",
-  "gemeldetWert": 210,
-  "verlauf": [
-   {
-    "datum": "2026-11-06T13:14:38.424Z",
-    "feld": "neu",
-    "neu": "210.00 €"
-   },
-   {
-    "datum": "2026-11-06T13:14:38.424Z",
-    "feld": "gemeldet",
-    "neu": "210.00 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "210.00 €",
-    "neu": "264.17 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:12824524",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 M SPORT | NAVI | LED | RFK | PDC V+H | TEMPOMAT",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12824524",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 170,
-  "listenpreis": 43260,
-  "rateBrutto": 245.75,
-  "rateNetto": 206.51,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.57,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 299.92,
-   "effNetto": 252.03,
-   "gkf": 0.69,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 252.03,
-    "basis": "netto"
-   },
-   "stufe": "normal",
-   "grund": "252 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-09T23:34:51.891Z",
-  "gemeldetWert": 206.51,
-  "verlauf": [
-   {
-    "datum": "2026-11-09T23:34:51.891Z",
-    "feld": "neu",
-    "neu": "206.51 €"
-   },
-   {
-    "datum": "2026-11-09T23:34:51.891Z",
-    "feld": "gemeldet",
-    "neu": "206.51 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "206.51 €",
-    "neu": "252.03 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:13334360",
-  "quelle": "leasingmarkt",
-  "modell": "audi-a3",
-  "titel": "Audi A3 Sportback 30 TDI advanced*NAVI-PLUS*STHZG*PDC*SHZ*18ZOLL",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13334360",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 116,
-  "listenpreis": 45510,
-  "rateBrutto": 219,
-  "rateNetto": 184.03,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.48,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Audi Bank/Leasing Zweigniederlassungen der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 273.17,
-   "effNetto": 229.55,
-   "gkf": 0.6,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 230,
-    "ist": 273.17,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "273 € brutto effektiv, Ziel privat 230 €"
-  },
-  "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-06T13:14:38.424Z",
-  "gemeldetWert": 219,
-  "verlauf": [
-   {
-    "datum": "2026-11-06T13:14:38.424Z",
-    "feld": "neu",
-    "neu": "219.00 €"
-   },
-   {
-    "datum": "2026-11-06T13:14:38.424Z",
-    "feld": "gemeldet",
-    "neu": "219.00 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "219.00 €",
-    "neu": "273.17 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:13261737",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 🚀NW Aktion🚀 ⚡️BestellAKTION⚡️❗️Begrenzte Anzahl❗️ Zul. bis 30.03.2027",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13261737",
-  "kunden": "beide",
-  "zustand": "neu",
-  "ps": 170,
-  "listenpreis": 39150,
-  "rateBrutto": 214.42,
-  "rateNetto": 180.18,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": 974,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.55,
-  "verfuegbarkeit": "01/2027",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [
-   "Bestellfahrzeug"
-  ],
-  "temperatur": null,
-  "veroeffentlicht": "2026-11-05T09:34:20.000000Z",
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 255,
-   "effNetto": 214.28,
-   "gkf": 0.65,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 214.28,
-    "basis": "netto"
-   },
-   "stufe": "top",
-   "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-09T14:21:28.471Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 214.28,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "214.28 €"
-   },
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "gemeldet",
-    "neu": "214.28 €"
-   }
-  ]
- },
- {
-  "id": "lm:13303893",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 116 Diesel Sport Line 85 - inkl. Haustürlieferung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13303893",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 116,
-  "listenpreis": 38800,
-  "rateBrutto": 255,
-  "rateNetto": 214.29,
+  "ps": 333,
+  "listenpreis": 71250,
+  "rateBrutto": 429,
+  "rateNetto": 360.5,
   "laufzeit": 48,
   "kmJahr": 10000,
   "einmalBrutto": 0,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
-  "lf": 0.66,
+  "lf": 0.6,
   "verfuegbarkeit": "Sofort",
-  "haendler": "ARVAL Deutschland GmbH, Bajuwarenring 5, 82041 Oberhaching",
+  "haendler": "Audi Leasing, Zweigniederlassung der Volkswagen Leasing GmbH, Gifhorner Str. 57, 38112 Braunschweig",
   "bedingungen": [],
   "temperatur": null,
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 255,
-   "effNetto": 214.29,
-   "gkf": 0.66,
+   "effBrutto": 429,
+   "effNetto": 360.5,
+   "gkf": 0.6,
    "geschaetzt": false,
    "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 214.29,
-    "basis": "netto"
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 429,
+    "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
+   "stufe": "gut",
+   "grund": "429 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 214.29,
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
-    "neu": "237.05 €"
+    "neu": "456.08 €"
    },
    {
     "datum": "2026-11-05T13:34:30.604Z",
     "feld": "preis",
-    "alt": "237.05 €",
-    "neu": "214.29 €"
-   },
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "gemeldet",
-    "neu": "214.29 €"
+    "alt": "456.08 €",
+    "neu": "429.00 €"
    }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
+  ]
  },
  {
-  "id": "lm:13284172",
+  "id": "lm:13303914",
   "quelle": "leasingmarkt",
-  "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon VZ Extreme 4 Drive Sportstourer | Gewerbe | Vorbestellte Fahrzeuge",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13284172",
-  "kunden": "gewerbe",
-  "zustand": "vorlauf",
-  "ps": 333,
-  "listenpreis": 66890,
-  "rateBrutto": 224.91,
-  "rateNetto": 189,
-  "laufzeit": 24,
+  "modell": "bmw-1er",
+  "titel": "BMW 120 Diesel Advantage 140 - inkl. Haustürlieferung",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13303914?adVariant=37946399",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 190,
+  "listenpreis": 41600,
+  "rateBrutto": 268,
+  "rateNetto": 225.21,
+  "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 1599,
+  "einmalBrutto": 0,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
-  "lf": 0.34,
-  "verfuegbarkeit": "01/2027",
-  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [
-   "Bestellfahrzeug"
-  ],
+  "lf": 0.64,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "arva",
+  "bedingungen": [],
   "temperatur": null,
-  "veroeffentlicht": "2026-10-15T14:37:38.000000Z",
+  "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 291.53,
-   "effNetto": 244.99,
-   "gkf": 0.44,
+   "effBrutto": 268,
+   "effNetto": 225.21,
+   "gkf": 0.64,
    "geschaetzt": false,
    "ziel": {
     "gruppe": "gewerbe",
-    "wert": 250,
-    "ist": 244.99,
+    "wert": 220,
+    "ist": 225.21,
     "basis": "netto"
    },
-   "stufe": "top",
-   "grund": "245 € netto effektiv, Ziel gewerbe 250 €"
+   "stufe": "gut",
+   "grund": "225 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 244.99,
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
-    "neu": "244.99 €"
+    "neu": "247.97 €"
    },
    {
-    "datum": "2026-11-05T19:10:02.013Z",
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "247.97 €",
+    "neu": "225.21 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13349958",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon VZ Black Edition TSI 239 kW (325 PS) 7-Gang-DSG",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349958",
+  "kunden": "gewerbe",
+  "zustand": "neu",
+  "ps": 325,
+  "listenpreis": 55755,
+  "rateBrutto": 248.71,
+  "rateNetto": 209,
+  "laufzeit": 30,
+  "kmJahr": 10000,
+  "einmalBrutto": 1689,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.45,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 305.01,
+   "effNetto": 256.31,
+   "gkf": 0.55,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 250,
+    "ist": 256.31,
+    "basis": "netto"
+   },
+   "stufe": "gut",
+   "grund": "256 € netto effektiv, Ziel gewerbe 250 €"
+  },
+  "erstGesehen": "2026-11-07T17:51:31.494Z",
+  "zuletztGesehen": "2026-11-09T01:58:42.716Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-07T17:51:31.494Z",
+    "feld": "neu",
+    "neu": "256.31 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12849724",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 M Sport Desing 18 RFK LED Navi CarPlay Lenkradheizung",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12849724?adVariant=34604765",
+  "kunden": "beide",
+  "zustand": "neu",
+  "ps": 170,
+  "listenpreis": 43260,
+  "rateBrutto": 214.95,
+  "rateNetto": 180.63,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.5,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 269.12,
+   "effNetto": 226.15,
+   "gkf": 0.62,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 226.15,
+    "basis": "netto"
+   },
+   "stufe": "gut",
+   "grund": "226 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-10T21:00:02.348Z",
+  "gemeldetWert": 180.63,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z",
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "291.44 €"
+   },
+   {
+    "datum": "2026-11-10T21:00:02.348Z",
+    "feld": "preis",
+    "alt": "291.44 €",
+    "neu": "180.63 €"
+   },
+   {
+    "datum": "2026-11-10T21:00:02.348Z",
     "feld": "gemeldet",
-    "neu": "244.99 €"
+    "neu": "180.63 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "180.63 €",
+    "neu": "226.15 € (Überführung unbekannt, geschätzt)"
+   }
+  ]
+ },
+ {
+  "id": "lm:13300997",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon Leon Sportstourer VZ 2.0 TSI DSG, RFK, NAVI",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13300997",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 300,
+  "listenpreis": 48580,
+  "rateBrutto": 310,
+  "rateNetto": 260.5,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.64,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 310,
+   "effNetto": 260.5,
+   "gkf": 0.64,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 300,
+    "ist": 310,
+    "basis": "brutto"
+   },
+   "stufe": "gut",
+   "grund": "310 € brutto effektiv, Ziel privat 300 €"
+  },
+  "erstGesehen": "2026-11-05T19:10:02.013Z",
+  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "neu",
+    "neu": "310.00 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12826860",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 AHK RFK NAVI LED PDC V+H DAB Lenkradheizung",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12826860?adVariant=34546709",
+  "kunden": "beide",
+  "zustand": "neu",
+  "ps": 170,
+  "listenpreis": 41330,
+  "rateBrutto": 217.46,
+  "rateNetto": 182.74,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.53,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 271.63,
+   "effNetto": 228.26,
+   "gkf": 0.66,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 228.26,
+    "basis": "netto"
+   },
+   "stufe": "gut",
+   "grund": "228 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-10T21:00:02.348Z",
+  "gemeldetWert": 182.74,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z",
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "289.00 €"
+   },
+   {
+    "datum": "2026-11-10T21:00:02.348Z",
+    "feld": "preis",
+    "alt": "289.00 €",
+    "neu": "182.74 €"
+   },
+   {
+    "datum": "2026-11-10T21:00:02.348Z",
+    "feld": "gemeldet",
+    "neu": "182.74 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "182.74 €",
+    "neu": "228.26 € (Überführung unbekannt, geschätzt)"
    }
   ]
  },
@@ -1152,496 +1302,15 @@
     "neu": "439.08 € (Überführung unbekannt, geschätzt)"
    }
   ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:13199411",
-  "quelle": "leasingmarkt",
-  "modell": "golf-gti",
-  "titel": "Volkswagen Golf VIII 2.0 TSI *GTI* 🚨Bitte Beschreibung lesen🚨",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13199411",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 245,
-  "listenpreis": 43220,
-  "rateBrutto": 259,
-  "rateNetto": 217.65,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.6,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 286.08,
-   "effNetto": 240.41,
-   "gkf": 0.66,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 260,
-    "ist": 286.08,
-    "basis": "brutto"
-   },
-   "stufe": "normal",
-   "grund": "286 € brutto effektiv, Ziel privat 260 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": "2026-11-05T19:10:02.013Z",
-  "gemeldetWert": 259,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "259.00 €"
-   },
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "gemeldet",
-    "neu": "259.00 €"
-   },
-   {
-    "datum": "2026-11-11T08:22:39.802Z",
-    "feld": "preis",
-    "alt": "259.00 €",
-    "neu": "286.08 € (Überführung unbekannt, geschätzt)"
-   }
-  ],
-  "detailGelesen": "2026-11-11T08:22:39.802Z"
- },
- {
-  "id": "lm:12935438",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 116 AB 149,-€ netto Exklusives Angebot für Fahrschulen",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/12935438",
-  "kunden": "gewerbe",
-  "zustand": "neu",
-  "ps": 122,
-  "listenpreis": 34250,
-  "rateBrutto": 213.61,
-  "rateNetto": 179.5,
-  "laufzeit": 36,
-  "kmJahr": 10000,
-  "einmalBrutto": 990,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.62,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [
-   "Nur für bestimmte Gruppen"
-  ],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 241.11,
-   "effNetto": 202.61,
-   "gkf": 0.7,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 202.61,
-    "basis": "netto"
-   },
-   "stufe": "gut",
-   "grund": "203 € netto effektiv, Ziel gewerbe 220 € (nur für bestimmte Gruppen)"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-06T13:14:38.424Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "202.61 €"
-   }
-  ]
- },
- {
-  "id": "lm:13357260",
-  "quelle": "leasingmarkt",
-  "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon Leon Sportstourer VZ Tribe Edition 245 kW (333 PS) 7-Gang-DSG *sofort verfügbar*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13357260",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 333,
-  "listenpreis": 64235,
-  "rateBrutto": 299,
-  "rateNetto": 251.26,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": 160,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.47,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 305.67,
-   "effNetto": 256.86,
-   "gkf": 0.48,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 300,
-    "ist": 305.67,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "306 € brutto effektiv, Ziel privat 300 €"
-  },
-  "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-10T13:46:39.480Z",
-    "feld": "neu",
-    "neu": "305.67 €"
-   }
-  ]
- },
- {
-  "id": "lm:12827282",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 Sportback 2.0 TFSI quattro Akrapovic*360*Matri",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12827282",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 333,
-  "listenpreis": 71250,
-  "rateBrutto": 429,
-  "rateNetto": 360.5,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": 0,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.6,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Audi Leasing, Zweigniederlassung der Volkswagen Leasing GmbH, Gifhorner Str. 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 429,
-   "effNetto": 360.5,
-   "gkf": 0.6,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 429,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "429 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "456.08 €"
-   },
-   {
-    "datum": "2026-11-05T13:34:30.604Z",
-    "feld": "preis",
-    "alt": "456.08 €",
-    "neu": "429.00 €"
-   }
-  ]
- },
- {
-  "id": "lm:13318917",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 RFK+SHZ+PA+ADAPT. LED+DAB",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13318917",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 156,
-  "listenpreis": 41319,
-  "rateBrutto": 267.82,
-  "rateNetto": 225.06,
-  "laufzeit": 30,
-  "kmJahr": 10000,
-  "einmalBrutto": 0,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.65,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 267.82,
-   "effNetto": 225.06,
-   "gkf": 0.65,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 225.06,
-    "basis": "netto"
-   },
-   "stufe": "gut",
-   "grund": "225 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "269.86 €"
-   },
-   {
-    "datum": "2026-11-10T21:00:02.348Z",
-    "feld": "preis",
-    "alt": "269.86 €",
-    "neu": "225.06 €"
-   }
-  ]
- },
- {
-  "id": "lm:13303914",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 Diesel Advantage 140 - inkl. Haustürlieferung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13303914",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 190,
-  "listenpreis": 41600,
-  "rateBrutto": 268,
-  "rateNetto": 225.21,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": 0,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.64,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "arva",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 268,
-   "effNetto": 225.21,
-   "gkf": 0.64,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 225.21,
-    "basis": "netto"
-   },
-   "stufe": "gut",
-   "grund": "225 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "247.97 €"
-   },
-   {
-    "datum": "2026-11-05T13:34:30.604Z",
-    "feld": "preis",
-    "alt": "247.97 €",
-    "neu": "225.21 €"
-   }
-  ]
- },
- {
-  "id": "lm:13349958",
-  "quelle": "leasingmarkt",
-  "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon VZ Black Edition TSI 239 kW (325 PS) 7-Gang-DSG",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349958",
-  "kunden": "gewerbe",
-  "zustand": "neu",
-  "ps": 325,
-  "listenpreis": 55755,
-  "rateBrutto": 248.71,
-  "rateNetto": 209,
-  "laufzeit": 30,
-  "kmJahr": 10000,
-  "einmalBrutto": 1689,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.45,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 305.01,
-   "effNetto": 256.31,
-   "gkf": 0.55,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 250,
-    "ist": 256.31,
-    "basis": "netto"
-   },
-   "stufe": "gut",
-   "grund": "256 € netto effektiv, Ziel gewerbe 250 €"
-  },
-  "erstGesehen": "2026-11-07T17:51:31.494Z",
-  "zuletztGesehen": "2026-11-09T01:58:42.716Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-07T17:51:31.494Z",
-    "feld": "neu",
-    "neu": "256.31 €"
-   }
-  ]
- },
- {
-  "id": "lm:13358758",
-  "quelle": "leasingmarkt",
-  "modell": "audi-a3",
-  "titel": "Audi A3 allstreet TFSI LED AHK virt. Cock.+ Stdhzg.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358758",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 150,
-  "listenpreis": 47435,
-  "rateBrutto": 237,
-  "rateNetto": 199.16,
-  "laufzeit": 36,
-  "kmJahr": 10000,
-  "einmalBrutto": 0,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.5,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Volkswagen Leasing GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 237,
-   "effNetto": 199.16,
-   "gkf": 0.5,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 230,
-    "ist": 237,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "237 € brutto effektiv, Ziel privat 230 €"
-  },
-  "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-10T21:00:02.348Z",
-    "feld": "neu",
-    "neu": "237.00 €"
-   }
-  ]
- },
- {
-  "id": "lm:13300997",
-  "quelle": "leasingmarkt",
-  "modell": "cupra-leon-vz",
-  "titel": "Cupra Leon Leon Sportstourer VZ 2.0 TSI DSG, RFK, NAVI",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13300997",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 300,
-  "listenpreis": 48580,
-  "rateBrutto": 310,
-  "rateNetto": 260.5,
-  "laufzeit": 48,
-  "kmJahr": 10000,
-  "einmalBrutto": 0,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.64,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "SEAT Bank/Leasing Zweigniederlassung der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 310,
-   "effNetto": 260.5,
-   "gkf": 0.64,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 300,
-    "ist": 310,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "310 € brutto effektiv, Ziel privat 300 €"
-  },
-  "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T19:10:02.013Z",
-    "feld": "neu",
-    "neu": "310.00 €"
-   }
-  ]
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z"
  },
  {
   "id": "lm:12180764",
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI DSG+AHK❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12180764",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12180764?adVariant=34652366",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -1675,9 +1344,11 @@
    "grund": "273 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -1697,7 +1368,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 116 AKTION !!! Adaptive LED-Scheinwerfer - Lenkradheizung - Driving Assistant",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13353830",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13353830?adVariant=39643167",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 122,
@@ -1731,9 +1402,11 @@
    "grund": "234 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -1756,7 +1429,7 @@
   "rateNetto": 235.65,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.69,
@@ -1803,7 +1476,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI DSG❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12596344",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12596344?adVariant=34651440",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -1837,70 +1510,16 @@
    "grund": "279 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
     "feld": "neu",
     "neu": "279.17 €"
-   }
-  ]
- },
- {
-  "id": "lm:13211698",
-  "quelle": "leasingmarkt",
-  "modell": "audi-s3",
-  "titel": "Audi S3 Limousine TFSI S tr. RFK MATRIX NAVI HUD B&O",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13211698",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 310,
-  "listenpreis": 67390,
-  "rateBrutto": 453,
-  "rateNetto": 380.67,
-  "laufzeit": 24,
-  "kmJahr": 10000,
-  "einmalBrutto": 0,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.67,
-  "verfuegbarkeit": "Sofort",
-  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 453,
-   "effNetto": 380.67,
-   "gkf": 0.67,
-   "geschaetzt": false,
-   "ziel": {
-    "gruppe": "privat",
-    "wert": 420,
-    "ist": 453,
-    "basis": "brutto"
-   },
-   "stufe": "gut",
-   "grund": "453 € brutto effektiv, Ziel privat 420 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "481.08 €"
-   },
-   {
-    "datum": "2026-11-05T13:34:30.604Z",
-    "feld": "preis",
-    "alt": "481.08 €",
-    "neu": "453.00 €"
    }
   ]
  },
@@ -2059,7 +1678,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 ⚡Top Angebot für Gewerbekunden⚡",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13296189",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13296189?adVariant=37754300",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 170,
@@ -2093,9 +1712,11 @@
    "grund": "238 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -2109,7 +1730,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon (Gebraucht) Sportstourer VZ 2.0 TSI 4Drive DSG (UVP 58.900 €) MATRIX|BEATS|VISION|SUPERSPORT|UVM.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13053952",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13053952?adVariant=35418820",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 310,
@@ -2143,9 +1764,11 @@
    "grund": "326 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -2174,7 +1797,7 @@
   "rateNetto": 238,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.54,
@@ -2215,7 +1838,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI DSG❗Sofort-Verfügbar❗Bayreuth📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12596348",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12596348?adVariant=34651484",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -2249,9 +1872,11 @@
    "grund": "284 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -2263,6 +1888,69 @@
     "feld": "preis",
     "alt": "375.75 €",
     "neu": "284.17 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13199411",
+  "quelle": "leasingmarkt",
+  "modell": "golf-gti",
+  "titel": "Volkswagen Golf VIII 2.0 TSI *GTI* 🚨Bitte Beschreibung lesen🚨",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13199411?adVariant=38332865",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 245,
+  "listenpreis": 43220,
+  "rateBrutto": 259,
+  "rateNetto": 217.65,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.6,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 286.08,
+   "effNetto": 240.41,
+   "gkf": 0.66,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 260,
+    "ist": 286.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "286 € brutto effektiv, Ziel privat 260 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-05T19:10:02.013Z",
+  "gemeldetWert": 259,
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z",
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "259.00 €"
+   },
+   {
+    "datum": "2026-11-05T19:10:02.013Z",
+    "feld": "gemeldet",
+    "neu": "259.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "259.00 €",
+    "neu": "286.08 € (Überführung unbekannt, geschätzt)"
    }
   ]
  },
@@ -2280,7 +1968,7 @@
   "rateNetto": 389.92,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.76,
@@ -2377,7 +2065,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon 2.0 TSI VZ 4WD Sportstourer | Privat",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349653",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349653?adVariant=39376635",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 333,
@@ -2413,9 +2101,11 @@
    "grund": "336 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -2479,7 +2169,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 2.0 16V TFSI*Matrix*ACC*Head-Up*Sonos*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13144627",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13144627?adVariant=35726531",
   "kunden": "privat",
   "zustand": "gebraucht",
   "ps": 333,
@@ -2513,9 +2203,11 @@
    "grund": "470 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -2635,7 +2327,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon Sportstourer VZ Black Edition 1.5 e-HYBRID 200 kW (272 PS) 6-Gang-DSG Loyalitätsangebot!",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13340255",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13340255?adVariant=39177802",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 272,
@@ -2671,14 +2363,80 @@
    "grund": "284 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-09T14:21:28.471Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "283.78 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13318917",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 RFK+SHZ+PA+ADAPT. LED+DAB",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13318917?adVariant=38530176",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 156,
+  "listenpreis": 41319,
+  "rateBrutto": 270.69,
+  "rateNetto": 227.47,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.66,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 297.77,
+   "effNetto": 250.23,
+   "gkf": 0.72,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 250.23,
+    "basis": "netto"
+   },
+   "stufe": "normal",
+   "grund": "250 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "269.86 €"
+   },
+   {
+    "datum": "2026-11-10T21:00:02.348Z",
+    "feld": "preis",
+    "alt": "269.86 €",
+    "neu": "225.06 €"
+   },
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "preis",
+    "alt": "225.06 €",
+    "neu": "250.23 €"
    }
   ]
  },
@@ -2733,6 +2491,196 @@
   ]
  },
  {
+  "id": "lm:13211698",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Limousine TFSI S tr. RFK MATRIX NAVI HUD B&O",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13211698?adVariant=36665634",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 310,
+  "listenpreis": 67390,
+  "rateBrutto": 454,
+  "rateNetto": 381.51,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.67,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH / Gifhorner Str. 57 / 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 481.08,
+   "effNetto": 404.27,
+   "gkf": 0.71,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 481.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "481 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "481.08 €"
+   },
+   {
+    "datum": "2026-11-05T13:34:30.604Z",
+    "feld": "preis",
+    "alt": "481.08 €",
+    "neu": "453.00 €"
+   },
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "preis",
+    "alt": "453.00 €",
+    "neu": "481.08 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12824524",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 M SPORT | NAVI | LED | RFK | PDC V+H | TEMPOMAT",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12824524?adVariant=34542970",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 170,
+  "listenpreis": 43260,
+  "rateBrutto": 245.75,
+  "rateNetto": 206.51,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.57,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 299.92,
+   "effNetto": 252.03,
+   "gkf": 0.69,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 252.03,
+    "basis": "netto"
+   },
+   "stufe": "normal",
+   "grund": "252 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-09T23:34:51.891Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": "2026-11-09T23:34:51.891Z",
+  "gemeldetWert": 206.51,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z",
+  "verlauf": [
+   {
+    "datum": "2026-11-09T23:34:51.891Z",
+    "feld": "neu",
+    "neu": "206.51 €"
+   },
+   {
+    "datum": "2026-11-09T23:34:51.891Z",
+    "feld": "gemeldet",
+    "neu": "206.51 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "206.51 €",
+    "neu": "252.03 € (Überführung unbekannt, geschätzt)"
+   }
+  ]
+ },
+ {
+  "id": "lm:13337942",
+  "quelle": "leasingmarkt",
+  "modell": "audi-a3",
+  "titel": "Audi A3 Sportback 30 TDI S-LINE*NAVI-PLUS*AHK*PDC*SHZ*VIRTUAL",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13337942",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 116,
+  "listenpreis": 46747,
+  "rateBrutto": 210,
+  "rateNetto": 176.47,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.45,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Audi Bank/Leasing Zweigniederlassungen der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 264.17,
+   "effNetto": 221.99,
+   "gkf": 0.57,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 230,
+    "ist": 264.17,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "264 € brutto effektiv, Ziel privat 230 €"
+  },
+  "erstGesehen": "2026-11-06T13:14:38.424Z",
+  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "gemeldet": "2026-11-06T13:14:38.424Z",
+  "gemeldetWert": 210,
+  "verlauf": [
+   {
+    "datum": "2026-11-06T13:14:38.424Z",
+    "feld": "neu",
+    "neu": "210.00 €"
+   },
+   {
+    "datum": "2026-11-06T13:14:38.424Z",
+    "feld": "gemeldet",
+    "neu": "210.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "210.00 €",
+    "neu": "264.17 € (Überführung unbekannt, geschätzt)"
+   }
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z"
+ },
+ {
   "id": "md:2864800",
   "quelle": "mydealz",
   "modell": "cupra-leon-vz",
@@ -2771,9 +2719,11 @@
    "grund": "345 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -2895,7 +2845,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback advanced S-LINE 1.0 30 TFSI/AHK/KLIMA/SHZ/PDC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13266839",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13266839?adVariant=37422865",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 110,
@@ -2929,9 +2879,11 @@
    "grund": "266 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -2945,7 +2897,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Aktion Standort Idstein🔥BMW 120i 🔥 Jetzt zum Aktionspreis sichern! 🚀💥",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13140372",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13140372?adVariant=35710081",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -2979,9 +2931,11 @@
    "grund": "255 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -2995,7 +2949,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 ⚡Top Angebot für Privatkunden⚡",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13261589",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13261589?adVariant=36751231",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 170,
@@ -3029,9 +2983,11 @@
    "grund": "303 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3045,7 +3001,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI Clubsport | Privat",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13303973",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13303973?adVariant=37946607",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 300,
@@ -3081,9 +3037,11 @@
    "grund": "304 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3097,7 +3055,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Benzin 🔥 Sofort verfügbar 🔥🚀 Limitierte Sonderaktion 🚀❗️ Angebot gültig bis zum 31.12.2026❗️",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13334079",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13334079?adVariant=38989833",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 170,
@@ -3131,9 +3089,11 @@
    "grund": "304 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3153,7 +3113,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 116",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13096633",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-116/13096633?adVariant=36020046",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 122,
@@ -3187,9 +3147,11 @@
    "grund": "258 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3317,7 +3279,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI -(VS)- 🖤AUDI BLACK WEEK🖤JAHRESENDSPURT",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13357792",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13357792?adVariant=39741996",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 116,
@@ -3351,9 +3313,11 @@
    "grund": "224 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -3413,11 +3377,132 @@
   ]
  },
  {
+  "id": "lm:13358758",
+  "quelle": "leasingmarkt",
+  "modell": "audi-a3",
+  "titel": "Audi A3 allstreet TFSI LED AHK virt. Cock.+ Stdhzg.",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358758?adVariant=39744352",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 150,
+  "listenpreis": 47435,
+  "rateBrutto": 237,
+  "rateNetto": 199.16,
+  "laufzeit": 36,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.5,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Volkswagen Leasing GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 273.11,
+   "effNetto": 229.51,
+   "gkf": 0.58,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 230,
+    "ist": 273.11,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "273 € brutto effektiv, Ziel privat 230 €"
+  },
+  "erstGesehen": "2026-11-10T21:00:02.348Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "detailGelesen": "2026-11-11T09:26:19.787Z",
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-10T21:00:02.348Z",
+    "feld": "neu",
+    "neu": "237.00 €"
+   },
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "preis",
+    "alt": "237.00 €",
+    "neu": "273.11 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13334360",
+  "quelle": "leasingmarkt",
+  "modell": "audi-a3",
+  "titel": "Audi A3 Sportback 30 TDI advanced*NAVI-PLUS*STHZG*PDC*SHZ*18ZOLL",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13334360",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 116,
+  "listenpreis": 45510,
+  "rateBrutto": 219,
+  "rateNetto": 184.03,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.48,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "Audi Bank/Leasing Zweigniederlassungen der Volkswagen Bank GmbH, Gifhorner Straße 57, 38112 Braunschweig",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 273.17,
+   "effNetto": 229.55,
+   "gkf": 0.6,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 230,
+    "ist": 273.17,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "273 € brutto effektiv, Ziel privat 230 €"
+  },
+  "erstGesehen": "2026-11-06T13:14:38.424Z",
+  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "gemeldet": "2026-11-06T13:14:38.424Z",
+  "gemeldetWert": 219,
+  "verlauf": [
+   {
+    "datum": "2026-11-06T13:14:38.424Z",
+    "feld": "neu",
+    "neu": "219.00 €"
+   },
+   {
+    "datum": "2026-11-06T13:14:38.424Z",
+    "feld": "gemeldet",
+    "neu": "219.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "219.00 €",
+    "neu": "273.17 € (Überführung unbekannt, geschätzt)"
+   }
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z",
+  "korrigiert": "2026-11-11T09:26:19.787Z"
+ },
+ {
   "id": "lm:13322257",
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Leasing ab 268€ Kamera Adapt. LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13322257",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13322257?adVariant=38625149",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -3451,9 +3536,11 @@
    "grund": "264 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3467,7 +3554,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI NAVI+LED+KLAU+KAMERA+VIRT. COCKPIT",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13214522",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13214522?adVariant=39643319",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 116,
@@ -3501,9 +3588,11 @@
    "grund": "276 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -3569,7 +3658,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 🔥 Scherer-Hot-Deals 🔥 befristet bis 14.11.2026 ⏰",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13271676",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13271676?adVariant=37077945",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -3605,9 +3694,11 @@
    "grund": "505 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3671,7 +3762,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 HuD DA LED Icon.Glow RFK PA+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13355179",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13355179?adVariant=39745125",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 156,
@@ -3705,9 +3796,11 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -3721,7 +3814,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 (F70) LEASINGAKTION",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13342091",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13342091?adVariant=39184654",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -3755,9 +3848,11 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3821,7 +3916,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 118 118d M Sport ACC RFK LED Sound Syst. PDC V+H LM",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-118/12787235",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-118/12787235?adVariant=34459831",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -3855,9 +3950,11 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3883,7 +3980,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI DSG❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12276982",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12276982?adVariant=34652210",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 265,
@@ -3917,9 +4014,11 @@
    "grund": "315 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -3933,7 +4032,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Bestandsfahrzeug limitiert nur 20 Stück❗KFZ- Versicherung 49 € mtl.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13149624",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13149624?adVariant=35738575",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -3969,9 +4068,11 @@
    "grund": "267 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -3985,7 +4086,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI DSG Keyless LED-Plus AirCareClimatronic",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13276635",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13276635?adVariant=37336790",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -4019,9 +4120,11 @@
    "grund": "315 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4035,7 +4138,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback TFSI | JETZT SICHERN! 🔥 | AUSLIEFERUNG BIS 31.12.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12931186",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12931186?adVariant=34956749",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -4069,9 +4172,11 @@
    "grund": "509 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4135,7 +4240,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 RFK NAVI LED PDC V+H DAB Parkass. Tempomat",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13309246",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13309246?adVariant=38056847",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 156,
@@ -4169,9 +4274,11 @@
    "grund": "267 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -4235,7 +4342,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TDI S tronic advanced LED 360°",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12741190",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12741190?adVariant=35802500",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -4269,9 +4376,11 @@
    "grund": "280 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:49:11.422Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4291,7 +4400,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Limousine TFSI 245 kW S",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13119228",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13119228?adVariant=35640686",
   "kunden": "beide",
   "zustand": "vorlauf",
   "ps": 333,
@@ -4325,9 +4434,11 @@
    "grund": "511 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4341,7 +4452,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TDI advanced S tronic DAB VC PDC Sitzheizung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12889615",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12889615?adVariant=37163468",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -4375,9 +4486,11 @@
    "grund": "280 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:49:11.422Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4447,7 +4560,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf 2.0 TSI DSG GTI Black Style Navi Klima",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13301028",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13301028?adVariant=37852032",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 265,
@@ -4481,9 +4594,11 @@
    "grund": "317 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4497,7 +4612,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI Schaltgetriebe",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13127328",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13127328?adVariant=35710479",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 116,
@@ -4531,9 +4646,11 @@
    "grund": "281 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:49:11.422Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4647,7 +4764,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 SONDERAKTION BESTANDSFAHRZEUGE BIS 30.12.2026 *** VOLLKASKOVERSICHERUNG 49,- € ***",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13344787",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13344787?adVariant=39275827",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -4683,9 +4800,11 @@
    "grund": "269 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4699,7 +4818,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI DSG +AHK+KAMERA+ASSISTS+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13000758",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13000758?adVariant=39182192",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -4733,9 +4852,11 @@
    "grund": "318 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4749,7 +4870,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI 85(116) kW(PS) Schaltgetriebe / Modellupdate 2026 Display in schwarz & weiß",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13185235",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13185235?adVariant=35853409",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 116,
@@ -4783,9 +4904,11 @@
    "grund": "282 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4799,7 +4922,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TDI advanced S tronic DAB VC PDC Sitzheizung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12889609",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12889609?adVariant=36750323",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -4833,9 +4956,11 @@
    "grund": "282 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:49:11.422Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -4899,7 +5024,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 //DrivingAssistant Kamera Adapt.LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12883229",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12883229?adVariant=35541786",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -4933,9 +5058,11 @@
    "grund": "271 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -5049,7 +5176,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TDI advanced S tronic DAB VC Sitzheizung",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12889611",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12889611?adVariant=36750343",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -5083,9 +5210,11 @@
    "grund": "283 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:49:11.422Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -5099,7 +5228,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Live Prof 360° HuD DA AdapLED Komfortzugang",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13309344",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13309344?adVariant=38058691",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -5133,9 +5262,11 @@
    "grund": "271 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -5149,7 +5280,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TDI S tronic advanced LED 360°",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12744077",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12744077?adVariant=36749974",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -5183,9 +5314,11 @@
    "grund": "284 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-05T13:49:11.422Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -5199,7 +5332,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 AdaptLED Keyless Kamera DrivingAssist",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12787669",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/12787669?adVariant=34464747",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -5233,9 +5366,11 @@
    "grund": "272 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -5311,7 +5446,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI -(VS)- 🖤AUDI BLACK WEEK🖤JAHRESENDSPURT",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13357734",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13357734?adVariant=39741972",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 116,
@@ -5345,9 +5480,11 @@
    "grund": "286 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -5511,7 +5648,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Leasing ab 284€ Kamera Adapt. LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13322255",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13322255?adVariant=38625150",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -5545,9 +5682,11 @@
    "grund": "274 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -5561,7 +5700,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 M Sport Design - Premium Paket - Aktivsitz - Harman/ Kardon - Totwinkel - LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13349761",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13349761?adVariant=39643355",
   "kunden": "gewerbe",
   "zustand": "gebraucht",
   "ps": 170,
@@ -5595,9 +5734,11 @@
    "grund": "274 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -5661,7 +5802,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 HuD 360° Kamera LED RFK DAB",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13302062",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13302062?adVariant=37950150",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 156,
@@ -5695,9 +5836,11 @@
    "grund": "275 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -5761,7 +5904,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback TFSI S tronic SONOS Carbon Optik. schw.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12828738",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12828738?adVariant=34658196",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -5795,9 +5938,11 @@
    "grund": "526 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -6061,7 +6206,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 HUD AHK 360°KAM RFK NAVI LED Sound Syst. LM",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13350028",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13350028?adVariant=39467392",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -6095,9 +6240,11 @@
    "grund": "277 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-07T17:51:31.494Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-07T17:51:31.494Z",
@@ -6117,7 +6264,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Jahresendspurt",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13096948",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13096948?adVariant=35558825",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -6151,9 +6298,11 @@
    "grund": "278 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -6217,7 +6366,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13106861",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13106861?adVariant=35591240",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -6251,9 +6400,11 @@
    "grund": "279 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -6267,7 +6418,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 360° HuD Memory PA+ DA AdapLED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13002142",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13002142?adVariant=35248857",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 170,
@@ -6301,9 +6452,11 @@
    "grund": "279 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -6573,7 +6726,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon VZ 2.0 TSI DSG - Navi LED Kamera PDC SHZ LM Keyless Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13348633",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13348633?adVariant=39372356",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -6607,9 +6760,11 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -6623,7 +6778,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon VZ 2.0 TSI DSG - Navi LED Kamera SHZ LM Keyless Intelligent Drive PDC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13348510",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13348510?adVariant=39372018",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -6657,9 +6812,11 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -6673,7 +6830,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon VZ 2.0 TSI DSG - Navi LED Kamera SHZ LM Keyless PDC Intelligent Drive DCC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349056",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349056?adVariant=39374653",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -6707,9 +6864,11 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -6723,7 +6882,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon VZ 2.0 TSI DSG - Navi LED Kamera SHZ LM Keyless PDC Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349024",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13349024?adVariant=39374429",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -6757,9 +6916,11 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -6773,7 +6934,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 🔥AKTION⚡️Neues Modell *Auslieferung 2026* Privat",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13348380",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13348380?adVariant=39372526",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -6807,9 +6968,11 @@
    "grund": "283 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -6873,7 +7036,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 35 TDI S-Line *AHK*CarPlay*Kamera*Virtual*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13095577",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13095577?adVariant=35552599",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -6907,9 +7070,11 @@
    "grund": "296 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -7123,7 +7288,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf 2.0 TSI DSG GTI Clubsport",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12971775",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12971775?adVariant=35098363",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -7157,9 +7322,11 @@
    "grund": "338 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-06T20:05:19.858Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T20:05:19.858Z",
@@ -7173,7 +7340,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 120 Steptronic - In zahlreichen Modellen sofort Verfügbar",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13340571",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13340571?adVariant=39178460",
   "kunden": "beide",
   "zustand": "vorlauf",
   "ps": 170,
@@ -7207,9 +7374,11 @@
    "grund": "287 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-09T23:34:51.891Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -7273,7 +7442,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 35 TDI advanced, 8fach bereift, Anschlussgarantie bis Sep. 2030",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13281478",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13281478?adVariant=39644161",
   "kunden": "privat",
   "zustand": "gebraucht",
   "ps": 150,
@@ -7307,9 +7476,11 @@
    "grund": "300 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -7373,7 +7544,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI DSG❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12871463",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12871463?adVariant=35260906",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -7407,9 +7578,11 @@
    "grund": "340 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -7723,7 +7896,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Limousine advanced 35 TFSI, 8 fach Bereift und Anschlussgarantie bis Mai 2030",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13314721",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13314721?adVariant=39646376",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -7757,9 +7930,11 @@
    "grund": "305 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -7873,7 +8048,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 2.0 TDI RFK SoundSys CarPlay ACC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13199079",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13199079?adVariant=35892231",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -7907,9 +8082,11 @@
    "grund": "306 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -7923,7 +8100,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2.0 l TSI DSG*IQ.LIGHT*NSW",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13308742",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13308742?adVariant=38527486",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 265,
@@ -7957,9 +8134,11 @@
    "grund": "346 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T18:05:00.432Z",
@@ -8023,7 +8202,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 10 x mal verfügbar!",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13301813",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13301813?adVariant=37855441",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 116,
@@ -8057,9 +8236,11 @@
    "grund": "254 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -8169,11 +8350,63 @@
   ]
  },
  {
+  "id": "md:2868744",
+  "quelle": "mydealz",
+  "modell": "golf-gti",
+  "titel": "[Privatleasing] Volkswagen Golf GTI Clubsport 300 PS DSG | 287€ mtl 24 Mon | 267€ mtl 42 Mon | LF 0,57/0,53 | 10.000 km | Konfig",
+  "url": "https://www.mydealz.de/deals/privatleasing-volkswagen-golf-gti-clubsport-300-ps-dsg-287eur-mtl-24-mon-267eur-mtl-42-mon-lf-057053-eff-123eur-10000-km-konfig-2868744",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 300,
+  "listenpreis": 50860,
+  "rateBrutto": 287,
+  "rateNetto": 241.18,
+  "laufzeit": 24,
+  "kmJahr": 10000,
+  "einmalBrutto": 287,
+  "effektivQuelle": 349.08,
+  "effektivQuelleNetto": false,
+  "lf": 0.57,
+  "verfuegbarkeit": null,
+  "haendler": "Mister-Leasing",
+  "bedingungen": [
+   "Werksabholung"
+  ],
+  "temperatur": null,
+  "veroeffentlicht": "2026-11-11T07:56:00.000Z",
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 349.08,
+   "effNetto": 293.34,
+   "gkf": 0.69,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 260,
+    "ist": 349.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "349 € brutto effektiv, Ziel privat 260 €"
+  },
+  "erstGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "neu",
+    "neu": "349.08 €"
+   }
+  ]
+ },
+ {
   "id": "lm:13303459",
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback / SOFORT VERFÜGBAR / 🔥*TOP Leasing - zeitlich begrenzt*🔥",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13303459",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13303459?adVariant=37945639",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -8207,9 +8440,11 @@
    "grund": "566 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -8329,7 +8564,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Mild-Hybrid Sportback TFSI 85 kW S tronic",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13279612",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13279612?adVariant=37247672",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 116,
@@ -8363,9 +8598,11 @@
    "grund": "311 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -8379,7 +8616,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Premium Paket LED DAB Komfortzg. Klimaaut.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13170176",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13170176?adVariant=39741203",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -8413,9 +8650,11 @@
    "grund": "298 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -8479,7 +8718,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2.0 TSI (265 PS) DSG*AHK*PANO*STHZG*MATRIX*360°*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13325584",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13325584?adVariant=38624051",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 265,
@@ -8513,9 +8752,11 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -8729,7 +8970,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 allstreet TFSI LED AHK virt. Cock.+ NAVI+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358756",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358756?adVariant=39744350",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -8763,9 +9004,11 @@
    "grund": "313 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -8935,7 +9178,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI+NAVI+ACC+APP+LED+PDC ❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/6386946",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/6386946?adVariant=35800672",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -8969,9 +9212,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-06T20:05:19.858Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T20:05:19.858Z",
@@ -8991,7 +9236,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2,0 l TSI OPF 195 kW (265 PS) DSG*Business Premium Paket*Black Style*Assistenzpaket*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13071081",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13071081?adVariant=35467231",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 265,
@@ -9025,9 +9270,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T18:05:00.432Z",
@@ -9041,7 +9288,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2.0 TSI (Mettmann)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13276159",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13276159?adVariant=37162611",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 265,
@@ -9075,9 +9322,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T18:05:00.432Z",
@@ -9191,7 +9440,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI DSG ❗Sofort-Verfügbar❗Bayreuth📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12828690",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12828690?adVariant=34651397",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 265,
@@ -9225,9 +9474,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -9291,7 +9542,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Limousine advanced 35 TFSI S tr. 3ZoKlima",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13253139",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13253139?adVariant=36572547",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -9325,9 +9576,11 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9391,7 +9644,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 35 TDI S tr. ACC Cam 3ZoKlima Virtu",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13203605",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13203605?adVariant=35908954",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -9425,9 +9678,11 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:49:11.422Z",
@@ -9491,7 +9746,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ST 2.0 TSI 140kW DSG (Gebraucht) MATRIX|NAV|KEYLESS|WINTER|BEATS|5JGARANTIE|UVM.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13080893",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13080893?adVariant=35498146",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 190,
@@ -9525,9 +9780,11 @@
    "grund": "275 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9547,7 +9804,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Limousine TFSI S tronic quattro Pano HUD *Vorlauf*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13055579",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13055579?adVariant=35425398",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -9583,9 +9840,11 @@
    "grund": "579 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9599,7 +9858,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Limousine advanced 35 TFSI S tr. 3ZoKlima",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13253134",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13253134?adVariant=36572637",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -9633,9 +9892,11 @@
    "grund": "318 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9699,7 +9960,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback TFSI quattro S tronic *Pano*HUD*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13338889",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13338889?adVariant=39184695",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 333,
@@ -9733,9 +9994,11 @@
    "grund": "584 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T21:00:02.348Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9749,7 +10012,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TDI Matrix HUD ACC Cam elHeck Memor",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13212237",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13212237?adVariant=35926177",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 116,
@@ -9783,9 +10046,11 @@
    "grund": "320 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9849,7 +10114,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Diesel🔥 M-Sportpaket 🔥🚀 Limitierte Sonderaktion 🚀❗️ Angebot gültig bis zum 31.12.2026❗️",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13333959",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13333959?adVariant=38989161",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 163,
@@ -9883,9 +10148,11 @@
    "grund": "362 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -9899,7 +10166,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Limousine TFSI 110 kW Schaltgetriebe Sonderkonditionen*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13188276",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13188276?adVariant=35860822",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 150,
@@ -9933,9 +10200,11 @@
    "grund": "265 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -9949,7 +10218,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback S line TFSI || SONDERABNEHMER ! 🔥 | AUSLIEFERUNG BIS 31.12.2026 !",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13240667",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13240667?adVariant=36115332",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -9983,9 +10252,11 @@
    "grund": "321 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10099,7 +10370,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback / SOFORT VERFÜGBAR / 🔥*TOP Leasing - zeitlich begrenzt*🔥inkl. Winterräder",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13303583",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13303583?adVariant=37945761",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -10133,9 +10404,11 @@
    "grund": "586 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10249,7 +10522,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI 150PS | 🔥Top Ausstattung🔥 (Düsseldorf)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13321457",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13321457?adVariant=38527282",
   "kunden": "gewerbe",
   "zustand": "vorlauf",
   "ps": 150,
@@ -10283,9 +10556,11 @@
    "grund": "265 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10299,7 +10574,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 allstreet TFSI LED AHK virt. Cock.+ NAVI+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358754",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358754?adVariant=39744348",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -10333,9 +10608,11 @@
    "grund": "322 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -10349,7 +10626,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf 2.0 TSI DSG GTI Black Style Navi Klima",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13277540",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13277540?adVariant=37248472",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -10383,9 +10660,11 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10399,7 +10678,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf 2.0 TSI DSG GTI Black Style Navi",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13277546",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13277546?adVariant=37248055",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -10433,9 +10712,11 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10449,7 +10730,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback S line TDI LED 360 ACC FLA elHeck",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13337532",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13337532?adVariant=39282207",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 116,
@@ -10483,9 +10764,11 @@
    "grund": "323 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T19:10:02.013Z",
@@ -10499,7 +10782,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback advanced TDI S tr. LED ACC Cam FLA",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12879834",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/12879834?adVariant=34713434",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -10533,9 +10816,11 @@
    "grund": "323 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:34:30.604Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:34:30.604Z",
@@ -10555,7 +10840,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback advanced 35TDI S-tronic *SHZ*Navi*Virtual*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/11661585",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/11661585?adVariant=35879275",
   "kunden": "privat",
   "zustand": "gebraucht",
   "ps": 150,
@@ -10589,9 +10874,11 @@
    "grund": "324 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10911,7 +11198,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Limousine TFSI quattro **neues Interieur**",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13271169",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13271169?adVariant=37160338",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -10945,9 +11232,11 @@
    "grund": "596 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -10961,7 +11250,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback TFSI quattro **neues Interieur**",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13269889",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13269889?adVariant=37160350",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -10997,9 +11286,11 @@
    "grund": "596 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -11013,7 +11304,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI+MATRIX+RFK+ACC+PDC+APP+DAB ❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13107458",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13107458?adVariant=35800573",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 245,
@@ -11047,9 +11338,11 @@
    "grund": "369 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T22:29:07.556Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T22:29:07.556Z",
@@ -11069,7 +11362,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI Clubsport DSG ❗Sofort-Verfügbar❗Bayreuth📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12429049",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/12429049?adVariant=34650750",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -11103,9 +11396,11 @@
    "grund": "369 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -11169,7 +11464,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5 eTSI DSG Climatronic Navi LED PDC SHZ",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13205069",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13205069?adVariant=39087990",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -11203,9 +11498,11 @@
    "grund": "284 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -11219,7 +11516,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Limousine TFSI 245(333) kW(PS) S-tronic",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13141393",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13141393?adVariant=35717099",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 333,
@@ -11253,9 +11550,11 @@
    "grund": "597 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -11319,7 +11618,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-m135i",
   "titel": "BMW M135i xDrive🏁|UPE 68.760€|Sofort verfügbar",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-m135i/13275544",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-m135i/13275544?adVariant=37160869",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -11353,9 +11652,11 @@
    "grund": "542 € netto effektiv, Ziel gewerbe 380 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -11525,7 +11826,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2,0 l TSI 265 PS DSG/Pano/Head-Up",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13038980",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13038980?adVariant=38242964",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 265,
@@ -11559,9 +11860,11 @@
    "grund": "373 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T22:29:07.556Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T22:29:07.556Z",
@@ -11725,7 +12028,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI Clubsport DSG ❗Sofort-Verfügbar❗Bayreuth📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13005985",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13005985?adVariant=35260131",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -11759,9 +12062,11 @@
    "grund": "376 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -11867,6 +12172,56 @@
     "datum": "2026-11-09T14:21:28.471Z",
     "feld": "neu",
     "neu": "289.35 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13281370",
+  "quelle": "leasingmarkt",
+  "modell": "audi-s3",
+  "titel": "Audi S3 Sportback, Matrix, Totwinkel, ACC, 360",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13281370?adVariant=38047307",
+  "kunden": "beide",
+  "zustand": "neu",
+  "ps": 333,
+  "listenpreis": 70120,
+  "rateBrutto": 581,
+  "rateNetto": 488.24,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.83,
+  "verfuegbarkeit": "Sofort",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 608.08,
+   "effNetto": 511,
+   "gkf": 0.87,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 420,
+    "ist": 608.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "608 € brutto effektiv, Ziel privat 420 €"
+  },
+  "erstGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "neu",
+    "neu": "608.08 €"
    }
   ]
  },
@@ -12025,7 +12380,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2.0 TSI 265PS DSG*SOFORT*Black Style*Licht Sicht*Winterrad",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13341003",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13341003?adVariant=39180370",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -12059,9 +12414,11 @@
    "grund": "291 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -12075,7 +12432,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Limousine M Sport 🔥LAGERWAGEN AKTION⚡️*sofort Verfügbar*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13342014",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13342014?adVariant=39184100",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -12109,14 +12466,66 @@
    "grund": "320 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "320.00 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13279951",
+  "quelle": "leasingmarkt",
+  "modell": "golf-gti",
+  "titel": "Volkswagen Golf GTI 2,o TSI 7-Gang-DSG *SOFORT VERFÜGBAR*",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13279951?adVariant=37246974",
+  "kunden": "beide",
+  "zustand": "neu",
+  "ps": 265,
+  "listenpreis": 56000,
+  "rateBrutto": 352.24,
+  "rateNetto": 296,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.63,
+  "verfuegbarkeit": "Sofort",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 379.32,
+   "effNetto": 318.76,
+   "gkf": 0.68,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 260,
+    "ist": 379.32,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "379 € brutto effektiv, Ziel privat 260 €"
+  },
+  "erstGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "neu",
+    "neu": "379.32 €"
    }
   ]
  },
@@ -12275,7 +12684,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI ACC Kam. LED Navi PDC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358763",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358763?adVariant=39744357",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -12309,9 +12718,11 @@
    "grund": "336 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -12325,7 +12736,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI DSG Clubsport ACC Keyless h/k Kamera",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13253352",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13253352?adVariant=37336876",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 300,
@@ -12359,9 +12770,11 @@
    "grund": "380 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-09T23:34:51.891Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -12375,7 +12788,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Sportback TFSI S tronic (Velbert)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13358654",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13358654?adVariant=39744153",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 333,
@@ -12409,9 +12822,11 @@
    "grund": "512 € netto effektiv, Ziel gewerbe 350 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -12425,7 +12840,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI Clubsport 2,0 TSI OPF DSG*WINTERRÄDER*LED*19 ZOLL*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13342047",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13342047?adVariant=39184450",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 300,
@@ -12459,9 +12874,11 @@
    "grund": "382 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -12577,7 +12994,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2026 2.0 TSI DSG 4DRIVE 204 (UVP 51.975€) PANO/KEYLESS/SENNHEISER/AHK/EDGE/WINTER/UVM.",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/12837586",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/12837586?adVariant=34574947",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 204,
@@ -12611,9 +13028,11 @@
    "grund": "295 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -12733,7 +13152,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 M Sport PRO KLIMAAUTOMATIK KOMFORZUGANG DAB",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13354606",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13354606?adVariant=39745558",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 156,
@@ -12767,9 +13186,11 @@
    "grund": "328 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -12783,7 +13204,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI advanced LED virt. Cock.+ NAVI+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358757",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358757?adVariant=39744351",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -12817,9 +13238,11 @@
    "grund": "345 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -12833,7 +13256,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI S line MATRIX AHK virt. Cock.+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358755",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358755?adVariant=39744349",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 116,
@@ -12867,9 +13290,11 @@
    "grund": "345 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -12883,7 +13308,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2.0 TSI (Velbert)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13249174",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13249174?adVariant=36472949",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -12917,9 +13342,11 @@
    "grund": "301 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T18:05:00.432Z",
@@ -12983,7 +13410,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII Lim. GTI 2.0 TSI DSG - Matrix-LED Pano HUD PDC SHZ Area View Navi ACC AHK DCC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13209393",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13209393?adVariant=35919833",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 265,
@@ -13017,9 +13444,11 @@
    "grund": "393 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -13033,7 +13462,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Limousine Jahresendspurt",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13097021",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13097021?adVariant=35559427",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -13067,9 +13496,11 @@
    "grund": "333 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-09T23:34:51.891Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -13133,7 +13564,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2.0 TDI DSG - LED Kamera Navi SHZ PDC GJR LM AHK Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13150348",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13150348?adVariant=35739900",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -13167,9 +13598,11 @@
    "grund": "304 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -13183,7 +13616,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2,0 TSI 265 PS 7-Gang-DSG - SOFORT VERFÜGBAR -",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13300975",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13300975?adVariant=39281194",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -13217,9 +13650,11 @@
    "grund": "305 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T19:10:02.013Z",
@@ -13233,7 +13668,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Limousine TFSI S tronic",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12897214",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/12897214?adVariant=36214955",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 333,
@@ -13267,14 +13702,66 @@
    "grund": "640 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
     "feld": "neu",
     "neu": "640.08 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13293911",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon",
+  "titel": "Cupra Leon Sportstourer 1.5 eTSI DSG - LED SHZ Kamera ACC PDC Keyless Navi GJR Intelligent Drive",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13293911?adVariant=37673109",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 150,
+  "listenpreis": 48719.99,
+  "rateBrutto": 279,
+  "rateNetto": 234.45,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.57,
+  "verfuegbarkeit": "Sofort",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 306.08,
+   "effNetto": 257.21,
+   "gkf": 0.63,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 200,
+    "ist": 306.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "306 € brutto effektiv, Ziel privat 200 €"
+  },
+  "erstGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "neu",
+    "neu": "306.08 €"
    }
   ]
  },
@@ -13333,7 +13820,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2.0 TDI DSG - LED Kamera Navi SHZ PDC GJR Keyless AHK Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13256431",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13256431?adVariant=36660204",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -13367,9 +13854,11 @@
    "grund": "307 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -13383,7 +13872,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2.0 TDI DSG - LED Kamera Navi SHZ PDC GJR Keyless AHK Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13257721",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13257721?adVariant=36661419",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -13417,9 +13906,11 @@
    "grund": "307 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -13433,7 +13924,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI Clubsport 2,0 l TSI (Hagen)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13349656",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13349656?adVariant=39376366",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 300,
@@ -13467,9 +13958,11 @@
    "grund": "400 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -13483,7 +13976,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-s3",
   "titel": "Audi S3 Limousine TFSI S tronic ***",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13246127",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-s3/13246127?adVariant=36214958",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 333,
@@ -13517,9 +14010,11 @@
    "grund": "538 € netto effektiv, Ziel gewerbe 350 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -13533,7 +14028,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon KEINE Bereitstellungskosten ST 2.0 TSI DSG 4Drive AHK SHZ LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13097048",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13097048?adVariant=36754843",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 204,
@@ -13567,9 +14062,11 @@
    "grund": "308 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -13683,7 +14180,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 M Sport Design Navi Apple CarPlay 25% AKTION",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13340280",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13340280?adVariant=39467042",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -13717,9 +14214,11 @@
    "grund": "340 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-07T11:55:33.270Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-07T11:55:33.270Z",
@@ -13733,7 +14232,7 @@
   "quelle": "leasingmarkt",
   "modell": "bmw-1er",
   "titel": "BMW 120 Sport M Design Navi Digitales Cockpit Apple CarPlay 25 % AKTION",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13344350",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13344350?adVariant=39466983",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 170,
@@ -13767,9 +14266,11 @@
    "grund": "340 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-07T11:55:33.270Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-07T11:55:33.270Z",
@@ -13833,7 +14334,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2.0 TDI DSG - LED Kamera Navi SHZ PDC GJR Keyless AHK Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13261934",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13261934?adVariant=36752920",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -13867,9 +14368,11 @@
    "grund": "310 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-06T13:14:38.424Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -13883,7 +14386,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 35 TFSI advanced LED virt. Cock. DAB",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358760",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358760?adVariant=39744354",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -13917,9 +14420,11 @@
    "grund": "357 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -13933,7 +14438,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2.0 TSI (Mettmann)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13276163",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13276163?adVariant=37162631",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -13967,9 +14472,11 @@
    "grund": "311 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-08T18:05:00.432Z",
@@ -13983,7 +14490,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2.0 TDI DSG - LED Kamera Navi SHZ PDC GJR Keyless AHK Intelligent Drive",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13261784",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13261784?adVariant=36752550",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -14017,9 +14524,11 @@
    "grund": "312 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-06T13:14:38.424Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -14033,7 +14542,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 2.0 TDI DSG - LED Kamera Navi SHZ PDC GJR Keyless AHK ACC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13176422",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13176422?adVariant=35823318",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -14067,9 +14576,11 @@
    "grund": "314 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-06T13:14:38.424Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -14083,7 +14594,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 35 TFSI advanced LED virt. Cock. DAB",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358762",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358762?adVariant=39744356",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -14117,9 +14628,11 @@
    "grund": "363 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -14133,7 +14646,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon SP 2.0 TDI🔥KEINE NEBENKOSTEN🔥DSG🔥AHK🔥NAVI🔥KAMERA🔥LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/12701651",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/12701651?adVariant=34184456",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -14167,9 +14680,11 @@
    "grund": "318 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-10T13:46:39.480Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -14283,7 +14798,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 1.5 eTSI DSG \"150 PS SOFORT VERFÜGBAR TAGESZULASSUNG AUSLIEFERUNG MUSS 2026 ERFOLGEN\"",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13152812",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13152812?adVariant=35758872",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -14317,9 +14832,11 @@
    "grund": "323 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -14333,7 +14850,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 1.5 TSI DSG",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13354598",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13354598?adVariant=39645766",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 150,
@@ -14367,9 +14884,11 @@
    "grund": "259 € netto effektiv, Ziel gewerbe 160 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -14433,7 +14952,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon SP 1.5eTSI DSG Sound|Matrix|DCC|",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13109467",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13109467?adVariant=35599953",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -14467,9 +14986,11 @@
    "grund": "326 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -14483,7 +15004,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI S line MATRIX AHK virt. Cock.+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358761",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358761?adVariant=39744355",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 116,
@@ -14517,9 +15038,11 @@
    "grund": "378 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -14645,7 +15168,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback S line TFSI S tronic *** BLACK DEALS *** NUR BIS ZUM 30.11 ***",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13179178",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13179178?adVariant=39647184",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -14679,9 +15202,11 @@
    "grund": "383 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -14945,7 +15470,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon Sportstourer 1.5 TSI",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13341582",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13341582?adVariant=39645739",
   "kunden": "privat",
   "zustand": "neu",
   "ps": 150,
@@ -14979,9 +15504,11 @@
    "grund": "342 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T14:21:28.471Z",
@@ -14995,7 +15522,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ⚡️🔥 CUPRA Leon Sportstourer SOFORT VERFÜGBAR 🔥⚡️",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13040748",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13040748?adVariant=39087464",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 204,
@@ -15029,9 +15556,11 @@
    "grund": "342 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -15045,7 +15574,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon Sportstourer VZ 1.5 e-HYBRID 6-Gang-DSG",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13345264",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13345264?adVariant=39375661",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 272,
@@ -15079,9 +15608,11 @@
    "grund": "514 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-06T20:05:19.858Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T20:05:19.858Z",
@@ -15101,7 +15632,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI Clubsport 2,0 TSI OPF DSG*WINTERRÄDER*LED*19 ZOLL*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13342072",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13342072?adVariant=39184494",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 300,
@@ -15135,9 +15666,11 @@
    "grund": "344 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -15301,7 +15834,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ST eTSI DSG|AHK|EDGE|ACC|KEYLESS|KAMERA|SHZ",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355969",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355969?adVariant=39651931",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -15335,9 +15868,11 @@
    "grund": "348 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -15401,7 +15936,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf 🏁GTI Clubsport 2.0 TSI🏁 (Düsseldorf)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13357488",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13357488?adVariant=39740780",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 300,
@@ -15435,9 +15970,11 @@
    "grund": "351 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -15557,7 +16094,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 allstreet TFSI e LED AHK virt. Cock.+ NAVI+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358759",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13358759?adVariant=39744353",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 204,
@@ -15591,9 +16128,11 @@
    "grund": "407 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -15607,7 +16146,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ST eTSI DSG|AHK|EDGE|ACC|KEYLESS|KAMERA|SHZ",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355970",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355970?adVariant=39651932",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -15641,9 +16180,11 @@
    "grund": "354 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -15757,7 +16298,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG AHK|Side-Assist|Sennhsr|el.HK|ACC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13308367",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13308367?adVariant=38048643",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -15791,9 +16332,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -15807,7 +16350,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG AHK|Side-Assist|Sennhsr|el.HK|ACC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13308209",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13308209?adVariant=38048249",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -15841,9 +16384,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -15857,7 +16402,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG AHK|Side-Assist|Sennhsr|el.HK|ACC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13308011",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13308011?adVariant=38046902",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -15891,9 +16436,11 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -15907,7 +16454,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ST eTSI DSG|AHK|EDGE|ACC|KEYLESS|KAMERA|SHZ",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355052",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355052?adVariant=39649562",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -15941,9 +16488,11 @@
    "grund": "357 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -16157,7 +16706,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI Clubsport 2,0 l TSI -BLACK-STYLE (Mülheim)",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13336891",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13336891?adVariant=39084177",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 300,
@@ -16191,9 +16740,11 @@
    "grund": "363 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -16257,7 +16808,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG Pano|AHK|Side-Assist|Sennhsr",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329263",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329263?adVariant=38716183",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -16291,9 +16842,11 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -16307,7 +16860,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG AHK|Side-Assist|Sennhsr|el.HK|ACC",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329195",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329195?adVariant=38716081",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -16341,9 +16894,11 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:49:11.422Z",
@@ -16357,7 +16912,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG Pano|AHK|Side-Assist|Sennhsr",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329458",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329458?adVariant=38716795",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -16391,9 +16946,11 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T19:10:02.013Z",
@@ -16407,7 +16964,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon 1.5TSI DSG AHK|Side-Assist|Sennhsr|el.HK|ACC|Pano",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329412",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13329412?adVariant=38716687",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -16441,9 +16998,11 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T19:10:02.013Z",
@@ -17011,7 +17570,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf Golf GTI sofort Verfügbar!",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13342040",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13342040?adVariant=39184288",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 265,
@@ -17045,9 +17604,11 @@
    "grund": "400 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -17161,7 +17722,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ST 4Drive TSI DSG|AHK|PANO|EDGE|NAVI|KAMERA",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355963",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355963?adVariant=39651811",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 204,
@@ -17195,9 +17756,11 @@
    "grund": "403 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -17211,7 +17774,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon ST 4Drive TSI DSG|AHK|PANO|EDGE|NAVI|KAMERA",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355012",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13355012?adVariant=39648455",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 204,
@@ -17245,9 +17808,11 @@
    "grund": "403 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-09T23:34:51.891Z",
@@ -17261,7 +17826,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf GTI 2,0 l TSI DSG ❗BLACK-STYLE❗HARMAN+KARD+",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13340205",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13340205?adVariant=39177639",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 265,
@@ -17295,9 +17860,11 @@
    "grund": "525 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",
@@ -17361,7 +17928,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13175276",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13175276?adVariant=39375058",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 150,
@@ -17395,9 +17962,11 @@
    "grund": "409 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -17511,7 +18080,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback TFSI e Advanced Sportsitze, LED",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13304299",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13304299?adVariant=37947440",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 150,
@@ -17545,9 +18114,11 @@
    "grund": "483 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T13:46:39.480Z",
@@ -18213,7 +18784,7 @@
   "quelle": "leasingmarkt",
   "modell": "golf-gti",
   "titel": "Volkswagen Golf VIII 2.0 TSI GTI EDITION 50+DSG+AREA+AKRA ❗Sofort-Verfügbar❗Bamberg📍",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13259258",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13259258?adVariant=39743603",
   "kunden": "beide",
   "zustand": "gebraucht",
   "ps": 325,
@@ -18247,9 +18818,11 @@
    "grund": "758 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-10T21:00:02.348Z",
@@ -18447,9 +19020,11 @@
    "grund": "249 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T13:09:48.170Z",

@@ -1,7 +1,7 @@
 name: Leasing-Scan
 
-# Stündlich von 7 bis 23 Uhr (deutsche Zeit, Sommer- und Winterzeit abgedeckt): mydealz und LeasingMarkt lesen,
-# Top-Angebote sofort per Telegram/Mail melden, data/*.json committen → Vercel baut die Seite neu.
+# Start über einen externen Taktgeber (workflow_dispatch) und als Reserve per Zeitplan: mydealz und LeasingMarkt lesen,
+# Top-Angebote sofort melden, data/*.json committen (die Website liest sie beim Aufruf).
 
 on:
   schedule:
@@ -59,8 +59,8 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SITE_URL: ${{ vars.SITE_URL }}
+      # Die Website liest data/*.json beim Aufruf direkt aus dem Repository – kein Neubau nötig.
       - name: Daten committen
-        id: commit
         if: ${{ !inputs.trocken }}
         run: |
           git config user.name "leasing-radar"
@@ -72,16 +72,4 @@ jobs:
             git commit -m "Daten $(date -u +'%F %H:%M')"
             git pull --rebase --autostash
             git push
-            echo "neu=1" >> "$GITHUB_OUTPUT"
           fi
-      # Website neu bauen. Vercel ist bewusst nicht mit dem Repository verknüpft (keine Statusmeldungen mit
-      # Konto-Namen an den Commits); Ausgaben werden unterdrückt, damit die öffentlichen Logs keine URL enthalten.
-      - name: Website aktualisieren
-        if: ${{ steps.commit.outputs.neu == '1' }}
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        run: |
-          if [ -z "$VERCEL_TOKEN" ]; then echo "VERCEL_TOKEN fehlt"; exit 0; fi
-          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN" > /dev/null 2>&1 && echo "Deployment gestartet" || echo "Deployment fehlgeschlagen"

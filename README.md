@@ -3,7 +3,7 @@
 Findet Leasing-Schnäppchen für **VW Golf GTI, Cupra Leon (inkl. VZ), BMW 1er (inkl. M135i) und Audi A3/S3** auf
 **mydealz** und **LeasingMarkt**, rechnet jede Rate auf den Effektivpreis um und meldet Top-Angebote **sofort per
 Telegram und/oder E-Mail**. Aufgebaut mit Next.js, Passwortschutz und
-stündlichem Lauf über GitHub Actions (Daten im Repository, danach wird die Website auf Vercel neu gebaut).
+stündlichem Lauf über GitHub Actions (Daten im Repository; die Website liest sie beim Aufruf, Cache 5 Minuten).
 
 ## Aufbau
 
@@ -39,7 +39,8 @@ Prüfseite/403/429, wird sie für diesen Lauf ausgelassen und auf der Website al
 ## Einrichtung
 
 1. **Vercel**: Projekt ohne Git-Verknüpfung; deployt wird aus GitHub Actions (`deploy.yml`, Secrets `VERCEL_TOKEN`,
-   `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`). `SITE_PASSWORD` in Vercel setzen.
+   `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`), nur bei Code-Änderungen. In Vercel `SITE_PASSWORD` und `DATEN_URL`
+   (Rohdateien-Adresse des Ordners `data/` im Repository) setzen; nach einer Änderung einmal „Website deployen“ starten.
 2. **Telegram** (kostenlos): @BotFather → `/newbot` → Token als Secret `TELEGRAM_BOT_TOKEN`. Dem Bot einmal
    `/start` schreiben – der nächste Lauf erkennt die Chat-ID, hält sie im Actions-Cache und schickt
    „Leasing-Radar ist verbunden“ mit der ID; diese als Secret `TELEGRAM_CHAT_ID` eintragen.

@@ -111,6 +111,54 @@ export interface MeldeErgebnis {
   gemeldet: string[];
 }
 
+/** Frühere Meldung, die nach neuen Informationen nicht mehr „Top“ ist und noch nicht korrigiert wurde */
+export function sollKorrigieren(d: Deal): boolean {
+  return !!d.gemeldet && !d.korrigiert && d.status === 'aktiv' && d.bewertung.stufe !== 'top';
+}
+
+export function korrekturText(deals: Deal[]) {
+  const zeilen = deals.map((d) => {
+    const z = d.bewertung.ziel;
+    const neu = z ? `${Math.round(z.ist)} € ${z.basis}` : 'unbekannt';
+    const grund = d.bewertung.geschaetzt ? 'Überführung nicht angegeben, mit 1.300 € geschätzt' : 'Konditionen geändert';
+    return `• ${modell(d.modell).name}: gemeldet ${Math.round(d.gemeldetWert ?? 0)} € → richtig ca. ${neu} effektiv (${grund})${z ? `, Ziel ${z.wert} €` : ''}\n  ${d.url}`;
+  });
+  return `Diese ${deals.length === 1 ? 'Meldung war' : `${deals.length} Meldungen waren`} zu günstig berechnet und ${deals.length === 1 ? 'ist' : 'sind'} kein Top-Angebot:\n\n${zeilen.join('\n')}`;
+}
+
+/** Korrektur zu früheren Meldungen über dieselben Kanäle (eine Sammelnachricht) */
+export async function meldeKorrektur(deals: Deal[], log: (m: string) => void): Promise<boolean> {
+  const text = korrekturText(deals);
+  const titel = `⚠️ Korrektur: ${deals.length} frühere Meldung${deals.length === 1 ? '' : 'en'}`;
+  let ok = false;
+  if (process.env.NTFY_TOPIC) {
+    try {
+      const res = await fetch(`https://ntfy.sh/${encodeURIComponent(process.env.NTFY_TOPIC)}`, {
+        method: 'POST',
+        headers: { Title: enc(titel), Tags: 'warning', Priority: '3' },
+        body: text,
+        signal: AbortSignal.timeout(15_000),
+      });
+      ok = ok || res.ok;
+    } catch (e) {
+      log(`Korrektur per Push fehlgeschlagen: ${(e as Error).message}`);
+    }
+  }
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  if (token) {
+    try {
+      const chat = await chatId(token, log);
+      if (chat) {
+        await tgApi(token, 'sendMessage', { chat_id: chat.id, text: `${titel}\n\n${text}`, disable_web_page_preview: true });
+        ok = true;
+      }
+    } catch (e) {
+      log(`Korrektur per Telegram fehlgeschlagen: ${(e as Error).message}`);
+    }
+  }
+  return ok;
+}
+
 export async function melde(deals: Deal[], log: (m: string) => void, opts: { maxEinzeln?: number } = {}): Promise<MeldeErgebnis> {
   const siteUrl = process.env.SITE_URL || undefined;
   const sortiert = [...deals].sort((a, b) => a.bewertung.ziel!.ist / a.bewertung.ziel!.wert - b.bewertung.ziel!.ist / b.bewertung.ziel!.wert);

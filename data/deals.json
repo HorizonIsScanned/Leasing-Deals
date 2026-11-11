@@ -125,7 +125,7 @@
   "rateNetto": 202.52,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.53,
@@ -136,18 +136,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 241,
-   "effNetto": 202.52,
-   "gkf": 0.53,
-   "geschaetzt": false,
+   "effBrutto": 268.08,
+   "effNetto": 225.28,
+   "gkf": 0.59,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 300,
-    "ist": 241,
+    "ist": 268.08,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "241 € brutto effektiv, Ziel privat 300 €"
+   "stufe": "gut",
+   "grund": "268 € brutto effektiv, Ziel privat 300 € (Überführung geschätzt)"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -163,8 +163,15 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "241.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "241.00 €",
+    "neu": "268.08 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:12849724",
@@ -180,7 +187,7 @@
   "rateNetto": 180.63,
   "laufzeit": 24,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.5,
@@ -191,18 +198,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 214.95,
-   "effNetto": 180.63,
-   "gkf": 0.5,
-   "geschaetzt": false,
+   "effBrutto": 269.12,
+   "effNetto": 226.15,
+   "gkf": 0.62,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "gewerbe",
     "wert": 220,
-    "ist": 180.63,
+    "ist": 226.15,
     "basis": "netto"
    },
-   "stufe": "top",
-   "grund": "181 € netto effektiv, Ziel gewerbe 220 €"
+   "stufe": "gut",
+   "grund": "226 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -224,8 +231,15 @@
     "datum": "2026-11-10T21:00:02.348Z",
     "feld": "gemeldet",
     "neu": "180.63 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "180.63 €",
+    "neu": "226.15 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:12826860",
@@ -241,7 +255,7 @@
   "rateNetto": 182.74,
   "laufzeit": 24,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.53,
@@ -252,18 +266,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 217.46,
-   "effNetto": 182.74,
-   "gkf": 0.53,
-   "geschaetzt": false,
+   "effBrutto": 271.63,
+   "effNetto": 228.26,
+   "gkf": 0.66,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "gewerbe",
     "wert": 220,
-    "ist": 182.74,
+    "ist": 228.26,
     "basis": "netto"
    },
-   "stufe": "top",
-   "grund": "183 € netto effektiv, Ziel gewerbe 220 €"
+   "stufe": "gut",
+   "grund": "228 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -285,8 +299,15 @@
     "datum": "2026-11-10T21:00:02.348Z",
     "feld": "gemeldet",
     "neu": "182.74 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "182.74 €",
+    "neu": "228.26 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "md:2856062",
@@ -417,7 +438,7 @@
   "rateNetto": 309.24,
   "laufzeit": 30,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.62,
@@ -428,18 +449,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 368,
-   "effNetto": 309.24,
-   "gkf": 0.62,
-   "geschaetzt": false,
+   "effBrutto": 411.33,
+   "effNetto": 345.65,
+   "gkf": 0.69,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 420,
-    "ist": 368,
+    "ist": 411.33,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "368 € brutto effektiv, Ziel privat 420 €"
+   "stufe": "gut",
+   "grund": "411 € brutto effektiv, Ziel privat 420 € (Überführung geschätzt)"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -461,8 +482,15 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "368.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "368.00 €",
+    "neu": "411.33 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "md:2865799",
@@ -590,7 +618,7 @@
   "rateNetto": 193.28,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.51,
@@ -601,18 +629,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 230,
-   "effNetto": 193.28,
-   "gkf": 0.51,
-   "geschaetzt": false,
+   "effBrutto": 257.08,
+   "effNetto": 216.04,
+   "gkf": 0.57,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 260,
-    "ist": 230,
+    "ist": 257.08,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "230 € brutto effektiv, Ziel privat 260 €"
+   "stufe": "gut",
+   "grund": "257 € brutto effektiv, Ziel privat 260 € (Überführung geschätzt)"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -628,8 +656,15 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "230.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "230.00 €",
+    "neu": "257.08 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:13334546",
@@ -703,7 +738,7 @@
   "rateNetto": 176.47,
   "laufzeit": 24,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.45,
@@ -714,18 +749,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 210,
-   "effNetto": 176.47,
-   "gkf": 0.45,
-   "geschaetzt": false,
+   "effBrutto": 264.17,
+   "effNetto": 221.99,
+   "gkf": 0.57,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 230,
-    "ist": 210,
+    "ist": 264.17,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "210 € brutto effektiv, Ziel privat 230 €"
+   "stufe": "normal",
+   "grund": "264 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -741,8 +776,15 @@
     "datum": "2026-11-06T13:14:38.424Z",
     "feld": "gemeldet",
     "neu": "210.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "210.00 €",
+    "neu": "264.17 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:12824524",
@@ -758,7 +800,7 @@
   "rateNetto": 206.51,
   "laufzeit": 24,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.57,
@@ -769,18 +811,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 245.75,
-   "effNetto": 206.51,
-   "gkf": 0.57,
-   "geschaetzt": false,
+   "effBrutto": 299.92,
+   "effNetto": 252.03,
+   "gkf": 0.69,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "gewerbe",
     "wert": 220,
-    "ist": 206.51,
+    "ist": 252.03,
     "basis": "netto"
    },
-   "stufe": "top",
-   "grund": "207 € netto effektiv, Ziel gewerbe 220 €"
+   "stufe": "normal",
+   "grund": "252 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -796,8 +838,15 @@
     "datum": "2026-11-09T23:34:51.891Z",
     "feld": "gemeldet",
     "neu": "206.51 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "206.51 €",
+    "neu": "252.03 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:13334360",
@@ -813,7 +862,7 @@
   "rateNetto": 184.03,
   "laufzeit": 24,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.48,
@@ -824,18 +873,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 219,
-   "effNetto": 184.03,
-   "gkf": 0.48,
-   "geschaetzt": false,
+   "effBrutto": 273.17,
+   "effNetto": 229.55,
+   "gkf": 0.6,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 230,
-    "ist": 219,
+    "ist": 273.17,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "219 € brutto effektiv, Ziel privat 230 €"
+   "stufe": "normal",
+   "grund": "273 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -851,8 +900,15 @@
     "datum": "2026-11-06T13:14:38.424Z",
     "feld": "gemeldet",
     "neu": "219.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "219.00 €",
+    "neu": "273.17 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:13261737",
@@ -970,7 +1026,8 @@
     "feld": "gemeldet",
     "neu": "214.29 €"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:13284172",
@@ -1043,7 +1100,7 @@
   "rateNetto": 346.22,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.75,
@@ -1054,18 +1111,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 412,
-   "effNetto": 346.22,
-   "gkf": 0.75,
-   "geschaetzt": false,
+   "effBrutto": 439.08,
+   "effNetto": 368.98,
+   "gkf": 0.8,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 420,
-    "ist": 412,
+    "ist": 439.08,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "412 € brutto effektiv, Ziel privat 420 €"
+   "stufe": "gut",
+   "grund": "439 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-09T14:21:28.471Z",
@@ -1087,8 +1144,15 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "412.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "412.00 €",
+    "neu": "439.08 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:13199411",
@@ -1104,7 +1168,7 @@
   "rateNetto": 217.65,
   "laufzeit": 48,
   "kmJahr": 10000,
-  "einmalBrutto": 0,
+  "einmalBrutto": null,
   "effektivQuelle": null,
   "effektivQuelleNetto": false,
   "lf": 0.6,
@@ -1115,18 +1179,18 @@
   "veroeffentlicht": null,
   "status": "aktiv",
   "bewertung": {
-   "effBrutto": 259,
-   "effNetto": 217.65,
-   "gkf": 0.6,
-   "geschaetzt": false,
+   "effBrutto": 286.08,
+   "effNetto": 240.41,
+   "gkf": 0.66,
+   "geschaetzt": true,
    "ziel": {
     "gruppe": "privat",
     "wert": 260,
-    "ist": 259,
+    "ist": 286.08,
     "basis": "brutto"
    },
-   "stufe": "top",
-   "grund": "259 € brutto effektiv, Ziel privat 260 €"
+   "stufe": "normal",
+   "grund": "286 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
   "zuletztGesehen": "2026-11-11T01:28:52.840Z",
@@ -1142,8 +1206,15 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "259.00 €"
+   },
+   {
+    "datum": "2026-11-11T08:22:39.802Z",
+    "feld": "preis",
+    "alt": "259.00 €",
+    "neu": "286.08 € (Überführung unbekannt, geschätzt)"
    }
-  ]
+  ],
+  "detailGelesen": "2026-11-11T08:22:39.802Z"
  },
  {
   "id": "lm:12935438",

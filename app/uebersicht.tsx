@@ -179,6 +179,7 @@ function Karte({ d, name }: { d: Deal; name: string }) {
       <div className="karte-kopf">
         <span className="modell">{name}</span>
         {b.stufe !== 'normal' && <span className={`badge ${b.stufe}`}>{b.stufe === 'top' ? 'Top' : 'Gut'}</span>}
+        {d.gemeldet && d.bewertung.stufe !== 'top' && <span className="badge grau">Meldung korrigiert</span>}
         {d.status !== 'aktiv' && <span className="badge grau">{d.status === 'abgelaufen' ? 'abgelaufen' : 'nicht mehr online'}</span>}
         <span className="quelle-name">{d.quelle === 'mydealz' ? 'mydealz' : 'LeasingMarkt'}</span>
       </div>

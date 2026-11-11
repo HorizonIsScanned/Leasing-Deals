@@ -71,6 +71,8 @@ export interface Deal extends Angebot {
   gemeldetWert: number | null;
   /** Zeitpunkt, zu dem die Angebotsseite zuletzt gelesen wurde (LeasingMarkt) */
   detailGelesen?: string | null;
+  /** Zeitpunkt, zu dem eine Korrektur zur früheren Meldung verschickt wurde */
+  korrigiert?: string | null;
   verlauf: Aenderung[];
 }
 

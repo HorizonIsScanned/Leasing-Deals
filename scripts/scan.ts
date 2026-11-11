@@ -15,7 +15,7 @@ import type { Deal, Quelle, QuellenStand, Stand } from '../src/lib/core/types';
 import { lohntDetail } from '../src/lib/engine/calc';
 import { aufraeumen, fuehreZusammen, setzeStatus } from '../src/lib/engine/changes';
 import { kiErgaenze } from '../src/lib/engine/ki';
-import { melde, sollMelden } from '../src/lib/notify';
+import { melde, meldeKorrektur, sollKorrigieren, sollMelden } from '../src/lib/notify';
 
 const DATA = path.join(process.cwd(), 'data');
 const env = (k: string, d: number) => (process.env[k] ? Number(process.env[k]) : d);
@@ -152,6 +152,17 @@ async function main() {
     liste = liste.map((d) =>
       ids.has(d.id) ? { ...d, gemeldet: jetzt, gemeldetWert: d.bewertung.ziel!.ist, verlauf: [...d.verlauf, { datum: jetzt, feld: 'gemeldet' as const, neu: `${d.bewertung.ziel!.ist.toFixed(2)} €` }].slice(-30) } : d,
     );
+  }
+
+  // ---------- Korrekturen zu früheren Meldungen ----------
+  const falsch = liste.filter(sollKorrigieren);
+  if (falsch.length && !process.env.KEIN_ALARM) {
+    const ok = await meldeKorrektur(falsch, log);
+    log(`Korrektur: ${falsch.length} frühere Meldungen ${ok ? 'korrigiert' : 'konnten nicht gesendet werden'}`);
+    if (ok) {
+      const ids = new Set(falsch.map((d) => d.id));
+      liste = liste.map((d) => (ids.has(d.id) ? { ...d, korrigiert: jetzt } : d));
+    }
   }
 
   // ---------- Schreiben ----------

@@ -4,7 +4,7 @@ import { modellAusTitel } from '../src/data/watchlist';
 import type { Angebot } from '../src/lib/core/types';
 import { bewerte, effektiv } from '../src/lib/engine/calc';
 import { fuehreZusammen } from '../src/lib/engine/changes';
-import { sollMelden, telegramText } from '../src/lib/notify';
+import { korrekturText, sollKorrigieren, sollMelden, telegramText } from '../src/lib/notify';
 
 const basis: Angebot = {
   id: 'lm:1',
@@ -106,4 +106,13 @@ test('Modellerkennung in mydealz-Titeln', () => {
   assert.equal(modellAusTitel('Audi A3 Sportback 35 TFSI', 150), 'audi-a3');
   assert.equal(modellAusTitel('Audi S3 Sportback quattro', 333), 'audi-s3');
   assert.equal(modellAusTitel('Audi Q3 Sportback', 150), null);
+});
+
+test('Korrektur: früher gemeldet, jetzt nicht mehr Top → einmal korrigieren', () => {
+  const jetzt = '2026-11-11T08:00:00Z';
+  const alt = { ...fuehreZusammen(undefined, { ...basis, einmalBrutto: 0 }, jetzt), einmalBrutto: null, gemeldet: jetzt, gemeldetWert: 199 };
+  const neu = fuehreZusammen(alt, { ...basis, einmalBrutto: null, rateBrutto: 260 }, jetzt);
+  assert.equal(sollKorrigieren(neu), true);
+  assert.match(korrekturText([neu]), /gemeldet 199 € → richtig ca\. 314 € brutto/);
+  assert.equal(sollKorrigieren({ ...neu, korrigiert: jetzt }), false);
 });

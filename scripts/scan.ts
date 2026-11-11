@@ -42,6 +42,8 @@ async function main() {
   const jetzt = new Date().toISOString();
   const datei = path.join(DATA, 'deals.json');
   const vorher = lies<Deal[]>(datei, []);
+  // Korrektur (11.11.2026): früher wurde „Überführung: keine Angabe“ als 0 € gespeichert – neu prüfen lassen
+  for (const d of vorher) if (d.quelle === 'leasingmarkt' && d.einmalBrutto === 0 && !d.detailGelesen) d.einmalBrutto = null;
   const deals = new Map(vorher.map((d) => [d.id, d]));
   const http = new Http(log);
   const quellen: Record<Quelle, QuellenStand> = { leasingmarkt: leererStand(), mydealz: leererStand() };
@@ -62,15 +64,21 @@ async function main() {
         const bekannt: LmDetail | null = alt?.einmalBrutto != null ? { transferCosts: alt.einmalBrutto, registrationCosts: 0, downpayment: 0, offers: [], bank: alt.haendler } : null;
         let angebot = angebotAus(listing, modell, bekannt);
         const rateGeaendert = alt && alt.rateBrutto != null && Math.abs((alt.rateBrutto ?? 0) - (listing.leasingOffer.monthlyRate ?? 0)) >= 1;
-        if ((!bekannt || rateGeaendert) && lohntDetail(angebot) && details < MAX_DETAILS) {
+        // Angebotsseite ohne Kostenangabe nicht bei jedem Lauf erneut lesen (höchstens alle 24 h)
+        const kuerzlich = alt?.detailGelesen && Date.parse(jetzt) - Date.parse(alt.detailGelesen) < 24 * 3600_000;
+        let gelesen = false;
+        if ((!bekannt || rateGeaendert) && !(kuerzlich && !rateGeaendert) && lohntDetail(angebot) && details < MAX_DETAILS) {
           details++;
           q.abfragen++;
+          gelesen = true;
           const d = await leseAngebotsseite(http, angebot.url);
           if (d === 'weg') angebot = { ...angebot, status: 'weg' };
           else if (d) angebot = angebotAus(listing, modell, d);
           else q.fehler.push(`${angebot.url}: Einmalkosten nicht gefunden`);
         }
-        deals.set(id, fuehreZusammen(alt, angebot, jetzt));
+        const neu = fuehreZusammen(alt, angebot, jetzt);
+        if (gelesen) neu.detailGelesen = jetzt;
+        deals.set(id, neu);
       }
       // Bisherige Top-Angebote, die diesmal nicht in den Listen auftauchen: noch online?
       const offen = [...deals.values()].filter((d) => d.quelle === 'leasingmarkt' && d.status === 'aktiv' && d.bewertung.stufe === 'top' && !gesehen.has(d.id)).slice(0, 8);

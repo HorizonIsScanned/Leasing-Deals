@@ -57,7 +57,8 @@ test('LeasingMarkt: Angebot mit Einmalkosten', () => {
   const d = leseDetail(lmDetailSeite({ transfer: 1590, zulassung: null, anzahlung: '' }));
   const a = angebotAus(l, 'cupra-leon-vz', d);
   assert.equal(a.id, 'lm:13342515');
-  assert.equal(a.url, 'https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13342515');
+  assert.equal(a.url, 'https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13342515?adVariant=39185747');
+  assert.equal(a.kmJahr, 10000);
   assert.equal(a.kunden, 'privat');
   assert.equal(a.einmalBrutto, 1590);
   assert.equal(a.rateBrutto, 199);
@@ -66,6 +67,13 @@ test('LeasingMarkt: Angebot mit Einmalkosten', () => {
   assert.equal(g.kunden, 'gewerbe');
   assert.equal(g.zustand, 'vorlauf');
   assert.equal(g.einmalBrutto, null);
+});
+
+test('LeasingMarkt: „Überführung keine Angabe“ ist unbekannt, nicht 0 €', () => {
+  const d = leseDetail(lmDetailSeite({ transfer: null, zulassung: null, anzahlung: '' }));
+  assert.equal(d?.transferCosts, null);
+  const a = angebotAus(LM_LISTE.listings[0], 'cupra-leon-vz', d);
+  assert.equal(a.einmalBrutto, null);
 });
 
 test('mydealz: RSS lesen', () => {

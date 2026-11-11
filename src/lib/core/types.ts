@@ -69,6 +69,8 @@ export interface Deal extends Angebot {
   /** Zeitpunkt der letzten Meldung per Telegram/Mail und der dabei gemeldete Vergleichswert */
   gemeldet: string | null;
   gemeldetWert: number | null;
+  /** Zeitpunkt, zu dem die Angebotsseite zuletzt gelesen wurde (LeasingMarkt) */
+  detailGelesen?: string | null;
   verlauf: Aenderung[];
 }
 

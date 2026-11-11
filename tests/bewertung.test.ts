@@ -45,6 +45,12 @@ test('Leon VZ privat 265 € effektiv ist Top (Ziel 300 €)', () => {
   assert.equal(b.gkf, 0.43);
 });
 
+test('Unbekannte Überführung wird nie als Top gemeldet', () => {
+  const d = fuehreZusammen(undefined, { ...basis, rateBrutto: 150, einmalBrutto: null }, '2026-11-11T08:00:00Z');
+  assert.equal(d.bewertung.stufe, 'gut');
+  assert.equal(sollMelden(d), false);
+});
+
 test('Geschätzte Überführung: höchstens „gut“', () => {
   const b = bewerte({ ...basis, einmalBrutto: null });
   assert.equal(b.geschaetzt, true);

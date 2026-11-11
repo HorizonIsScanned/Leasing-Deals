@@ -27,6 +27,7 @@ export function fuehreZusammen(alt: Deal | undefined, neu: Angebot, jetzt: strin
     zuletztGesehen: jetzt,
     gemeldet: alt.gemeldet,
     gemeldetWert: alt.gemeldetWert,
+    detailGelesen: alt.detailGelesen ?? null,
     verlauf: verlauf.slice(-30),
   };
 }

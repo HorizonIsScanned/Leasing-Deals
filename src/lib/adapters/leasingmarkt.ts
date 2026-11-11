@@ -170,7 +170,9 @@ export function bestesOffer(offers: LmOffer[], einmal: number): LmOffer | null {
 }
 
 export function angebotAus(l: LmListing, modellId: ModellId, detail: LmDetail | null): Angebot {
-  const einmal = detail ? (detail.transferCosts ?? 0) + (detail.registrationCosts ?? 0) + (detail.downpayment ?? 0) : null;
+  // Überführung „keine Angabe“ (null) heißt nicht 0 €: meist steht im Text „zzgl. Bereitstellungspauschale“.
+  // Dann bleiben die Einmalkosten unbekannt und werden vorsichtig geschätzt (nie „Top“).
+  const einmal = detail && detail.transferCosts != null ? detail.transferCosts + (detail.registrationCosts ?? 0) + (detail.downpayment ?? 0) : null;
   const offers = detail?.offers.length ? detail.offers : l.offers?.length ? l.offers : [l.leasingOffer];
   const o = bestesOffer(offers, einmal ?? EINMAL_ANNAHME) ?? l.leasingOffer;
   const titel = titelVon(l);
@@ -180,7 +182,8 @@ export function angebotAus(l: LmListing, modellId: ModellId, detail: LmDetail | 
     quelle: 'leasingmarkt',
     modell: modellId,
     titel,
-    url: LM_BASIS + pfad,
+    // adVariant wählt auf der Angebotsseite genau diese Laufzeit/km-Variante vor (sonst zeigt sie die günstigste)
+    url: `${LM_BASIS}${pfad}${o.id ? `?adVariant=${o.id}` : ''}`,
     kunden: kundenAus(l.targetGroup),
     zustand: zustandAus(l),
     ps: l.engine?.power?.hp ?? null,

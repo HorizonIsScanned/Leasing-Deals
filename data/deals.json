@@ -40,7 +40,7 @@
    "grund": "157 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 157,
   "detailGelesen": null,
@@ -97,7 +97,7 @@
    "grund": "207 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 206.67,
   "verlauf": [
@@ -212,10 +212,10 @@
    "grund": "217 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 216.78,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -269,7 +269,7 @@
    "grund": "230 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-06T13:14:38.424Z",
   "gemeldetWert": 229.83,
   "detailGelesen": null,
@@ -328,7 +328,7 @@
    "grund": "265 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 265.25,
   "verlauf": [
@@ -386,7 +386,7 @@
    "grund": "225 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 224.96,
   "detailGelesen": null,
@@ -401,6 +401,125 @@
     "datum": "2026-11-05T19:10:02.013Z",
     "feld": "gemeldet",
     "neu": "224.96 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:13240705",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon Sportstourer VZ *frei konfigurierbar* Q4-Gewerbe",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13240705?adVariant=36115393",
+  "kunden": "gewerbe",
+  "zustand": "neu",
+  "ps": 333,
+  "listenpreis": 55070,
+  "rateBrutto": 220.15,
+  "rateNetto": 185,
+  "laufzeit": 30,
+  "kmJahr": 10000,
+  "einmalBrutto": 1450,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.4,
+  "verfuegbarkeit": "03/2027",
+  "haendler": "SEAT Leasing GmbH",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 268.48,
+   "effNetto": 225.62,
+   "gkf": 0.49,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 250,
+    "ist": 225.62,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "226 € netto effektiv, Ziel gewerbe 250 €"
+  },
+  "erstGesehen": "2026-11-11T11:00:58.851Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
+  "gemeldet": "2026-11-11T11:00:58.851Z",
+  "gemeldetWert": 225.62,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "neu",
+    "neu": "225.62 €"
+   },
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "gemeldet",
+    "neu": "225.62 €"
+   }
+  ],
+  "detailGelesen": "2026-11-11T11:00:58.851Z"
+ },
+ {
+  "id": "lm:13276381",
+  "quelle": "leasingmarkt",
+  "modell": "bmw-1er",
+  "titel": "BMW 120 i Sport Line*Live Cockpit Prof*LED*Tempomat*",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13276381?adVariant=39835299",
+  "kunden": "beide",
+  "zustand": "gebraucht",
+  "ps": 178,
+  "listenpreis": 45502.03,
+  "rateBrutto": 233.27,
+  "rateNetto": 196.03,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": 289,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.51,
+  "verfuegbarkeit": "Sofort",
+  "haendler": "BMW Bank GmbH, Lilienthalallee 26, 80939 München",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 239.29,
+   "effNetto": 201.09,
+   "gkf": 0.53,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 220,
+    "ist": 201.09,
+    "basis": "netto"
+   },
+   "stufe": "top",
+   "grund": "201 € netto effektiv, Ziel gewerbe 220 €"
+  },
+  "erstGesehen": "2026-11-05T13:09:48.170Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
+  "gemeldet": "2026-11-11T11:00:58.851Z",
+  "gemeldetWert": 201.09,
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
+  "korrigiert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-05T13:09:48.170Z",
+    "feld": "neu",
+    "neu": "277.27 €"
+   },
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "preis",
+    "alt": "277.27 €",
+    "neu": "201.09 €"
+   },
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "gemeldet",
+    "neu": "201.09 €"
    }
   ]
  },
@@ -445,7 +564,7 @@
    "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 214.28,
   "verlauf": [
@@ -500,7 +619,7 @@
    "grund": "214 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 214.29,
   "detailGelesen": "2026-11-11T08:22:39.802Z",
@@ -565,7 +684,7 @@
    "grund": "245 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 244.99,
   "detailGelesen": null,
@@ -869,7 +988,7 @@
    "grund": "306 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -921,7 +1040,7 @@
    "grund": "429 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": "2026-11-11T09:26:19.787Z",
@@ -979,7 +1098,7 @@
    "grund": "225 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": "2026-11-11T09:26:19.787Z",
@@ -1087,10 +1206,10 @@
    "grund": "226 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-10T21:00:02.348Z",
   "gemeldetWert": 180.63,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": "2026-11-11T09:26:19.787Z",
   "verlauf": [
    {
@@ -1206,10 +1325,10 @@
    "grund": "228 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-10T21:00:02.348Z",
   "gemeldetWert": 182.74,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": "2026-11-11T09:26:19.787Z",
   "verlauf": [
    {
@@ -1344,7 +1463,7 @@
    "grund": "273 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -1402,10 +1521,10 @@
    "grund": "234 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -1510,7 +1629,7 @@
    "grund": "279 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -1712,10 +1831,10 @@
    "grund": "238 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -1764,10 +1883,10 @@
    "grund": "326 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -1872,7 +1991,7 @@
    "grund": "284 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -1930,7 +2049,7 @@
    "grund": "286 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-05T19:10:02.013Z",
   "gemeldetWert": 259,
   "detailGelesen": "2026-11-11T08:22:39.802Z",
@@ -2101,7 +2220,7 @@
    "grund": "336 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -2203,7 +2322,7 @@
    "grund": "470 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": "2026-11-11T09:26:19.787Z",
@@ -2363,7 +2482,7 @@
    "grund": "284 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -2415,10 +2534,10 @@
    "grund": "250 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -2529,10 +2648,10 @@
    "grund": "481 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -2593,10 +2712,10 @@
    "grund": "252 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-09T23:34:51.891Z",
   "gemeldetWert": 206.51,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": "2026-11-11T09:26:19.787Z",
   "verlauf": [
    {
@@ -2656,7 +2775,7 @@
    "grund": "264 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": "2026-11-06T13:14:38.424Z",
   "gemeldetWert": 210,
   "detailGelesen": "2026-11-11T08:22:39.802Z",
@@ -2719,7 +2838,7 @@
    "grund": "345 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -2879,7 +2998,7 @@
    "grund": "266 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -2931,10 +3050,10 @@
    "grund": "255 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -2943,6 +3062,57 @@
     "neu": "254.70 €"
    }
   ]
+ },
+ {
+  "id": "lm:12514540",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon-vz",
+  "titel": "Cupra Leon Sportstourer VZ *frei konfigurierbar* Q4-Privat",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/12514540?adVariant=35259327",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 333,
+  "listenpreis": 55070,
+  "rateBrutto": 299,
+  "rateNetto": 251.26,
+  "laufzeit": 30,
+  "kmJahr": 10000,
+  "einmalBrutto": 1450,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.54,
+  "verfuegbarkeit": "03/2027",
+  "haendler": "SEAT Leasing GmbH",
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 347.33,
+   "effNetto": 291.88,
+   "gkf": 0.63,
+   "geschaetzt": false,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 300,
+    "ist": 347.33,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "347 € brutto effektiv, Ziel privat 300 €"
+  },
+  "erstGesehen": "2026-11-11T11:00:58.851Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "neu",
+    "neu": "347.33 €"
+   }
+  ],
+  "detailGelesen": "2026-11-11T11:00:58.851Z"
  },
  {
   "id": "lm:13261589",
@@ -2983,10 +3153,10 @@
    "grund": "303 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -3037,10 +3207,10 @@
    "grund": "304 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -3089,10 +3259,10 @@
    "grund": "304 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -3147,10 +3317,10 @@
    "grund": "258 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
-  "detailGelesen": "2026-11-11T10:03:07.972Z",
+  "detailGelesen": "2026-11-11T11:00:58.851Z",
   "korrigiert": null,
   "verlauf": [
    {
@@ -3313,7 +3483,7 @@
    "grund": "224 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3415,7 +3585,7 @@
    "grund": "273 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": "2026-11-11T09:26:19.787Z",
@@ -3536,7 +3706,7 @@
    "grund": "264 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3588,7 +3758,7 @@
    "grund": "276 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3642,7 +3812,7 @@
    "grund": "300 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3696,7 +3866,7 @@
    "grund": "505 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3798,7 +3968,7 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3850,7 +4020,7 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -3952,7 +4122,7 @@
    "grund": "266 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4016,7 +4186,7 @@
    "grund": "315 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4070,7 +4240,7 @@
    "grund": "267 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4122,7 +4292,7 @@
    "grund": "315 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4174,7 +4344,7 @@
    "grund": "509 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4276,7 +4446,7 @@
    "grund": "267 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4378,7 +4548,7 @@
    "grund": "280 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4436,7 +4606,7 @@
    "grund": "511 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4488,7 +4658,7 @@
    "grund": "280 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4598,7 +4768,7 @@
    "grund": "317 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4650,7 +4820,7 @@
    "grund": "281 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4804,7 +4974,7 @@
    "grund": "269 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4856,7 +5026,7 @@
    "grund": "318 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4908,7 +5078,7 @@
    "grund": "282 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -4960,7 +5130,7 @@
    "grund": "282 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5012,7 +5182,7 @@
    "grund": "429 € netto effektiv, Ziel gewerbe 350 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5064,7 +5234,7 @@
    "grund": "271 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5216,7 +5386,7 @@
    "grund": "283 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5268,7 +5438,7 @@
    "grund": "271 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5320,7 +5490,7 @@
    "grund": "284 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5372,7 +5542,7 @@
    "grund": "272 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5486,7 +5656,7 @@
    "grund": "286 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5740,7 +5910,7 @@
    "grund": "274 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5842,7 +6012,7 @@
    "grund": "275 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -5944,7 +6114,7 @@
    "grund": "526 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6146,7 +6316,7 @@
    "grund": "326 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6156,56 +6326,6 @@
     "datum": "2026-11-06T13:14:38.424Z",
     "feld": "neu",
     "neu": "326.08 €"
-   }
-  ]
- },
- {
-  "id": "lm:13276381",
-  "quelle": "leasingmarkt",
-  "modell": "bmw-1er",
-  "titel": "BMW 120 i Sport Line*Live Cockpit Prof*LED*Tempomat*",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/bmw-120/13276381",
-  "kunden": "beide",
-  "zustand": "gebraucht",
-  "ps": 178,
-  "listenpreis": 45502.03,
-  "rateBrutto": 299,
-  "rateNetto": 251.26,
-  "laufzeit": 42,
-  "kmJahr": 10000,
-  "einmalBrutto": null,
-  "effektivQuelle": null,
-  "effektivQuelleNetto": false,
-  "lf": 0.66,
-  "verfuegbarkeit": "Sofort",
-  "haendler": null,
-  "bedingungen": [],
-  "temperatur": null,
-  "veroeffentlicht": null,
-  "status": "aktiv",
-  "bewertung": {
-   "effBrutto": 329.95,
-   "effNetto": 277.27,
-   "gkf": 0.73,
-   "geschaetzt": true,
-   "ziel": {
-    "gruppe": "gewerbe",
-    "wert": 220,
-    "ist": 277.27,
-    "basis": "netto"
-   },
-   "stufe": "normal",
-   "grund": "277 € netto effektiv, Ziel gewerbe 220 €"
-  },
-  "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-09T01:58:42.716Z",
-  "gemeldet": null,
-  "gemeldetWert": null,
-  "verlauf": [
-   {
-    "datum": "2026-11-05T13:09:48.170Z",
-    "feld": "neu",
-    "neu": "277.27 €"
    }
   ]
  },
@@ -6248,7 +6368,7 @@
    "grund": "277 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-07T17:51:31.494Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6306,7 +6426,7 @@
    "grund": "278 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6408,7 +6528,7 @@
    "grund": "279 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6460,7 +6580,7 @@
    "grund": "279 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6872,7 +6992,7 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6924,7 +7044,7 @@
    "grund": "386 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -6976,7 +7096,7 @@
    "grund": "283 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -7078,7 +7198,7 @@
    "grund": "296 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -7330,7 +7450,7 @@
    "grund": "338 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-06T20:05:19.858Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -7382,7 +7502,7 @@
    "grund": "287 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -7586,7 +7706,7 @@
    "grund": "340 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8090,7 +8210,7 @@
    "grund": "306 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8142,7 +8262,7 @@
    "grund": "346 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8244,7 +8364,7 @@
    "grund": "254 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8312,7 +8432,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon-vz",
   "titel": "Cupra Leon Sportstourer VZ Tribe Edition 2.0 TSI 4Drive AHK/HD-Matrix/Navi/Panorama/Sennheiser",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13345607",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13345607?adVariant=39279118",
   "kunden": "gewerbe",
   "zustand": "neu",
   "ps": 333,
@@ -8346,9 +8466,11 @@
    "grund": "336 € netto effektiv, Ziel gewerbe 250 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T19:10:02.013Z",
@@ -8398,7 +8520,7 @@
    "grund": "349 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-11T09:26:19.787Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8450,7 +8572,7 @@
    "grund": "566 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8608,7 +8730,7 @@
    "grund": "311 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8660,7 +8782,7 @@
    "grund": "298 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8762,7 +8884,7 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -8914,9 +9036,11 @@
    "grund": "353 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-11T10:03:07.972Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-11T10:03:07.972Z",
@@ -9064,7 +9188,7 @@
    "grund": "313 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9272,7 +9396,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-06T20:05:19.858Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9330,7 +9454,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9434,7 +9558,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9486,7 +9610,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9538,7 +9662,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9640,7 +9764,7 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9742,7 +9866,7 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9760,7 +9884,7 @@
   "quelle": "leasingmarkt",
   "modell": "audi-a3",
   "titel": "Audi A3 Sportback 85kW TFSI S Tronic ❗️Order NOW ❗️",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13125806",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/audi-a3/13125806?adVariant=35666187",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 116,
@@ -9794,9 +9918,11 @@
    "grund": "316 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-05T19:10:02.013Z",
@@ -9844,7 +9970,7 @@
    "grund": "275 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9904,7 +10030,7 @@
    "grund": "579 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -9956,7 +10082,7 @@
    "grund": "318 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10058,7 +10184,7 @@
    "grund": "584 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10110,7 +10236,7 @@
    "grund": "320 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10212,7 +10338,7 @@
    "grund": "362 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10264,7 +10390,7 @@
    "grund": "265 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10316,7 +10442,7 @@
    "grund": "321 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10468,7 +10594,7 @@
    "grund": "586 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10620,7 +10746,7 @@
    "grund": "265 € netto effektiv, Ziel gewerbe 190 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10672,7 +10798,7 @@
    "grund": "322 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10724,7 +10850,7 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10776,7 +10902,7 @@
    "grund": "280 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10828,7 +10954,7 @@
    "grund": "323 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10880,7 +11006,7 @@
    "grund": "323 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:34:30.604Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -10896,6 +11022,56 @@
     "feld": "preis",
     "alt": "330.11 €",
     "neu": "323.11 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:12221113",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon",
+  "titel": "Cupra Leon Sportstourer *frei konfigurierbar* Q4-Gewerbe",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/12221113?adVariant=36115328",
+  "kunden": "gewerbe",
+  "zustand": "neu",
+  "ps": 150,
+  "listenpreis": 40110,
+  "rateBrutto": 224.91,
+  "rateNetto": 189,
+  "laufzeit": 30,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.56,
+  "verfuegbarkeit": "03/2027",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 268.24,
+   "effNetto": 225.41,
+   "gkf": 0.67,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "gewerbe",
+    "wert": 160,
+    "ist": 225.41,
+    "basis": "netto"
+   },
+   "stufe": "normal",
+   "grund": "225 € netto effektiv, Ziel gewerbe 160 €"
+  },
+  "erstGesehen": "2026-11-11T11:00:58.851Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "neu",
+    "neu": "225.41 €"
    }
   ]
  },
@@ -10938,7 +11114,7 @@
    "grund": "324 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11296,7 +11472,7 @@
    "grund": "596 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11350,7 +11526,7 @@
    "grund": "596 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11562,7 +11738,7 @@
    "grund": "284 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11614,7 +11790,7 @@
    "grund": "597 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11716,7 +11892,7 @@
    "grund": "542 € netto effektiv, Ziel gewerbe 380 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11824,7 +12000,7 @@
    "grund": "285 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -11926,7 +12102,7 @@
    "grund": "373 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-08T22:29:07.556Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12230,7 +12406,7 @@
    "grund": "289 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12282,7 +12458,7 @@
    "grund": "608 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-11T09:26:19.787Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12484,7 +12660,7 @@
    "grund": "291 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12536,7 +12712,7 @@
    "grund": "320 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12788,7 +12964,7 @@
    "grund": "336 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12892,7 +13068,7 @@
    "grund": "512 € netto effektiv, Ziel gewerbe 350 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -12944,7 +13120,7 @@
    "grund": "382 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13098,7 +13274,7 @@
    "grund": "295 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13256,7 +13432,7 @@
    "grund": "328 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13308,7 +13484,7 @@
    "grund": "345 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13360,7 +13536,7 @@
    "grund": "345 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13412,7 +13588,7 @@
    "grund": "301 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13514,7 +13690,7 @@
    "grund": "393 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13566,7 +13742,7 @@
    "grund": "333 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13720,7 +13896,7 @@
    "grund": "305 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13772,7 +13948,7 @@
    "grund": "640 € brutto effektiv, Ziel privat 420 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -13830,6 +14006,56 @@
   "verlauf": [
    {
     "datum": "2026-11-11T09:26:19.787Z",
+    "feld": "neu",
+    "neu": "306.08 €"
+   }
+  ]
+ },
+ {
+  "id": "lm:11407724",
+  "quelle": "leasingmarkt",
+  "modell": "cupra-leon",
+  "titel": "Cupra Leon Sportstourer *frei konfigurierbar* Q4-Privat",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/11407724?adVariant=29516432",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 150,
+  "listenpreis": 40110,
+  "rateBrutto": 279,
+  "rateNetto": 234.45,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.7,
+  "verfuegbarkeit": "03/2027",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 306.08,
+   "effNetto": 257.21,
+   "gkf": 0.76,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 200,
+    "ist": 306.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "306 € brutto effektiv, Ziel privat 200 €"
+  },
+  "erstGesehen": "2026-11-11T11:00:58.851Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
     "feld": "neu",
     "neu": "306.08 €"
    }
@@ -14028,7 +14254,7 @@
    "grund": "400 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14080,7 +14306,7 @@
    "grund": "538 € netto effektiv, Ziel gewerbe 350 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14132,7 +14358,7 @@
    "grund": "308 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14284,7 +14510,7 @@
    "grund": "340 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-07T11:55:33.270Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14336,7 +14562,7 @@
    "grund": "340 € netto effektiv, Ziel gewerbe 220 €"
   },
   "erstGesehen": "2026-11-07T11:55:33.270Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14490,7 +14716,7 @@
    "grund": "357 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14542,7 +14768,7 @@
    "grund": "311 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-08T18:05:00.432Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14698,7 +14924,7 @@
    "grund": "363 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14750,7 +14976,7 @@
    "grund": "318 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14902,7 +15128,7 @@
    "grund": "323 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T09:26:19.787Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -14954,7 +15180,7 @@
    "grund": "259 € netto effektiv, Ziel gewerbe 160 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15056,7 +15282,7 @@
    "grund": "326 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15108,7 +15334,7 @@
    "grund": "378 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15160,7 +15386,7 @@
    "grund": "331 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15212,7 +15438,7 @@
    "grund": "331 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15276,7 +15502,7 @@
    "grund": "383 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15328,9 +15554,11 @@
    "grund": "383 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-11T10:03:07.972Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-11T10:03:07.972Z",
@@ -15590,6 +15818,56 @@
   ]
  },
  {
+  "id": "lm:13361735",
+  "quelle": "leasingmarkt",
+  "modell": "golf-gti",
+  "titel": "Volkswagen Golf GTI Clubsport 2.0 TSI DSG (Mettmann)",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/volkswagen-golf/13361735?adVariant=39835714",
+  "kunden": "privat",
+  "zustand": "neu",
+  "ps": 300,
+  "listenpreis": 62370,
+  "rateBrutto": 416,
+  "rateNetto": 349.58,
+  "laufzeit": 48,
+  "kmJahr": 10000,
+  "einmalBrutto": null,
+  "effektivQuelle": null,
+  "effektivQuelleNetto": false,
+  "lf": 0.67,
+  "verfuegbarkeit": "Sofort",
+  "haendler": null,
+  "bedingungen": [],
+  "temperatur": null,
+  "veroeffentlicht": null,
+  "status": "aktiv",
+  "bewertung": {
+   "effBrutto": 443.08,
+   "effNetto": 372.34,
+   "gkf": 0.71,
+   "geschaetzt": true,
+   "ziel": {
+    "gruppe": "privat",
+    "wert": 260,
+    "ist": 443.08,
+    "basis": "brutto"
+   },
+   "stufe": "normal",
+   "grund": "443 € brutto effektiv, Ziel privat 260 €"
+  },
+  "erstGesehen": "2026-11-11T11:00:58.851Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
+  "gemeldet": null,
+  "gemeldetWert": null,
+  "verlauf": [
+   {
+    "datum": "2026-11-11T11:00:58.851Z",
+    "feld": "neu",
+    "neu": "443.08 €"
+   }
+  ]
+ },
+ {
   "id": "lm:13341582",
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
@@ -15628,7 +15906,7 @@
    "grund": "342 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-09T14:21:28.471Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15680,7 +15958,7 @@
    "grund": "342 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15732,7 +16010,7 @@
    "grund": "514 € brutto effektiv, Ziel privat 300 €"
   },
   "erstGesehen": "2026-11-06T20:05:19.858Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15790,7 +16068,7 @@
    "grund": "344 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -15992,7 +16270,7 @@
    "grund": "348 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16094,7 +16372,7 @@
    "grund": "351 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16252,7 +16530,7 @@
    "grund": "407 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16304,7 +16582,7 @@
    "grund": "354 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16456,7 +16734,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16508,7 +16786,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16560,7 +16838,7 @@
    "grund": "356 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16612,7 +16890,7 @@
    "grund": "357 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16864,7 +17142,7 @@
    "grund": "363 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -16966,7 +17244,7 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17018,7 +17296,7 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T13:49:11.422Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17070,7 +17348,7 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17122,7 +17400,7 @@
    "grund": "366 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-05T19:10:02.013Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17728,7 +18006,7 @@
    "grund": "400 € netto effektiv, Ziel gewerbe 200 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17880,7 +18158,7 @@
    "grund": "403 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17932,7 +18210,7 @@
    "grund": "403 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-09T23:34:51.891Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -17984,7 +18262,7 @@
    "grund": "525 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -18086,7 +18364,7 @@
    "grund": "409 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -18238,7 +18516,7 @@
    "grund": "483 € brutto effektiv, Ziel privat 230 €"
   },
   "erstGesehen": "2026-11-10T13:46:39.480Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -18808,7 +19086,7 @@
   "quelle": "leasingmarkt",
   "modell": "cupra-leon",
   "titel": "Cupra Leon CUPRA Leon Sportstourer VZ 1.5 e-HYBRID 200 kW (272 PS) 6-Gang-DSG",
-  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13348293",
+  "url": "https://www.leasingmarkt.de/leasing/pkw/cupra-leon/13348293?adVariant=39371475",
   "kunden": "beide",
   "zustand": "neu",
   "ps": 177,
@@ -18842,9 +19120,11 @@
    "grund": "506 € brutto effektiv, Ziel privat 200 €"
   },
   "erstGesehen": "2026-11-06T13:14:38.424Z",
-  "zuletztGesehen": "2026-11-11T01:28:52.840Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
+  "detailGelesen": null,
+  "korrigiert": null,
   "verlauf": [
    {
     "datum": "2026-11-06T13:14:38.424Z",
@@ -18942,7 +19222,7 @@
    "grund": "758 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-10T21:00:02.348Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,
@@ -19144,7 +19424,7 @@
    "grund": "249 € brutto effektiv, Ziel privat 260 €"
   },
   "erstGesehen": "2026-11-05T13:09:48.170Z",
-  "zuletztGesehen": "2026-11-11T10:03:07.972Z",
+  "zuletztGesehen": "2026-11-11T11:00:58.851Z",
   "gemeldet": null,
   "gemeldetWert": null,
   "detailGelesen": null,

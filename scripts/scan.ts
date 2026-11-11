@@ -12,7 +12,7 @@ import { angebotAus, leseAngebotsseite, leseModellseiten, pruefeGegenSeite, type
 import { angebotAusRss, leseFeed, pruefeDeal, type RssEintrag } from '../src/lib/adapters/mydealz';
 import { GesperrtError, Http } from '../src/lib/core/http';
 import type { Deal, Quelle, QuellenStand, Stand } from '../src/lib/core/types';
-import { lohntDetail } from '../src/lib/engine/calc';
+import { bewerte, lohntDetail } from '../src/lib/engine/calc';
 import { aufraeumen, fuehreZusammen, setzeStatus } from '../src/lib/engine/changes';
 import { kiErgaenze } from '../src/lib/engine/ki';
 import { geprueft, melde, meldeKorrektur, sollKorrigieren, sollMelden } from '../src/lib/notify';
@@ -149,7 +149,8 @@ async function main() {
   }
 
   // ---------- Melden ----------
-  let liste = aufraeumen([...deals.values()], jetzt);
+  // Alle Einträge mit den aktuellen Regeln neu bewerten (auch die, die in diesem Lauf nicht gesehen wurden)
+  let liste = aufraeumen([...deals.values()], jetzt).map((d) => ({ ...d, bewertung: bewerte(d) }));
   const neuTop = liste.filter(sollMelden);
   let gemeldet = 0;
   if (neuTop.length && !process.env.KEIN_ALARM) {

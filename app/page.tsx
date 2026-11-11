@@ -9,13 +9,12 @@ import Uebersicht from './uebersicht';
 // Ein neuer Build ist dadurch nur bei Code-Änderungen nötig. Ohne DATEN_URL oder bei Fehlern: Daten aus dem Build.
 export const revalidate = 300;
 
-const CACHE_SEK = 300;
-
 async function lade<T>(datei: string, leer: T): Promise<T> {
   const basis = process.env.DATEN_URL?.replace(/\/$/, '');
   if (basis) {
     try {
-      const res = await fetch(`${basis}/${datei}`, { next: { revalidate: CACHE_SEK }, signal: AbortSignal.timeout(8000) });
+      // Kein eigenes Cache-Flag nötig: die Seite wird per revalidate höchstens alle 5 Minuten neu erzeugt
+      const res = await fetch(`${basis}/${datei}`, { signal: AbortSignal.timeout(8000) });
       if (res.ok) return (await res.json()) as T;
       console.warn(`Daten ${datei}: HTTP ${res.status}, nutze Stand aus dem Build`);
     } catch (e) {

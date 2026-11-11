@@ -19,6 +19,13 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Typen und Tests nur bei Code-Änderungen prüfen (nicht bei jedem Scan); ein Fehler stoppt das Deployment
+      - run: npm install --no-audit --no-fund
+      - run: npx next telemetry disable > /dev/null 2>&1; printf '/// <reference types="next" />\n/// <reference types="next/image-types/global" />\n' > next-env.d.ts; npm run typecheck
+      - run: npm test
       - name: Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

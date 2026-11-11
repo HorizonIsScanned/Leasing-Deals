@@ -35,9 +35,6 @@ jobs:
           path: ~/.npm
           key: npm-${{ hashFiles('package.json') }}
       - run: npm install --no-audit --no-fund --prefer-offline
-      - name: Typen prüfen (nur bei manuellem Start)
-        if: github.event_name != 'schedule'
-        run: npm run typecheck
       - run: npm test
       # Telegram-Chat-ID zwischen den Läufen merken (nicht im öffentlichen Repository)
       - name: Telegram-Chat aus dem Cache

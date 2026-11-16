@@ -1,12 +1,12 @@
 {
-  "lauf": "2026-11-16T09:00:59.499Z",
-  "dauerSek": 100,
+  "lauf": "2026-11-16T10:01:03.629Z",
+  "dauerSek": 97,
   "quellen": {
     "leasingmarkt": {
       "ok": true,
       "gesperrt": false,
-      "abfragen": 30,
-      "angebote": 172,
+      "abfragen": 29,
+      "angebote": 173,
       "fehler": []
     },
     "mydealz": {

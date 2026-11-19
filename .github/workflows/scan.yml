@@ -67,6 +67,11 @@ jobs:
             echo "Keine Änderungen"
           else
             git commit -m "Daten $(date -u +'%F %H:%M')"
-            git pull --rebase --autostash
-            git push
+            # Hat ein paralleler Lauf inzwischen Daten geschrieben, gewinnt dessen Stand; der nächste Lauf holt alles nach
+            if git pull --rebase --autostash && git push; then
+              echo "Daten gespeichert"
+            else
+              git rebase --abort 2>/dev/null || true
+              echo "::warning::Paralleler Lauf hat zuerst gespeichert – Daten dieses Laufs verworfen"
+            fi
           fi

@@ -107,6 +107,8 @@ export interface QuellenStand {
   abfragen: number;
   angebote: number;
   fehler: string[];
+  /** Veröffentlichungsdatum des neuesten Eintrags der Quelle (z. B. mydealz-Feed) */
+  neuestes?: string | null;
 }
 
 export interface Stand {

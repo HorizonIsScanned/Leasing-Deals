@@ -113,6 +113,11 @@ async function main() {
     try {
       q.abfragen++;
       const feed: RssEintrag[] = await leseFeed(http);
+      // Frische des Feeds überwachen: ist der neueste Deal älter als 48 h, stimmt vermutlich etwas nicht
+      q.neuestes = feed.map((e) => e.datum ?? '').sort().pop() || null;
+      if (!q.neuestes || Date.parse(jetzt) - Date.parse(q.neuestes) > 48 * 3600_000) {
+        hinweise.push(`mydealz: neuester Deal im Feed ist vom ${q.neuestes ? q.neuestes.slice(0, 10) : 'unbekannt'} – Feed möglicherweise veraltet`);
+      }
       let ki = 0;
       const zuPruefen: string[] = [];
       for (const e of feed) {
@@ -142,7 +147,7 @@ async function main() {
         else deals.set(d.id, { ...setzeStatus(d, s.abgelaufen ? 'abgelaufen' : 'aktiv', jetzt), temperatur: s.temperatur ?? d.temperatur });
       }
       q.ok = true;
-      log(`mydealz: ${feed.length} Deals im Feed, ${q.angebote} passend, ${reihenfolge.length} Deal-Seiten geprüft${ki ? `, ${ki}× KI` : ''}`);
+      log(`mydealz: ${feed.length} Deals im Feed (neuester ${q.neuestes?.slice(0, 16) ?? '–'}), ${q.angebote} passend, ${reihenfolge.length} Deal-Seiten geprüft${ki ? `, ${ki}× KI` : ''}`);
     } catch (e) {
       werteFehler(q, e, 'mydealz');
     }

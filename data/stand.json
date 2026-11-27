@@ -1,6 +1,6 @@
 {
-  "lauf": "2026-11-27T20:00:55.256Z",
-  "dauerSek": 99,
+  "lauf": "2026-11-27T21:00:56.207Z",
+  "dauerSek": 101,
   "quellen": {
     "leasingmarkt": {
       "ok": true,
@@ -18,6 +18,8 @@
       "neuestes": "2026-11-27T15:25:24.000Z"
     }
   },
-  "gemeldet": 0,
-  "hinweise": []
+  "gemeldet": 1,
+  "hinweise": [
+    "Telegram: Token ok, aber keine /start-Nachricht an den Bot gefunden (Bot-ID …3903, 0 ungelesene Nachrichten) – dem Bot /start schreiben"
+  ]
 }
